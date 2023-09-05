@@ -4,13 +4,18 @@
 
 : "${1?Must provide node name}"
 
-source ../functions
+
+#source ../functions
+source ../openstack-scripts/functions
 
 NODE=$1
 DRIVER=${2:-redfish}
-FILENAME=../data/nodes
 
-realname=$(readlink -f ../data/nodes)
+#FILENAME=../data/nodes
+FILENAME=../openstack-scripts/data/nodes
+
+#realname=$(readlink -f ../data/nodes)
+realname=$(readlink -f ../openstack-scripts/data/nodes)
 [[ "$realname" =~ "hbm_nodes_flex" ]] && source ~/openrc-egs
 [[ "$realname" =~ "gnr_ap_nodes_flex" || "$realname" =~ "gnr_sp_nodes_flex" || "$realname" =~ "srf_sp_nodes_flex" ||  "$realname" =~ "srf_ap_nodes_flex" ]] && source ~/openrc-bhs
 
