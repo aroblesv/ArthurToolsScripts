@@ -1,0 +1,1 @@
+./node_update_bios.sh zp3110b002s1514 http://s3web.l10b2.deacluster.intel.com/bkc-mirror/wilson_city/bios_capsules/CAPSULE_ME_SPS_30_P26_signed_12745.cap http://s3web.l10b2.deacluster.intel.com/bkc-mirror/wilson_city/bios_capsules/CAPSULE_BOOT_PRODUCTION_30_P26_Signed_12745.cap &
