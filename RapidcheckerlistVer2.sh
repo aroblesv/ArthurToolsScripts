@@ -8,7 +8,6 @@ node=($1);
 
 #echo "ssh connection successful ${node[0]} obtaining information from the node"
 
-
 echo -e "\t\t${node[0]} \t$BKC" >> header_RChecker
 
 CbmcBios=$(ssh ${node[0]} 'dmidecode -s bios-version')
@@ -196,15 +195,19 @@ END{
 ' regCheckerStatus | column -t > CheckerColumns
 #cat CheckerColumns
 
-paste CheckerColumns regheader_RChecker > CheckerListInfo
-cp CheckerListInfo regCheckerListInfo
-rm -rf CheckerListInfo
-grep --color -E '^|Fail|' regCheckerListInfo
-#cat CheckerListInfo
-
 sed -i '1i\\tSystem_ID\t\tChecker' header_RChecker
 
 cp header_RChecker regheader_RChecker
+
+paste CheckerColumns regheader_RChecker > CheckerListInfo
+
+cp CheckerListInfo regCheckerListInfo
+
+rm -rf CheckerListInfo
+
+grep --color -E '^|Fail|' regCheckerListInfo
+
+#cat CheckerListInfo
 
 rm -rf CheckerStatus
 
