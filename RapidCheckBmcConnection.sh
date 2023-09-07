@@ -10,7 +10,7 @@ echo -e "###########################################################"
 sshpass -p 0penBmc1 ssh root@${node[0]} -n "cat /etc/hostname"
 echo -e "###########################################################"
 
-ping -c 4 ${node[0]}
+ping -c 4 ${node[0]} &> /dev/null && echo "bmc connection it's OK"
 
 }
 
