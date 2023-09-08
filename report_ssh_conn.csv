@@ -1,8 +1,12 @@
 
 ssh status
-[0mSSH Connection to zp3110b001s0118 | [32mssh_ok[0m
-[0mSSH Connection to zp3110b001s0407 | [32mssh_ok[0m
-[0mSSH Connection to zp3110b001s0516 | [32mssh_ok[0m
-[0mSSH Connection to zp3110b001s0611 | [32mssh_ok[0m
-[0mSSH Connection to zp3110b001s0211 | [32mssh_ok[0m
-[0mSSH Connection to zp3110b001s0716 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0207 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0220 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0414 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0606 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0903 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s1205 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s1313 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s1416 | [32mssh_ok[0m
+[0mSSH connection to zp3110b001s0810 | [33mssh_fail[0m
+[0mSSH connection to zp3110b001s1018 | [33mssh_fail[0m

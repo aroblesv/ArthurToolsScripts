@@ -1,0 +1,12 @@
+EEPROM MAP FILE VERSION: 1.0.0
+
+BEGIN OVERWRITE
+     BEGIN VPD
+           BEGIN WRITE
+                 V1 : 3.3.37 ;EFI Version
+                 V3 : 4.70.00 ;Combo Rules Version
+                 V6 : 1.1.02 ;PXE Version
+           END WRITE
+     END VPD
+END OVERWRITE
+

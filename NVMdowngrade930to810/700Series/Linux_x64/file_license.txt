@@ -1,0 +1,7 @@
+Copyright (c) 2006-2016, Intel Corporation.
+All rights reserved.
+
+All the *.bin files are covered by Intel_Firmware_License.txt
+All other files are cover by Intel_Proprietary_License.pdf
+
+

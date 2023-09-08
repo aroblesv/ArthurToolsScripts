@@ -1,0 +1,23 @@
+EEPROM MAP FILE VERSION: 1.0.0
+
+BEGIN OVERWRITE
+     BEGIN VPD
+           BEGIN WRITE
+                 V1 : 3.3.37 ;EFI Version
+                 V3 : 4.70.00 ;Combo Rules Version
+                 V6 : 1.1.02 ;PXE Version
+           END WRITE
+     END VPD
+	 
+   BEGIN POINTER
+	0x4F 0x07 ;Unionvale Configuration Word 3
+   END POINTER	 
+END OVERWRITE
+BEGIN VERIFICATION EXCLUDED
+   BEGIN DOUBLE POINTER
+	0x48 0x05 0x03 0xFFFF 2		; PF Allocations words PF0
+	0x48 0x05 0x0E 0xFFFF 2		; PF Allocations words PF1
+	0x48 0x29 0x01 0xFFFF 394	; HP Current Settings
+   END DOUBLE POINTER
+   
+END VERIFICATION EXCLUDED

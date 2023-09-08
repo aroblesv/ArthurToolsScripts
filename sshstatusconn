@@ -1,1 +1,10 @@
-[0mSSH Connection to zp3110b001s0119 | [32mssh_ok[0m	[0mSSH BMC Connection to zp3110b001b0119 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0207 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b0207 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0220 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b0220 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0414 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b0414 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0606 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b0606 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0810 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b0810 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s0903 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b0903 | [32mssh_ok[0m
+[0mSSH Connection to zp3110b001s1018 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b1018 | [33mssh_fail[0m
+[0mSSH Connection to zp3110b001s1205 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b1205 | [33mssh_fail[0m
+[0mSSH Connection to zp3110b001s1313 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b1313 | [33mssh_fail[0m
+[0mSSH Connection to zp3110b001s1416 | [33mssh_fail[0m	[0mSSH BMC Connection to zp3110b001b1416 | [33mssh_fail[0m

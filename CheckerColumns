@@ -1,2 +1,11 @@
 Bios  CPLD  BMC   Kernel  uCode  Columbia1  Columbia2  Fortville  Arbord
-Done  Done  Done  Fail    Done   Fail       Done       Done       Done
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done
+Done  Done  Done  Fail    Fail   Done       Done       Done       Done
+Fail  Done  Done  Fail    Fail   Done       Done       Fail       Done
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done
+Fail  Done  Done  Fail    Fail   Fail       Fail       Done       Done
+Fail  Done  Done  Fail    Fail   Fail       Fail       Done       Done
+Fail  Done  Done  Fail    Fail   Fail       Fail       Done       Fail

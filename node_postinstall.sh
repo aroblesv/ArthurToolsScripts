@@ -21,7 +21,7 @@ echo "Fixing root partition"
 
 ssh root@$NODE '
     part="/dev/"`lsblk -l -o NAME,MOUNTPOINT | grep -w "/" | awk '{print $1}'`
-    disk="/dev"`lsblk -ndo pkname $part`
+    disk="/dev/"`lsblk -ndo pkname $part`
     partN=`cat /sys/block/${disk:5}/${part:5}/partition`
     fstype=`lsblk -ndo FSTYPE $part`
 

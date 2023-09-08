@@ -1,0 +1,24 @@
+EEPROM MAP FILE VERSION: 1.0.0
+BEGIN OVERWRITE
+    BEGIN DOUBLE POINTER
+    0x48 0x05 0x04  ;PF allocations PF0 - MACs
+	0x48 0x05 0x0B  ;PF allocations PF0 - Queue Sets
+	0x48 0x05 0x0F  ;PF allocations PF1 - MACs
+	0x48 0x05 0x16  ;PF allocations PF1 - Queue Sets
+	0x48 0x05 0x1A  ;PF allocations PF2 - MACs
+	0x48 0x05 0x21  ;PF allocations PF2 - Queue Sets
+	0x48 0x05 0x25  ;PF allocations PF3 - MACs
+	0x48 0x05 0x2C  ;PF allocations PF3 - Queue Sets
+    END DOUBLE POINTER
+    BEGIN DIRECT 
+	0x0BD7 ; PFPCI_DEVID PF0
+	0x0BD9 ; PFPCI_DEVID PF1
+	0x0BDB ; PFPCI_DEVID PF2
+	0x0BDD ; PFPCI_DEVID PF3
+	0x6723 ; PF LAN DEVICE ID
+	0x6724 ; PF SAN DEVICE ID
+	0x6725 ; PF iSCSI DEVICE ID
+    END DIRECT
+END OVERWRITE
+
+

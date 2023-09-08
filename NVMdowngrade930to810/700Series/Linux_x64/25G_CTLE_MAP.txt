@@ -1,0 +1,9 @@
+EEPROM MAP FILE VERSION: 1.0.0
+ 
+BEGIN OVERWRITE
+            BEGIN POINTER
+                        0x4F 0x07 ;Unionvale Configuration Word 3
+            END POINTER
+END OVERWRITE
+
+
