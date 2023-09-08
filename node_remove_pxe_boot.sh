@@ -70,7 +70,7 @@ function _one_centos_menu {
 ############### VARS #########################
 : "${1?Must provide node name}"
 NODE=${1}
-pfl=`grep $NODE ../data/ --exclude nodes -ri | head -1 | cut -d ":" -f1`
+pfl=`grep $NODE ../openstack-scripts/data/ --exclude nodes -ri | head -1 | cut -d ":" -f1`
 [[ -n "$pfl" ]] && PLATFORM=`readlink -f $pfl | rev | cut -d "/" -f 1 | rev`
 BOOTMGR=`ssh root@$NODE "efibootmgr"`
 [[ -z "$BOOTMGR" ]] && _print_error "Unable to ssh and get initial boot menu"
