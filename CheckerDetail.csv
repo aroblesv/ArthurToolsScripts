@@ -5,7 +5,7 @@ Eth2_LnkSta: Eth2_LnkSta_ok
 Eth3_LnkSta: Eth3_LnkSta_ok
 RST_BTN: RST_BTN_OK
 bkcState: active
-bmcBiosVersion: EGSDCRB1.SYS.0105.D48.2308140026
+bmcBiosVersion: EGSDCRB1.SYS.0105.D74.2308261931
 bmcBoardName: ArcherCity
 bmcCpldVersion: 56.0-2.0-fe4d7ac2565841e9b5a1535b8d712756f49c751fa084d5c65ead0dbcb81f14e9
 bmcCpuCount: 2
@@ -16,18 +16,18 @@ bmcVersion: egs-1.14-0-g8eda06-9248c75
 fieldsCount: 31
 osArbFwVersion: 2CV10026
 osBatteryStatus: P3VBAT_ok
-osBiosVersion: EGSDCRB1.SYS.0105.D48.2308140026
+osBiosVersion: EGSDCRB1.SYS.0105.D74.2308261931
 osCLV1FwVersion: 2.40
 osCLV2FwVersion: 2.40
 osCpuCount: 2
 osFTVFwVersion: 8.10
-osImageVersion: centos-stream-emr-bkc-17-ww35-6.2-13.3-43-RC - 2023-08-23T18:07:47-0700
-osKernelVersion: 6.2.0-emr.bkc.6.2.13.3.43.x86_64
+osImageVersion: centos-stream-emr-bkc_18-ww37-6.2-14.1-45-RC - 2023-09-06T11:09:16-0700
+osKernelVersion: 6.2.0-emr.bkc.6.2.14.1.45.x86_64
 osMEVersion: 
 osNICdriver:  28
 osPartitionSize: 1.9T
 osTSX: TSX
-osUcode: 0xa1000160
+osUcode: 0xa1000161
 osVTd: VTd
 osVTx: VTx
 osVersion: CentOS Stream 9

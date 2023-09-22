@@ -1,11 +1,3 @@
 Bios  CPLD  BMC   Kernel  uCode  Columbia1  Columbia2  Fortville  Arbord		System_ID		Checker
-Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0207 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0220 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0414 	GDC_EMR_BKC17
-Done  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0606 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Done       Done       Fail       Done			zp3110b001s0810 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0903 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s1018 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Fail       Fail       Done       Done			zp3110b001s1205 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Fail       Fail       Done       Done			zp3110b001s1313 	GDC_EMR_BKC17
-Fail  Done  Done  Fail    Fail   Fail       Fail       Done       Fail			zp3110b001s1416 	GDC_EMR_BKC17
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0305 	GDC_EMR_BKC18
+Fail  Done  Done  Fail    Fail   Done       Done       Done       Done			zp3110b001s0316 	GDC_EMR_BKC18

@@ -1,10 +1,1 @@
-./node_update_bmc.py --send -M zp3110b001s0207 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s0220 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s0414 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s0606 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s0810 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s0903 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s1018 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s1205 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s1313 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
-./node_update_bmc.py --send -M zp3110b001s1416 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &
+./node_update_bmc.py --send -M zp3110b001s1104 -d gdc -f OBMC-egs-1.14-0-g8eda06-9248c75-pfr-oob.bin &

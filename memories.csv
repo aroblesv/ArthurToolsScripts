@@ -8,32 +8,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A1
 	Bank Locator: NODE 0
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C72
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A876
 	Asset Tag: CPU0_DIMM_A1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -57,32 +57,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B1
 	Bank Locator: NODE 0
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C58
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A5BD
 	Asset Tag: CPU0_DIMM_B1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -106,32 +106,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C1
 	Bank Locator: NODE 1
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37D53
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52ADEE
 	Asset Tag: CPU0_DIMM_C1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -155,32 +155,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D1
 	Bank Locator: NODE 1
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C8F
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A518
 	Asset Tag: CPU0_DIMM_D1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -188,36 +188,15 @@ Handle 0x001D, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 260800 MB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D2
 	Bank Locator: NODE 1
-	Type: Logical non-volatile device
-	Type Detail: Synchronous Non-Volatile LRDIMM
-	Speed: 4800 MT/s
-	Manufacturer: Intel
-	Serial Number: 00001A60
-	Asset Tag: CPU0_DIMM_D2_AssetTag
-	Part Number: NMC2XAD256GQS                 
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: Intel Optane DC persistent memory
-	Memory Operating Mode Capability: Volatile memory Byte-accessible persistent memory
-	Firmware Version: 2776 
-	Module Manufacturer ID: Bank 1, Hex 0x89
-	Module Product ID: 0x6552
-	Memory Subsystem Controller Manufacturer ID: Bank 1, Hex 0x89
-	Memory Subsystem Controller Product ID: 0x097C
-	Non-Volatile Size: None
-	Volatile Size: 254 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001E, DMI type 17, 92 bytes
 Memory Device
@@ -225,32 +204,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_E1
 	Bank Locator: NODE 2
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C5B
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A4E5
 	Asset Tag: CPU0_DIMM_E1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -274,32 +253,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_F1
 	Bank Locator: NODE 2
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37ECC
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A51E
 	Asset Tag: CPU0_DIMM_F1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -323,32 +302,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G1
 	Bank Locator: NODE 3
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37D70
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E535C83
 	Asset Tag: CPU0_DIMM_G1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -372,32 +351,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H1
 	Bank Locator: NODE 3
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37E02
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52915D
 	Asset Tag: CPU0_DIMM_H1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -421,32 +400,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A1
 	Bank Locator: NODE 4
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C35
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E529184
 	Asset Tag: CPU1_DIMM_A1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -470,32 +449,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B1
 	Bank Locator: NODE 4
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C37
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A6F6
 	Asset Tag: CPU1_DIMM_B1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -519,32 +498,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C1
 	Bank Locator: NODE 5
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37B66
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E535CBC
 	Asset Tag: CPU1_DIMM_C1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -568,32 +547,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D1
 	Bank Locator: NODE 5
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C1A
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E538C9B
 	Asset Tag: CPU1_DIMM_D1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -601,36 +580,15 @@ Handle 0x002D, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 260800 MB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D2
 	Bank Locator: NODE 5
-	Type: Logical non-volatile device
-	Type Detail: Synchronous Non-Volatile LRDIMM
-	Speed: 4800 MT/s
-	Manufacturer: Intel
-	Serial Number: 00001A82
-	Asset Tag: CPU1_DIMM_D2_AssetTag
-	Part Number: NMC2XAD256GQS                 
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: Intel Optane DC persistent memory
-	Memory Operating Mode Capability: Volatile memory Byte-accessible persistent memory
-	Firmware Version: 2776 
-	Module Manufacturer ID: Bank 1, Hex 0x89
-	Module Product ID: 0x6552
-	Memory Subsystem Controller Manufacturer ID: Bank 1, Hex 0x89
-	Memory Subsystem Controller Product ID: 0x097C
-	Non-Volatile Size: None
-	Volatile Size: 254 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002E, DMI type 17, 92 bytes
 Memory Device
@@ -638,32 +596,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E1
 	Bank Locator: NODE 6
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37D41
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E535C9D
 	Asset Tag: CPU1_DIMM_E1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -687,32 +645,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F1
 	Bank Locator: NODE 6
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C1F
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52A569
 	Asset Tag: CPU1_DIMM_F1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -736,32 +694,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G1
 	Bank Locator: NODE 7
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37C1B
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E52905A
 	Asset Tag: CPU1_DIMM_G1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -785,32 +743,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 16 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H1
 	Bank Locator: NODE 7
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Samsung
-	Serial Number: 02D37CC7
+	Speed: 5600 MT/s
+	Manufacturer: Micron
+	Serial Number: 3E535E54
 	Asset Tag: CPU1_DIMM_H1_AssetTag
-	Part Number: M321R2GA3BB6-CQKEG            
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xCE
-	Module Product ID: 0xCE00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 16 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
