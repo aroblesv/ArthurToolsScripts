@@ -8,7 +8,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A1
@@ -17,11 +17,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A876
+	Serial Number: 3FFA209E
 	Asset Tag: CPU0_DIMM_A1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -33,7 +33,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -57,7 +57,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B1
@@ -66,11 +66,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A5BD
+	Serial Number: 3FFA1694
 	Asset Tag: CPU0_DIMM_B1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -82,7 +82,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -106,7 +106,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C1
@@ -115,11 +115,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52ADEE
+	Serial Number: 3FF9C33E
 	Asset Tag: CPU0_DIMM_C1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -131,7 +131,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -155,7 +155,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D1
@@ -164,11 +164,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A518
+	Serial Number: 3FF9FBC0
 	Asset Tag: CPU0_DIMM_D1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -180,7 +180,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -204,7 +204,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_E1
@@ -213,11 +213,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A4E5
+	Serial Number: 3FFA1652
 	Asset Tag: CPU0_DIMM_E1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -229,7 +229,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -253,7 +253,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_F1
@@ -262,11 +262,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A51E
+	Serial Number: 3FFA4976
 	Asset Tag: CPU0_DIMM_F1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -278,7 +278,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -302,7 +302,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G1
@@ -311,11 +311,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E535C83
+	Serial Number: 3FF9FEDD
 	Asset Tag: CPU0_DIMM_G1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -327,7 +327,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -351,7 +351,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H1
@@ -360,11 +360,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52915D
+	Serial Number: 3FF9BB6A
 	Asset Tag: CPU0_DIMM_H1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -376,7 +376,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -400,7 +400,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A1
@@ -409,11 +409,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E529184
+	Serial Number: 3FFA47E3
 	Asset Tag: CPU1_DIMM_A1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -425,7 +425,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -449,7 +449,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B1
@@ -458,11 +458,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A6F6
+	Serial Number: 3FF9BECC
 	Asset Tag: CPU1_DIMM_B1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -474,7 +474,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -498,7 +498,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C1
@@ -507,11 +507,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E535CBC
+	Serial Number: 3FFA20D7
 	Asset Tag: CPU1_DIMM_C1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -523,7 +523,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -547,7 +547,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D1
@@ -556,11 +556,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E538C9B
+	Serial Number: 3FF9CCF8
 	Asset Tag: CPU1_DIMM_D1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -572,7 +572,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -596,7 +596,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E1
@@ -605,11 +605,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E535C9D
+	Serial Number: 3FFA2081
 	Asset Tag: CPU1_DIMM_E1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -621,7 +621,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -645,7 +645,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F1
@@ -654,11 +654,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52A569
+	Serial Number: 3FF9F91B
 	Asset Tag: CPU1_DIMM_F1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -670,7 +670,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -694,7 +694,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G1
@@ -703,11 +703,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E52905A
+	Serial Number: 3FFA5916
 	Asset Tag: CPU1_DIMM_G1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -719,7 +719,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -743,7 +743,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H1
@@ -752,11 +752,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3E535E54
+	Serial Number: 3FFA0A7B
 	Asset Tag: CPU1_DIMM_H1_AssetTag
-	Part Number: MTC20F1045S1RC56BG1           
-	Rank: 1
-	Configured Memory Speed: 5600 MT/s
+	Part Number: MTC40F2046S1RC56BG1           
+	Rank: 2
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -768,7 +768,7 @@ Memory Device
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 32 GB
+	Volatile Size: 64 GB
 	Cache Size: None
 	Logical Size: None
 

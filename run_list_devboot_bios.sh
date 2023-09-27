@@ -1,6 +1,9 @@
-ipmitool -I lanplus -H zp3110b001b0118 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
-ipmitool -I lanplus -H zp3110b001b0407 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
-ipmitool -I lanplus -H zp3110b001b0516 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
-ipmitool -I lanplus -H zp3110b001b0611 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
-ipmitool -I lanplus -H zp3110b001b0211 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
-ipmitool -I lanplus -H zp3110b001b0716 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1001 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1002 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1003 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1004 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1005 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1007 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1008 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1009 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
+ipmitool -I lanplus -H zp3110a001b1010 -C 17 -U debuguser -P 0penBmc1 chassis bootdev bios &
