@@ -29,7 +29,7 @@ fi
 if [[ "$CbmcCpld" = "$EbmcCpld" ]]; then
 	echo -e "\033[0mCPLD: \033[32mDone\033[0m"
 else
-	echo -e "\033[0mCPLD: 033[33m\"Need update\"\033[0m | Current CPLD: \033[31m$CbmcCpld\033[0m | CPLD Requested: \033[33m$EbmcCpld\033[0m"
+	echo -e "\033[0mCPLD: \033[33m\"Need update\"\033[0m | Current CPLD: \033[31m$CbmcCpld\033[0m | CPLD Requested: \033[33m$EbmcCpld\033[0m"
 fi
 
 if [[ "$CbmcVer" = "$EbmcVer" ]]; then
