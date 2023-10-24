@@ -8,7 +8,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A1
@@ -16,10 +16,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14705
+	Manufacturer: Micron
+	Serial Number: 3E526555
 	Asset Tag: CPU0_DIMM_A1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -28,12 +28,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -57,7 +57,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B1
@@ -65,10 +65,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14735
+	Manufacturer: Micron
+	Serial Number: 3E5396BC
 	Asset Tag: CPU0_DIMM_B1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -77,12 +77,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -106,7 +106,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C1
@@ -114,10 +114,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14736
+	Manufacturer: Micron
+	Serial Number: 3E5392FA
 	Asset Tag: CPU0_DIMM_C1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -126,12 +126,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -155,7 +155,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D1
@@ -163,10 +163,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14702
+	Manufacturer: Micron
+	Serial Number: 3E5287C1
 	Asset Tag: CPU0_DIMM_D1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -175,12 +175,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -204,7 +204,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_E1
@@ -212,10 +212,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14716
+	Manufacturer: Micron
+	Serial Number: 3E53936B
 	Asset Tag: CPU0_DIMM_E1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -224,12 +224,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -253,7 +253,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_F1
@@ -261,10 +261,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146BF
+	Manufacturer: Micron
+	Serial Number: 3E5285E0
 	Asset Tag: CPU0_DIMM_F1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -273,12 +273,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -302,7 +302,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G1
@@ -310,10 +310,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146B9
+	Manufacturer: Micron
+	Serial Number: 3E539258
 	Asset Tag: CPU0_DIMM_G1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -322,12 +322,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -351,7 +351,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H1
@@ -359,10 +359,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146CF
+	Manufacturer: Micron
+	Serial Number: 3E526862
 	Asset Tag: CPU0_DIMM_H1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -371,12 +371,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -400,7 +400,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A1
@@ -408,10 +408,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14737
+	Manufacturer: Micron
+	Serial Number: 3E5357E9
 	Asset Tag: CPU1_DIMM_A1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -420,12 +420,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -449,7 +449,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B1
@@ -457,10 +457,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146BB
+	Manufacturer: Micron
+	Serial Number: 3E52ACB4
 	Asset Tag: CPU1_DIMM_B1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -469,12 +469,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -498,7 +498,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C1
@@ -506,10 +506,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14747
+	Manufacturer: Micron
+	Serial Number: 3E53669D
 	Asset Tag: CPU1_DIMM_C1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -518,12 +518,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -547,7 +547,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D1
@@ -555,10 +555,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D14746
+	Manufacturer: Micron
+	Serial Number: 3E53646D
 	Asset Tag: CPU1_DIMM_D1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -567,12 +567,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -596,7 +596,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E1
@@ -604,10 +604,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146DD
+	Manufacturer: Micron
+	Serial Number: 3E53554F
 	Asset Tag: CPU1_DIMM_E1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -616,12 +616,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -645,7 +645,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F1
@@ -653,10 +653,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146EF
+	Manufacturer: Micron
+	Serial Number: 3E5387B1
 	Asset Tag: CPU1_DIMM_F1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -665,12 +665,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -694,7 +694,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G1
@@ -702,10 +702,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146EC
+	Manufacturer: Micron
+	Serial Number: 3E52A8BA
 	Asset Tag: CPU1_DIMM_G1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -714,12 +714,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -743,7 +743,7 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 48 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H1
@@ -751,10 +751,10 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 55D146D4
+	Manufacturer: Micron
+	Serial Number: 3E535C6C
 	Asset Tag: CPU1_DIMM_H1_AssetTag
-	Part Number: HMCGY4MGBRB227N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
 	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
@@ -763,12 +763,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 48 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 

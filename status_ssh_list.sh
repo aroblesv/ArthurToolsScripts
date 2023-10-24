@@ -5,7 +5,7 @@ node=($1);
 port=22
 connect_timeout=5
 
-timeout $connect_timeout bash -c "</dev/tcp/${node[0]}/$port"
+timeout $connect_timeout bash -c "</dev/tcp/${node[0]}/$port" 2> /dev/null
 
 if [ $? == 0 ];then
       echo -e "\033[0mSSH Connection to ${node[0]} | \033[32mssh_ok\033[0m" >> sshconn
@@ -36,7 +36,7 @@ node=($1);
 port=22
 connect_timeout=5
 
-timeout $connect_timeout bash -c "</dev/tcp/${node[0]}/$port"
+timeout $connect_timeout bash -c "</dev/tcp/${node[0]}/$port" 2> /dev/null
 
 if [ $? == 0 ];then
       echo -e "\033[0mSSH BMC Connection to ${node[0]} | \033[32mssh_ok\033[0m" >> sshbmcconn

@@ -4,7 +4,7 @@ read -p "Write number rack sequence: " racknumb
 
 if [[ $racknumb =~ ^[0-9]+$ ]]; then
 
-	for n in {1..20}; do echo "zp3110b001s$racknumb"; done > racksequence1
+	for n in {1..20}; do echo "zp3110a001s$racknumb"; done > racksequence1
 
 	seq -w 1 20 > racksequence2
 
