@@ -1,0 +1,3 @@
+export https_proxy=http://proxy-dmz.intel.com:912
+unset https_proxy
+env | grep -i proxy
