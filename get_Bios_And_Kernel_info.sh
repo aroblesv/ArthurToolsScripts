@@ -2,7 +2,6 @@
 
 NODE_ID=$1
 
-./clean_known_hosts.sh $NODE_ID
 kernel="$(ssh root@${NODE_ID} 'uname -r')"
 #microcode="$(ssh root@${NODE_ID} 'dmesg | grep microcode | grep revision= | tail -c11')"
 microcode="$(ssh root@${NODE_ID} 'grep microcode /proc/cpuinfo |tail -n 1 |cut -d ":" -f2')"
