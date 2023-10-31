@@ -28,17 +28,26 @@ for n in ${nodes}; do
 	ssh_status $n
 done
 
-tr 's' 'b' < $list > ${list}bmc
-sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
-sed -i 's/^/https:\/\//g' webviewss
+bmcname=`grep -E ^zp3110[abc][[:digit:]]*s[[:digit:]]*$ racksequence`
+	
+if [ "$?" == 0 ]; then
+	tr 's' 'b' < ${list} > ${list}bmc
+	sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+	sed -i 's/^/https:\/\//g' webviewss
+else
+	sed 's/s/b/2g' ${list} > ${list}bmc
+	sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+	sed -i 's/^/https:\/\//g' webviewss
+fi
+	
 
 function ssh_bmc_status {
 node=($1);
 port=22
 connect_timeout=5
 
-timeout $connect_timeout bash -c "</dev/tcp/${node[0]}/$port" 2> /dev/null
-
+#timeout $connect_timeout bash -c "</dev/tcp/${node[0]}/$port" 2> /dev/null
+ping -c1 ${node[0]} &> /dev/null
 if [ $? == 0 ]; then
       echo -e "\033[0mSSH BMC Connection to ${node[0]} | \033[32mssh_ok\033[0m" >> sshbmcconn
 else
@@ -59,9 +68,17 @@ for n in ${nodes}; do
 	ssh_bmc_status $n
 done
 
-tr 's' 'b' < $list > ${list}bmc
-sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
-sed -i 's/^/https:\/\//g' webviewss
+bmcname=`grep -E ^zp3110[abc][[:digit:]]*s[[:digit:]]*$ racksequence`
+	
+if [ "$?" == 0 ]; then
+	tr 's' 'b' < ${list} > ${list}bmc
+	sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+	sed -i 's/^/https:\/\//g' webviewss
+else
+	sed 's/s/b/2g' ${list} > ${list}bmc
+	sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+	sed -i 's/^/https:\/\//g' webviewss
+fi
 
 paste sshconn sshbmcconn > sshstatusconn
 cat sshstatusconn

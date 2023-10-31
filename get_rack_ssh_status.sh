@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Copy and paste 1 project ( EMR WHITLEY PURLEY CATLOW10a CATLOWROW33: " project
+read -p "Copy and paste 1 project ( EMR WHITLEY PURLEY CATLOW10a CATLOWROW33): " project
 
 if [[ "$project" = "EMR" ]]; then
 	newproject=zp3110b001s
