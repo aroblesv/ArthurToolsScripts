@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Copy and paste 1 project ( EMR WHITLEY PURLEY CATLOW10a CATLOWROW33): " project
+read -p "Copy and paste 1 project ( EMR WHITLEY PURLEY1 PURLEY2 CATLOW10a CATLOWROW33): " project
 
 if [[ "$project" = "EMR" ]]; then
 	newproject=zp3110b001s
@@ -8,9 +8,12 @@ if [[ "$project" = "EMR" ]]; then
 	elif [[ "$project" = "WHITLEY" ]]; then
 	newproject=zp3110a001s
 	echo "Generating WHITLEY status ssh connection"
-	elif [[ "$project" = "PURLEY" ]]; then
+	elif [[ "$project" = "PURLEY1" ]]; then
+	newproject=zp31sra001s
+	echo "Generating PURLEY1 status ssh connection"
+	elif [[ "$project" = "PURLEY2" ]]; then
 	newproject=zp31sra002s
-	echo "Generating PURLEY status ssh connection"
+	echo "Generating PURLEY2 status ssh connection"
 	elif [[ "$project" = "CATLOW10a" ]]; then
 	newproject=zp3110a001s
 	echo "Generating CATLOW10A status ssh connection"
