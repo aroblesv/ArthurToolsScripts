@@ -1,6 +1,8 @@
-# dmidecode 3.3
+# dmidecode 3.2
 Getting SMBIOS data from sysfs.
 SMBIOS 3.3.0 present.
+# SMBIOS implementations newer than version 3.2.0 are not
+# fully supported by this version of dmidecode.
 
 Handle 0x0016, DMI type 17, 92 bytes
 Memory Device
@@ -15,20 +17,20 @@ Memory Device
 	Bank Locator: NODE 0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE73960
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E477
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -50,20 +52,20 @@ Memory Device
 	Bank Locator: NODE 0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE3991D
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E522
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -85,20 +87,20 @@ Memory Device
 	Bank Locator: NODE 0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4E19
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-03993362
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -120,20 +122,20 @@ Memory Device
 	Bank Locator: NODE 0
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE73F33
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-03993325
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -155,20 +157,20 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4EFE
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-0399339B
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -190,20 +192,20 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE748BB
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E47E
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -225,20 +227,20 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4A10
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039932D7
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -260,20 +262,20 @@ Memory Device
 	Bank Locator: NODE 1
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1837-1E5B868D
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-0399331C
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -295,20 +297,20 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4FD5
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E502
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -330,20 +332,20 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1837-1E5B8634
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E52B
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -365,20 +367,20 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4B92
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039932A2
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -400,20 +402,20 @@ Memory Device
 	Bank Locator: NODE 2
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE73EDE
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-0399334F
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -435,20 +437,20 @@ Memory Device
 	Bank Locator: NODE 3
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE73ADF
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039932A1
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -470,20 +472,20 @@ Memory Device
 	Bank Locator: NODE 3
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE748B5
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E503
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -505,20 +507,20 @@ Memory Device
 	Bank Locator: NODE 3
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1837-1E5B83A5
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-0399332F
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -540,20 +542,20 @@ Memory Device
 	Bank Locator: NODE 3
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE73779
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-03993342
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -575,20 +577,20 @@ Memory Device
 	Bank Locator: NODE 4
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE49EA
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-03993419
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -610,20 +612,20 @@ Memory Device
 	Bank Locator: NODE 4
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4B4A
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-03993383
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -645,20 +647,20 @@ Memory Device
 	Bank Locator: NODE 4
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE3A1F3
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E51D
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -680,20 +682,20 @@ Memory Device
 	Bank Locator: NODE 4
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4D9F
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039932B5
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -715,20 +717,20 @@ Memory Device
 	Bank Locator: NODE 5
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4F56
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E4BC
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -750,20 +752,20 @@ Memory Device
 	Bank Locator: NODE 5
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1837-1E5B8B72
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E4BA
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -778,13 +780,34 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D1
 	Bank Locator: NODE 5
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E504
+	Asset Tag:  
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: 0000 
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
 
 Handle 0x002D, DMI type 17, 92 bytes
 Memory Device
@@ -792,13 +815,34 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D2
 	Bank Locator: NODE 5
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039932D9
+	Asset Tag:  
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: 0000 
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
 
 Handle 0x002E, DMI type 17, 92 bytes
 Memory Device
@@ -813,20 +857,20 @@ Memory Device
 	Bank Locator: NODE 6
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE7379D
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039932F0
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -848,20 +892,20 @@ Memory Device
 	Bank Locator: NODE 6
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4F32
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E505
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -883,20 +927,20 @@ Memory Device
 	Bank Locator: NODE 6
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4F9F
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-0399333B
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -918,20 +962,20 @@ Memory Device
 	Bank Locator: NODE 6
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1852-1FDE4CEB
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E561
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -953,20 +997,20 @@ Memory Device
 	Bank Locator: NODE 7
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1837-1E5B89F0
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-039933B5
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -988,20 +1032,20 @@ Memory Device
 	Bank Locator: NODE 7
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 2933 MT/s
-	Manufacturer: Micron
-	Serial Number: 1842-1EE73800
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1937-0399336F
 	Asset Tag:  
-	Part Number: 18ASF2G72PDZ-2G9E1  
-	Rank: 2
-	Configured Memory Speed: 2933 MT/s
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
 	Minimum Voltage: 1.2 V
 	Maximum Voltage: 1.2 V
 	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Manufacturer ID: Bank 1, Hex 0xCE
 	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
@@ -1016,13 +1060,34 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H1
 	Bank Locator: NODE 7
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E570
+	Asset Tag:  
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: 0000 
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
 
 Handle 0x0035, DMI type 17, 92 bytes
 Memory Device
@@ -1030,11 +1095,32 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 72 bits
 	Data Width: 64 bits
-	Size: No Module Installed
+	Size: 16 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H2
 	Bank Locator: NODE 7
 	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1936-0398E53E
+	Asset Tag:  
+	Part Number: M393A2K40DB3-CWE    
+	Rank: 1
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
+	Memory Technology: DRAM
+	Memory Operating Mode Capability: Volatile memory
+	Firmware Version: 0000 
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
+	Memory Subsystem Controller Manufacturer ID: Unknown
+	Memory Subsystem Controller Product ID: Unknown
+	Non-Volatile Size: None
+	Volatile Size: 16 GB
+	Cache Size: None
+	Logical Size: None
 

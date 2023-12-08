@@ -56,13 +56,25 @@ for n in ${NODES}; do
 	review_ssh_bmc $n
 done
 
-tr 's' 'b' < ${list} > ${list}bmc
-sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
-sed -i 's/^/https:\/\//g' webviewss
+bmcname=`grep -E ^zp3110[abc][[:digit:]]*s[[:digit:]]*$ ${list}`
+
+if [ "$?" == 0 ]; then
+	tr 's' 'b' < ${list} > ${list}bmc
+	sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+	sed -i 's/^/https:\/\//g' webviewss
+else
+	sed 's/s/b/2g' ${list} > ${list}bmc
+	sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+	sed -i 's/^/https:\/\//g' webviewss
+fi
+
+#tr 's' 'b' < ${list} > ${list}bmc
+#sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
+#sed -i 's/^/https:\/\//g' webviewss
 
 paste report_ssh report_sshbmc > ssh_status_report
 cat ssh_status_report
 echo -e "\n*******************************************************************************************************"
 echo -e "copy and pastate into an excel sheet to be able to enter the nodes with which you want to work\n"
 cat webviewss
-rm report_ssh report_sshbmc
+rm report_ssh report_sshbmc ssh_status_report
