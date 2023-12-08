@@ -6,7 +6,7 @@ NODE=($1);
 port=22
 connect_timeout=5
 
-timeout ${connect_timeout} bash -c "</dev/tcp/${NODE[0]}/${port}"
+timeout ${connect_timeout} bash -c "</dev/tcp/${NODE[0]}/${port}" 2> /dev/null
 
 if [ $? == 0 ];then
    echo -e "${NODE[0]} \033[32mssh_live\033[0m" >> report_ssh
@@ -33,7 +33,8 @@ NODE=($1);
 port=22
 connect_timeout=5
 
-timeout $connect_timeout bash -c "</dev/tcp/${NODE[0]}/${port}"
+#timeout $connect_timeout bash -c "</dev/tcp/${NODE[0]}/${port}"
+ping -c1 ${NODE[0]} &> /dev/null
 
 if [ $? == 0 ]; then
    echo -e "${NODE[0]} \033[32mssh-bmc_live\033[0m" >> report_sshbmc
@@ -55,7 +56,7 @@ for n in ${NODES}; do
 	review_ssh_bmc $n
 done
 
-tr 's' 'b' < $list > ${list}bmc
+tr 's' 'b' < ${list} > ${list}bmc
 sed -e 's/$/\.deacluster.intel.com/' ${list}bmc > webviewss
 sed -i 's/^/https:\/\//g' webviewss
 
