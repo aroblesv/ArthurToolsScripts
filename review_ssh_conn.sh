@@ -77,4 +77,9 @@ cat ssh_status_report
 echo -e "\n*******************************************************************************************************"
 echo -e "copy and pastate into an excel sheet to be able to enter the nodes with which you want to work\n"
 cat webviewss
+
 rm report_ssh report_sshbmc ssh_status_report
+
+unset list
+unset listb
+unset listbmc
