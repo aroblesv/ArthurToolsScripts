@@ -27,7 +27,7 @@ cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Siz
 #find2point=`cat mem_serial_list |head -n 1 |grep -i :` 
 #findmdash=`cat mem_serial_list| head -n 1 |grep -i -`
 #if [ -z "$find2point" ]; then
-    cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Serial/'|cut -d ':' -f 2 > mem_serial_list 
+    cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Serial/'|cut -d ':' -f 2 > mem_serial_list
 #	sed -i 's/[[:blank:]]//g' mem_serial_list
 #	sed -i 's/[[:blank:]]//g' mem_data_info
 #	sed -i 's/\:/ /g' mem_data_info
@@ -37,10 +37,11 @@ cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Siz
 #	sed -i 's/[[:blank:]]//g' mem_data_info
 #	sed -i 's/\:/ /g' mem_data_info
 #fi    
-
 sed -i 's/[[:blank:]]//g' mem_serial_list
+#sed -i 's/\-//g' mem_serial_list
 sed -i 's/[[:blank:]]//g' mem_data_info
 sed -i 's/\:/ /g' mem_data_info
+#sed -i 's/\-//g' mem_data_info
 
 awk '
 BEGING{ FS="i " }
@@ -89,7 +90,7 @@ while read p; do
 done < mem_serial_list
 
 sed -i 's/"//g' gcode.file
-cut -d ',' -f 1,4,5 gcode.file |tr ',' '\t'
+cut -d ',' -f 1,2,3,4 gcode.file |tr ',' '\t'
 echo -e "GDC INFO" > gcode.file
 #echo -e "\nBuild table copy and pate memlocation meminventor"
 #echo -e "then execute make_mem_info.sh"
