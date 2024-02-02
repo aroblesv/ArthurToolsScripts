@@ -17,11 +17,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD61B1
+	Serial Number: 3FDD8610
 	Asset Tag: CPU0_DIMM_A1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -41,36 +41,15 @@ Handle 0x0017, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A2
 	Bank Locator: NODE 0
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD8519
-	Asset Tag: CPU0_DIMM_A2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0018, DMI type 17, 92 bytes
 Memory Device
@@ -87,11 +66,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD9DF9
+	Serial Number: 3FDD9E8F
 	Asset Tag: CPU0_DIMM_B1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -111,36 +90,15 @@ Handle 0x0019, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B2
 	Bank Locator: NODE 0
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDA1E0
-	Asset Tag: CPU0_DIMM_B2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001A, DMI type 17, 92 bytes
 Memory Device
@@ -157,11 +115,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8607
+	Serial Number: 3FDD7306
 	Asset Tag: CPU0_DIMM_C1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -181,36 +139,15 @@ Handle 0x001B, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C2
 	Bank Locator: NODE 1
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD75DF
-	Asset Tag: CPU0_DIMM_C2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001C, DMI type 17, 92 bytes
 Memory Device
@@ -227,11 +164,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8A3C
+	Serial Number: 3FDDA106
 	Asset Tag: CPU0_DIMM_D1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -251,36 +188,15 @@ Handle 0x001D, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D2
 	Bank Locator: NODE 1
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDCF33
-	Asset Tag: CPU0_DIMM_D2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001E, DMI type 17, 92 bytes
 Memory Device
@@ -297,11 +213,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDDC0AF
+	Serial Number: 3FDDC18F
 	Asset Tag: CPU0_DIMM_E1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -321,36 +237,15 @@ Handle 0x001F, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_E2
 	Bank Locator: NODE 2
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD755C
-	Asset Tag: CPU0_DIMM_E2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0020, DMI type 17, 92 bytes
 Memory Device
@@ -367,11 +262,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD9F90
+	Serial Number: 3FDDB842
 	Asset Tag: CPU0_DIMM_F1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -391,36 +286,15 @@ Handle 0x0021, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_F2
 	Bank Locator: NODE 2
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD856B
-	Asset Tag: CPU0_DIMM_F2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0022, DMI type 17, 92 bytes
 Memory Device
@@ -437,11 +311,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8D80
+	Serial Number: 3FDDA086
 	Asset Tag: CPU0_DIMM_G1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -461,36 +335,15 @@ Handle 0x0023, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G2
 	Bank Locator: NODE 3
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDA859
-	Asset Tag: CPU0_DIMM_G2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0024, DMI type 17, 92 bytes
 Memory Device
@@ -507,11 +360,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDDB8C1
+	Serial Number: 3FDDC0E4
 	Asset Tag: CPU0_DIMM_H1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -531,36 +384,15 @@ Handle 0x0025, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H2
 	Bank Locator: NODE 3
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD7692
-	Asset Tag: CPU0_DIMM_H2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0026, DMI type 17, 92 bytes
 Memory Device
@@ -577,11 +409,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD6DD8
+	Serial Number: 3FDD7323
 	Asset Tag: CPU1_DIMM_A1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -601,36 +433,15 @@ Handle 0x0027, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A2
 	Bank Locator: NODE 4
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDC0FA
-	Asset Tag: CPU1_DIMM_A2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0028, DMI type 17, 92 bytes
 Memory Device
@@ -647,11 +458,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDDCCEB
+	Serial Number: 3FDD7028
 	Asset Tag: CPU1_DIMM_B1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -671,36 +482,15 @@ Handle 0x0029, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B2
 	Bank Locator: NODE 4
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD8594
-	Asset Tag: CPU1_DIMM_B2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002A, DMI type 17, 92 bytes
 Memory Device
@@ -717,11 +507,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD859E
+	Serial Number: 3FDD8443
 	Asset Tag: CPU1_DIMM_C1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -741,36 +531,15 @@ Handle 0x002B, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C2
 	Bank Locator: NODE 5
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDD0D3
-	Asset Tag: CPU1_DIMM_C2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002C, DMI type 17, 92 bytes
 Memory Device
@@ -787,11 +556,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDDA6E5
+	Serial Number: 3FDDA7F3
 	Asset Tag: CPU1_DIMM_D1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -811,36 +580,15 @@ Handle 0x002D, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D2
 	Bank Locator: NODE 5
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD6D89
-	Asset Tag: CPU1_DIMM_D2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002E, DMI type 17, 92 bytes
 Memory Device
@@ -857,11 +605,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8486
+	Serial Number: 3FDDA415
 	Asset Tag: CPU1_DIMM_E1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -881,36 +629,15 @@ Handle 0x002F, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E2
 	Bank Locator: NODE 6
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDCE70
-	Asset Tag: CPU1_DIMM_E2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0030, DMI type 17, 92 bytes
 Memory Device
@@ -927,11 +654,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8429
+	Serial Number: 3FDD9FDD
 	Asset Tag: CPU1_DIMM_F1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -951,36 +678,15 @@ Handle 0x0031, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F2
 	Bank Locator: NODE 6
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDDB8A3
-	Asset Tag: CPU1_DIMM_F2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0032, DMI type 17, 92 bytes
 Memory Device
@@ -997,11 +703,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8669
+	Serial Number: 3FDD85AB
 	Asset Tag: CPU1_DIMM_G1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -1021,36 +727,15 @@ Handle 0x0033, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G2
 	Bank Locator: NODE 7
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD6C42
-	Asset Tag: CPU1_DIMM_G2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0034, DMI type 17, 92 bytes
 Memory Device
@@ -1067,11 +752,11 @@ Memory Device
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
 	Manufacturer: Micron
-	Serial Number: 3FDD8F3B
+	Serial Number: 3FDDA103
 	Asset Tag: CPU1_DIMM_H1_AssetTag
 	Part Number: MTC36F2046S1PC56BG1           
 	Rank: 2
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
@@ -1091,34 +776,13 @@ Handle 0x0035, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 64 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H2
 	Bank Locator: NODE 7
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Micron
-	Serial Number: 3FDD6834
-	Asset Tag: CPU1_DIMM_H2_AssetTag
-	Part Number: MTC36F2046S1PC56BG1           
-	Rank: 2
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 64 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
