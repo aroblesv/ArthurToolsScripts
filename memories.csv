@@ -16,20 +16,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610BC3
+	Manufacturer: Micron
+	Serial Number: 3E5352AC
 	Asset Tag: CPU0_DIMM_A1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -41,36 +41,15 @@ Handle 0x0017, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A2
 	Bank Locator: NODE 0
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C1D
-	Asset Tag: CPU0_DIMM_A2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0018, DMI type 17, 92 bytes
 Memory Device
@@ -86,20 +65,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C3C
+	Manufacturer: Micron
+	Serial Number: 3E5392AF
 	Asset Tag: CPU0_DIMM_B1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -111,36 +90,15 @@ Handle 0x0019, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B2
 	Bank Locator: NODE 0
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610BE9
-	Asset Tag: CPU0_DIMM_B2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001A, DMI type 17, 92 bytes
 Memory Device
@@ -156,20 +114,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C8D
+	Manufacturer: Micron
+	Serial Number: 3E53919B
 	Asset Tag: CPU0_DIMM_C1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -181,36 +139,15 @@ Handle 0x001B, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C2
 	Bank Locator: NODE 1
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C1C
-	Asset Tag: CPU0_DIMM_C2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001C, DMI type 17, 92 bytes
 Memory Device
@@ -226,20 +163,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C14
+	Manufacturer: Micron
+	Serial Number: 3E537DE6
 	Asset Tag: CPU0_DIMM_D1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -251,36 +188,15 @@ Handle 0x001D, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D2
 	Bank Locator: NODE 1
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C39
-	Asset Tag: CPU0_DIMM_D2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x001E, DMI type 17, 92 bytes
 Memory Device
@@ -296,20 +212,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C13
+	Manufacturer: Micron
+	Serial Number: 3E52C855
 	Asset Tag: CPU0_DIMM_E1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -321,50 +237,50 @@ Handle 0x001F, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
+	Form Factor: DIMM
+	Set: None
+	Locator: CPU0_DIMM_E2
+	Bank Locator: NODE 2
+	Type: Unknown
+	Type Detail: Unknown Synchronous
+
+Handle 0x0020, DMI type 17, 92 bytes
+Memory Device
+	Array Handle: 0x0015
+	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
 	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
-	Locator: CPU0_DIMM_E2
+	Locator: CPU0_DIMM_F1
 	Bank Locator: NODE 2
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C80
-	Asset Tag: CPU0_DIMM_E2_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Manufacturer: Micron
+	Serial Number: 3E53A1F7
+	Asset Tag: CPU0_DIMM_F1_AssetTag
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
 	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
-
-Handle 0x0020, DMI type 17, 92 bytes
-Memory Device
-	Array Handle: 0x0015
-	Error Information Handle: Not Provided
-	Total Width: Unknown
-	Data Width: Unknown
-	Size: No Module Installed
-	Form Factor: DIMM
-	Set: None
-	Locator: CPU0_DIMM_F1
-	Bank Locator: NODE 2
-	Type: Unknown
-	Type Detail: Unknown Synchronous
 
 Handle 0x0021, DMI type 17, 92 bytes
 Memory Device
@@ -386,69 +302,27 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 32 GB
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G1
 	Bank Locator: NODE 3
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610BD3
-	Asset Tag: CPU0_DIMM_G1_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
 
 Handle 0x0023, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G2
 	Bank Locator: NODE 3
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C5B
-	Asset Tag: CPU0_DIMM_G2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0024, DMI type 17, 92 bytes
 Memory Device
@@ -464,20 +338,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610B8A
+	Manufacturer: Micron
+	Serial Number: 3E52D2DC
 	Asset Tag: CPU0_DIMM_H1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -489,36 +363,15 @@ Handle 0x0025, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H2
 	Bank Locator: NODE 3
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C6B
-	Asset Tag: CPU0_DIMM_H2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0026, DMI type 17, 92 bytes
 Memory Device
@@ -534,20 +387,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610BEE
+	Manufacturer: Micron
+	Serial Number: 3E53A156
 	Asset Tag: CPU1_DIMM_A1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -559,36 +412,15 @@ Handle 0x0027, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A2
 	Bank Locator: NODE 4
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610BFB
-	Asset Tag: CPU1_DIMM_A2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0028, DMI type 17, 92 bytes
 Memory Device
@@ -604,20 +436,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C46
+	Manufacturer: Micron
+	Serial Number: 3E53846F
 	Asset Tag: CPU1_DIMM_B1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -629,36 +461,15 @@ Handle 0x0029, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B2
 	Bank Locator: NODE 4
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C0E
-	Asset Tag: CPU1_DIMM_B2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002A, DMI type 17, 92 bytes
 Memory Device
@@ -674,20 +485,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C06
+	Manufacturer: Micron
+	Serial Number: 3E52D339
 	Asset Tag: CPU1_DIMM_C1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -699,36 +510,15 @@ Handle 0x002B, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C2
 	Bank Locator: NODE 5
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C4C
-	Asset Tag: CPU1_DIMM_C2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002C, DMI type 17, 92 bytes
 Memory Device
@@ -744,20 +534,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610B90
+	Manufacturer: Micron
+	Serial Number: 3E539500
 	Asset Tag: CPU1_DIMM_D1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -769,36 +559,15 @@ Handle 0x002D, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D2
 	Bank Locator: NODE 5
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610B93
-	Asset Tag: CPU1_DIMM_D2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x002E, DMI type 17, 92 bytes
 Memory Device
@@ -814,20 +583,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C89
+	Manufacturer: Micron
+	Serial Number: 3E538508
 	Asset Tag: CPU1_DIMM_E1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -839,106 +608,43 @@ Handle 0x002F, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E2
 	Bank Locator: NODE 6
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C75
-	Asset Tag: CPU1_DIMM_E2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0030, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F1
 	Bank Locator: NODE 6
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C7E
-	Asset Tag: CPU1_DIMM_F1_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0031, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F2
 	Bank Locator: NODE 6
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C9B
-	Asset Tag: CPU1_DIMM_F2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0032, DMI type 17, 92 bytes
 Memory Device
@@ -954,20 +660,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C85
+	Manufacturer: Micron
+	Serial Number: 3E538AE9
 	Asset Tag: CPU1_DIMM_G1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -979,36 +685,15 @@ Handle 0x0033, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G2
 	Bank Locator: NODE 7
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C45
-	Asset Tag: CPU1_DIMM_G2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
 Handle 0x0034, DMI type 17, 92 bytes
 Memory Device
@@ -1024,20 +709,20 @@ Memory Device
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
 	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610C3E
+	Manufacturer: Micron
+	Serial Number: 3E538B1A
 	Asset Tag: CPU1_DIMM_H1_AssetTag
-	Part Number: HMCG84AGBRA188N               
+	Part Number: MTC20F1045S1RC56BG1           
 	Rank: 1
-	Configured Memory Speed: 4400 MT/s
+	Configured Memory Speed: 5600 MT/s
 	Minimum Voltage: 1.1 V
 	Maximum Voltage: 1.1 V
 	Configured Voltage: 1.1 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0x2C
+	Module Product ID: 0x2C00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -1049,34 +734,13 @@ Handle 0x0035, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
-	Data Width: 64 bits
-	Size: 32 GB
+	Total Width: Unknown
+	Data Width: Unknown
+	Size: No Module Installed
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H2
 	Bank Locator: NODE 7
-	Type: DDR5
-	Type Detail: Synchronous Registered (Buffered)
-	Speed: 5600 MT/s
-	Manufacturer: Hynix
-	Serial Number: 76610BB4
-	Asset Tag: CPU1_DIMM_H2_AssetTag
-	Part Number: HMCG84AGBRA188N               
-	Rank: 1
-	Configured Memory Speed: 4400 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
-	Memory Technology: DRAM
-	Memory Operating Mode Capability: Volatile memory
-	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
-	Memory Subsystem Controller Manufacturer ID: Unknown
-	Memory Subsystem Controller Product ID: Unknown
-	Non-Volatile Size: None
-	Volatile Size: 32 GB
-	Cache Size: None
-	Logical Size: None
+	Type: Unknown
+	Type Detail: Unknown Synchronous
 
