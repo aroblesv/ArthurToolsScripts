@@ -1,7 +1,13 @@
 #!/bin/bash
+echo -e "\n\033[34mFind node name script.\033[0m\n"
+echo -e "***********************************************************************************"
+echo -e "\033[33mEnter the RACK number with this format "XX" if the number is of 1 digit.\033[0m"
+read -p "RACK: " nrack
+echo -e "\033[33mEnter the PDU number with this format "XX" if the number is of 1 digit.\033[0m"
+read -p "PDU: " npdu
+echo -e "\033[33mEnter the OUTLET number with this format "X" if the number is of 1 digit.\033[0m"
+read -p "OUTLET: " noutlet
 
-read -p "Write rack with 2 digits: " nrack
-read -p "Now Write pdu nomber 2 digits: " npdu
-read -p "Write outlet number: " noutlet
-
-grep zp3110b001s$nrack /var/local/Sysman/cluster_nodes.py |grep p$nrack$npdu|grep $noutlet\"\)\,$ |awk '{print $5}'
+nodename=$(grep zp3110b001s$nrack /var/local/Sysman/cluster_nodes.py |grep p$nrack$npdu|grep \"$noutlet\"\)\,$ |awk '{print $5}')
+echo -e "***********************************************************************************"
+echo -e "\n\033[32m$nodename\033[0m\n"
