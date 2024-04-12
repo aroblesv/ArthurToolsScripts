@@ -1,35 +1,37 @@
-# dmidecode 3.3
+# dmidecode 3.2
 Getting SMBIOS data from sysfs.
-SMBIOS 3.2.0 present.
+SMBIOS 3.3.0 present.
+# SMBIOS implementations newer than version 3.2.0 are not
+# fully supported by this version of dmidecode.
 
 Handle 0x0016, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A1
 	Bank Locator: NODE 0
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA367
-	Asset Tag: CPU0_DIMM_A1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AD03
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -55,30 +57,30 @@ Handle 0x0018, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B1
 	Bank Locator: NODE 0
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFAC0C
-	Asset Tag: CPU0_DIMM_B1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AC36
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -104,30 +106,30 @@ Handle 0x001A, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C1
 	Bank Locator: NODE 1
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA6BE
-	Asset Tag: CPU0_DIMM_C1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AD0D
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -153,30 +155,30 @@ Handle 0x001C, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D1
 	Bank Locator: NODE 1
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA911
-	Asset Tag: CPU0_DIMM_D1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5ACF5
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -202,30 +204,30 @@ Handle 0x001E, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_E1
 	Bank Locator: NODE 2
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA597
-	Asset Tag: CPU0_DIMM_E1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AC44
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -251,30 +253,30 @@ Handle 0x0020, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_F1
 	Bank Locator: NODE 2
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA65F
-	Asset Tag: CPU0_DIMM_F1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1940-03A03447
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -300,30 +302,30 @@ Handle 0x0022, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G1
 	Bank Locator: NODE 3
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA67E
-	Asset Tag: CPU0_DIMM_G1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1940-03A034F9
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -349,30 +351,30 @@ Handle 0x0024, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H1
 	Bank Locator: NODE 3
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA3E6
-	Asset Tag: CPU0_DIMM_H1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AC1D
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -398,30 +400,30 @@ Handle 0x0026, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A1
 	Bank Locator: NODE 4
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA8EA
-	Asset Tag: CPU1_DIMM_A1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AC98
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -447,30 +449,30 @@ Handle 0x0028, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B1
 	Bank Locator: NODE 4
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA8E9
-	Asset Tag: CPU1_DIMM_B1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AC48
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -496,30 +498,30 @@ Handle 0x002A, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C1
 	Bank Locator: NODE 5
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA60A
-	Asset Tag: CPU1_DIMM_C1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5AD2A
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -545,30 +547,30 @@ Handle 0x002C, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D1
 	Bank Locator: NODE 5
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA608
-	Asset Tag: CPU1_DIMM_D1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5ACED
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -594,30 +596,30 @@ Handle 0x002E, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E1
 	Bank Locator: NODE 6
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA599
-	Asset Tag: CPU1_DIMM_E1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5ACFA
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -643,30 +645,30 @@ Handle 0x0030, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F1
 	Bank Locator: NODE 6
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA6D8
-	Asset Tag: CPU1_DIMM_F1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5ACFE
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -692,30 +694,30 @@ Handle 0x0032, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G1
 	Bank Locator: NODE 7
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFAC0D
-	Asset Tag: CPU1_DIMM_G1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1943-03A5ACFC
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
@@ -741,30 +743,30 @@ Handle 0x0034, DMI type 17, 92 bytes
 Memory Device
 	Array Handle: 0x0015
 	Error Information Handle: Not Provided
-	Total Width: 80 bits
+	Total Width: 72 bits
 	Data Width: 64 bits
 	Size: 64 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H1
 	Bank Locator: NODE 7
-	Type: DDR5
+	Type: DDR4
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 4800 MT/s
-	Manufacturer: Hynix
-	Serial Number: 13EFA318
-	Asset Tag: CPU1_DIMM_H1_AssetTag
-	Part Number: HMCG94AEBQA123N               
+	Speed: 3200 MT/s
+	Manufacturer: Samsung
+	Serial Number: 1940-03A034A9
+	Asset Tag:  
+	Part Number: M393A8G40AB2-CWE    
 	Rank: 2
-	Configured Memory Speed: 4800 MT/s
-	Minimum Voltage: 1.1 V
-	Maximum Voltage: 1.1 V
-	Configured Voltage: 1.1 V
+	Configured Memory Speed: 3200 MT/s
+	Minimum Voltage: 1.2 V
+	Maximum Voltage: 1.2 V
+	Configured Voltage: 1.2 V
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0xAD
-	Module Product ID: 0xAD00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: Unknown
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
