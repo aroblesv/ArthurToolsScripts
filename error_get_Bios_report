@@ -1,0 +1,100 @@
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The RSA host key for zp31l0233ms1301.deacluster.intel.com has changed,
+and the key for the corresponding IP address 10.219.136.155
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:SZ7ueuV/Cbw/8Edyafk+XtfUPbsvg4CAEvqvRlZfTyU.
+Please contact your system administrator.
+Add correct host key in /home/aroblesv/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/aroblesv/.ssh/known_hosts:173
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The RSA host key for zp31l0233ms1301.deacluster.intel.com has changed,
+and the key for the corresponding IP address 10.219.136.155
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:SZ7ueuV/Cbw/8Edyafk+XtfUPbsvg4CAEvqvRlZfTyU.
+Please contact your system administrator.
+Add correct host key in /home/aroblesv/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/aroblesv/.ssh/known_hosts:173
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The RSA host key for zp31l0233ms1301.deacluster.intel.com has changed,
+and the key for the corresponding IP address 10.219.136.155
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:SZ7ueuV/Cbw/8Edyafk+XtfUPbsvg4CAEvqvRlZfTyU.
+Please contact your system administrator.
+Add correct host key in /home/aroblesv/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/aroblesv/.ssh/known_hosts:173
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+Permission denied, please try again.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@       WARNING: POSSIBLE DNS SPOOFING DETECTED!          @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+The RSA host key for zp31l0233ms1301.deacluster.intel.com has changed,
+and the key for the corresponding IP address 10.219.136.155
+is unknown. This could either mean that
+DNS SPOOFING is happening or the IP address for the host
+and its host key have changed at the same time.
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+@    WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!     @
+@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+IT IS POSSIBLE THAT SOMEONE IS DOING SOMETHING NASTY!
+Someone could be eavesdropping on you right now (man-in-the-middle attack)!
+It is also possible that a host key has just been changed.
+The fingerprint for the RSA key sent by the remote host is
+SHA256:SZ7ueuV/Cbw/8Edyafk+XtfUPbsvg4CAEvqvRlZfTyU.
+Please contact your system administrator.
+Add correct host key in /home/aroblesv/.ssh/known_hosts to get rid of this message.
+Offending RSA key in /home/aroblesv/.ssh/known_hosts:173
+Password authentication is disabled to avoid man-in-the-middle attacks.
+Keyboard-interactive authentication is disabled to avoid man-in-the-middle attacks.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+Permission denied, please try again.
+Permission denied, please try again.
+Permission denied (publickey,password).
+ssh: connect to host zp31l0233ms0804.deacluster.intel.com port 22: Connection timed out
+ssh: connect to host zp31l0233ms0804.deacluster.intel.com port 22: Connection refused
+ssh: connect to host zp31l0233ms0804.deacluster.intel.com port 22: Connection refused
+2024-04-26 14:47:43,459 get_bmc_info:98 ERROR zp31l0233ms0804 - unable to reach bmc: HTTPSConnectionPool(host='zp31l0233mb0804.deacluster.intel.com', port=443): Max retries exceeded with url: /redfish/v1/Managers/bmc (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x7fcfd6eb5da0>: Failed to establish a new connection: [Errno 110] Connection timed out',))

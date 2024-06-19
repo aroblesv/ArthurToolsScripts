@@ -1,6 +1,6 @@
 #!/bin/bash
 
-read -p "Copy and paste 1 project ( EMR WHITLEY PURLEY1 PURLEY2 CATLOW10a CATLOWROW33): " project
+read -p "Copy and paste 1 project ( EMR WHITLEY PURLEY1 PURLEY2 CATLOW10a CATLOWROW33 EMRFLEXGDL): " project
 
 if [[ "$project" = "EMR" ]]; then
 	newproject=zp3110b001s
@@ -20,6 +20,9 @@ if [[ "$project" = "EMR" ]]; then
 	elif [[ "$project" = "CATLOWROW33" ]]; then
 	newproject=zp31l0233ms
 	echo "Generating CATLOWROW33 status ssh connection"
+	elif [[ "$project" = "EMRFLEXGDL" ]]; then
+	newproject=zp3110b002s
+	echo "Generating EMRFLEXGDL status ssh connection"
 else
 
 echo "Not is a valid project"
@@ -59,7 +62,7 @@ else
 
 		sort temp_racksequence | uniq > racksequence
 		cat racksequence
-		#./review_ssh_rack_status.sh
+		./review_ssh_rack_status.sh
 	done
 
 fi
