@@ -17361,7 +17361,6 @@ HDA000010144E410D4,Samsung Electronics,GDC733012,"11761294 - Palacios Zapata, Jo
 80AD01225155B5B6B6,SK Hynix,GDC726997,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B6BD,SK Hynix,GDC726996,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B6BA,SK Hynix,GDC726995,"11761294 - Palacios Zapata, Jorge A"
-80AD01225155B5B6F9,SK Hynix,GDC727004,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B6EC,SK Hynix,GDC727003,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B6C5,SK Hynix,GDC727041,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B617,SK Hynix,GDC726889,"11761294 - Palacios Zapata, Jorge A"
@@ -18077,6 +18076,8 @@ HDA000010144E410D4,Samsung Electronics,GDC733012,"11761294 - Palacios Zapata, Jo
 80AD01225155B5A8CC,SK Hynix,GDC743863,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B770,SK Hynix,GDC743773,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B76F,SK Hynix,GDC743791,"11761294 - Palacios Zapata, Jorge A"
+80AD01225155B5B814,SK Hynix,GDC743782,"11761294 - Palacios Zapata, Jorge A"
+80AD01225155B5B80B,SK Hynix,GDC743793,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B771,SK Hynix,GDC743792,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B87A,SK Hynix,GDC743775,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5B774,SK Hynix,GDC743772,"11761294 - Palacios Zapata, Jorge A"
@@ -18746,28 +18747,16 @@ HDA000010144E410D4,Samsung Electronics,GDC733012,"11761294 - Palacios Zapata, Jo
 80CE01231604A1B71C,Samsung Electronics,GDC745908,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6FB,Samsung Electronics,GDC746025,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6E7,Samsung Electronics,GDC746024,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B70A,Samsung Electronics,GDC746021,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7AB,Samsung Electronics,GDC746020,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B796,Samsung Electronics,GDC745950,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7BD,Samsung Electronics,GDC745949,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B70F,Samsung Electronics,GDC745960,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B70E,Samsung Electronics,GDC745958,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B700,Samsung Electronics,GDC745900,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B758,Samsung Electronics,GDC745901,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6DE,Samsung Electronics,GDC745923,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B7A4,Samsung Electronics,GDC745922,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6CF,Samsung Electronics,GDC745921,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7B9,Samsung Electronics,GDC745955,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7B8,Samsung Electronics,GDC745954,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B797,Samsung Electronics,GDC745952,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B71F,Samsung Electronics,GDC745899,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B711,Samsung Electronics,GDC745898,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6C3,Samsung Electronics,GDC745896,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B77F,Samsung Electronics,GDC745918,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B765,Samsung Electronics,GDC745936,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B71D,Samsung Electronics,GDC745935,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B749,Samsung Electronics,GDC745934,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6C8,Samsung Electronics,GDC745933,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7CB,Samsung Electronics,GDC745932,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7A5,Samsung Electronics,GDC745970,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6EC,Samsung Electronics,GDC745969,"11761294 - Palacios Zapata, Jorge A"
@@ -18776,52 +18765,32 @@ HDA000010144E410D4,Samsung Electronics,GDC733012,"11761294 - Palacios Zapata, Jo
 80CE01231604A1B7A9,Samsung Electronics,GDC745929,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6D9,Samsung Electronics,GDC745928,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B789,Samsung Electronics,GDC745927,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B7BB,Samsung Electronics,GDC745926,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B730,Samsung Electronics,GDC745966,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7AF,Samsung Electronics,GDC745965,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B79F,Samsung Electronics,GDC745964,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6F5,Samsung Electronics,GDC745963,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B788,Samsung Electronics,GDC745860,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6C6,Samsung Electronics,GDC745859,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6C7,Samsung Electronics,GDC745925,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B735,Samsung Electronics,GDC746013,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B74E,Samsung Electronics,GDC746012,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B738,Samsung Electronics,GDC746011,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B74C,Samsung Electronics,GDC746010,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6F1,Samsung Electronics,GDC745962,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B76D,Samsung Electronics,GDC745961,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B718,Samsung Electronics,GDC746026,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B707,Samsung Electronics,GDC745907,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6FD,Samsung Electronics,GDC745912,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B778,Samsung Electronics,GDC745910,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B731,Samsung Electronics,GDC745974,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7B0,Samsung Electronics,GDC745972,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B709,Samsung Electronics,GDC745868,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B741,Samsung Electronics,GDC745867,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B751,Samsung Electronics,GDC745866,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B74D,Samsung Electronics,GDC745865,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6DB,Samsung Electronics,GDC745864,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7A7,Samsung Electronics,GDC745937,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B762,Samsung Electronics,GDC746002,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B715,Samsung Electronics,GDC745904,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B774,Samsung Electronics,GDC745902,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B791,Samsung Electronics,GDC746015,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B746,Samsung Electronics,GDC745986,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B7C2,Samsung Electronics,GDC745951,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B724,Samsung Electronics,GDC745883,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B76F,Samsung Electronics,GDC745882,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B799,Samsung Electronics,GDC745881,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B79C,Samsung Electronics,GDC745863,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6CA,Samsung Electronics,GDC745862,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B7BF,Samsung Electronics,GDC745861,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6E9,Samsung Electronics,GDC746014,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B769,Samsung Electronics,GDC745880,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B733,Samsung Electronics,GDC745878,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B6F4,Samsung Electronics,GDC745877,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B708,Samsung Electronics,GDC745876,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6C2,Samsung Electronics,GDC745875,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B75A,Samsung Electronics,GDC745948,"11761294 - Palacios Zapata, Jorge A"
-80CE01231604A1B768,Samsung Electronics,GDC745947,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6D3,Samsung Electronics,GDC745946,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B6D2,Samsung Electronics,GDC745945,"11761294 - Palacios Zapata, Jorge A"
 80CE01231604A1B703,Samsung Electronics,GDC745944,"11761294 - Palacios Zapata, Jorge A"
@@ -18869,30 +18838,14 @@ HDA000010144E410D4,Samsung Electronics,GDC733012,"11761294 - Palacios Zapata, Jo
 80CE01231804B554A1,Samsung Electronics,GDC748552,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B55447,Samsung Electronics,GDC748553,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B554B0,Samsung Electronics,GDC748545,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554A6,Samsung Electronics,GDC748546,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B554B2,Samsung Electronics,GDC748547,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554AE,Samsung Electronics,GDC748548,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554B5,Samsung Electronics,GDC748549,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B5543C,Samsung Electronics,GDC748556,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B55446,Samsung Electronics,GDC748565,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B55473,Samsung Electronics,GDC748566,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B5544A,Samsung Electronics,GDC748567,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B55467,Samsung Electronics,GDC748512,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B5547B,Samsung Electronics,GDC748513,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B55456,Samsung Electronics,GDC748526,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554AA,Samsung Electronics,GDC748557,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554B6,Samsung Electronics,GDC748558,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554A8,Samsung Electronics,GDC748559,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B5547F,Samsung Electronics,GDC748560,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B55472,Samsung Electronics,GDC748561,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B5547A,Samsung Electronics,GDC748562,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B5546D,Samsung Electronics,GDC748563,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B554B4,Samsung Electronics,GDC748564,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B554BD,Samsung Electronics,GDC748520,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B55482,Samsung Electronics,GDC748514,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B5549B,Samsung Electronics,GDC748515,"11761294 - Palacios Zapata, Jorge A"
 80CE01231804B55489,Samsung Electronics,GDC748528,"11761294 - Palacios Zapata, Jorge A"
-80CE01231804B55462,Samsung Electronics,GDC748529,"11761294 - Palacios Zapata, Jorge A"
 80CE01231904B31D96,Samsung Electronics,GDC746358,"11761294 - Palacios Zapata, Jorge A"
 80CE01231904B31D87,Samsung Electronics,GDC746357,"11761294 - Palacios Zapata, Jorge A"
 80CE01231904B31DCB,Samsung Electronics,GDC746352,"11761294 - Palacios Zapata, Jorge A"
@@ -24625,10 +24578,7 @@ S802C0F18261D25887D,MICRON,,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DDB9D,SK Hynix,GDC789656,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DDB8D,SK Hynix,GDC789664,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DDB62,SK Hynix,GDC789669,"11761294 - Palacios Zapata, Jorge A"
-80AD012222867DDB90,SK Hynix,GDC789665,"11761294 - Palacios Zapata, Jorge A"
-80AD012222867DDB1D,SK Hynix,GDC789666,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867dda92,SK Hynix,GDC789658,"11761294 - Palacios Zapata, Jorge A"
-80ad012222867dda9b,SK Hynix,GDC789651,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867dda91,SK Hynix,GDC789653,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867dda9d,SK Hynix,GDC789660,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867dda9c,SK Hynix,GDC789654,"11761294 - Palacios Zapata, Jorge A"
@@ -24639,17 +24589,14 @@ S802C0F18261D25887D,MICRON,,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddaa3,SK Hynix,GDC789650,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddc6d,SK Hynix,GDC789668,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddc5d,SK Hynix,GDC789673,"11761294 - Palacios Zapata, Jorge A"
-80AD012222867DDB5A,SK Hynix,GDC789672,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddc6c,SK Hynix,GDC789667,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddbcf,SK Hynix,GDC789674,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DDC3B,SK Hynix,GDC789681,"11761294 - Palacios Zapata, Jorge A"
-80ad012222867ddc38,SK Hynix,GDC789682,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddc33,SK Hynix,GDC789679,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DDB44,SK Hynix,GDC789671,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddc31,SK Hynix,GDC789680,"11761294 - Palacios Zapata, Jorge A"
 80ad012222867ddc37,SK Hynix,GDC789670,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DDB8E,SK Hynix,GDC789685,"11761294 - Palacios Zapata, Jorge A"
-80AD012222867DDB8F,SK Hynix,GDC789684,"11761294 - Palacios Zapata, Jorge A"
 F8A9150B00004E1211209-01D8R0543458,Other,GDC673089,"11761294 - Palacios Zapata, Jorge A"
 F8A9150B0000C85211209-01D8R0543445,Other,GDC673061,"11761294 - Palacios Zapata, Jorge A"
 F8A9150B00004BC211209-01D8R0543463,Other,GDC673087,"11761294 - Palacios Zapata, Jorge A"
@@ -26556,10 +26503,18 @@ GDC404733,MICRON,GDC404733,"11761294 - Palacios Zapata, Jorge A"
 80AD012222867DE3E6,SK Hynix,GDC723686,"11761294 - Palacios Zapata, Jorge A"
 80AD01223686E0AB76,SK Hynix,GDC745004,"11761294 - Palacios Zapata, Jorge A"
 80AD01225155B5BBAE,SK Hynix,GDC768823,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C8E7D8,Samsung Electronics,GDC690288,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C8EDD3,Samsung Electronics,GDC690321,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C8EE6F,Samsung Electronics,GDC690390,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C8FE0F,Samsung Electronics,GDC690464,"11761294 - Palacios Zapata, Jorge A"
 80CE01221402C90675,Samsung Electronics,GDC690454,"11761294 - Palacios Zapata, Jorge A"
 80CE01221402C9075F,Samsung Electronics,GDC690622,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C90987,Samsung Electronics,GDC690531,"11761294 - Palacios Zapata, Jorge A"
 80CE01221402C90C1A,Samsung Electronics,GDC690521,"11761294 - Palacios Zapata, Jorge A"
 80CE01221402C91125,Samsung Electronics,GDC690564,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C91852,Samsung Electronics,GDC690293,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C9187C,Samsung Electronics,GDC690573,"11761294 - Palacios Zapata, Jorge A"
+80CE01221402C9190B,Samsung Electronics,GDC690325,"11761294 - Palacios Zapata, Jorge A"
 80CE012232037E23C6,Samsung Electronics,GDC734480,"11761294 - Palacios Zapata, Jorge A"
 80CE012232037EF579,Samsung Electronics,GDC734560,"11761294 - Palacios Zapata, Jorge A"
 80CE012232037E23FF,Samsung Electronics,GDC734482,"11761294 - Palacios Zapata, Jorge A"
@@ -27018,3 +26973,48 @@ S802C0F18281D54296F,MICRON,GDC557102,"11761294 - Palacios Zapata, Jorge A"
 80AD01231955DC1835,SK Hynix,GDC786436,"11761294 - Palacios Zapata, Jorge A"
 80AD01231955DC1850,SK Hynix,GDC786443,"11761294 - Palacios Zapata, Jorge A"
 80AD01231955DC1836,SK Hynix,GDC786438,"11761294 - Palacios Zapata, Jorge A"
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,
+,,,

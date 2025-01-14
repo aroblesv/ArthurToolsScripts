@@ -8,18 +8,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_A1
 	Bank Locator: NODE 0
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3A9B5
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C90759
 	Asset Tag: CPU0_DIMM_A1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -28,12 +28,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -57,18 +57,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_B1
 	Bank Locator: NODE 0
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3C188
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C90184
 	Asset Tag: CPU0_DIMM_B1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -77,12 +77,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -106,18 +106,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_C1
 	Bank Locator: NODE 1
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3B48C
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C8FEC3
 	Asset Tag: CPU0_DIMM_C1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -126,12 +126,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -155,18 +155,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_D1
 	Bank Locator: NODE 1
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3A9D9
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C90B55
 	Asset Tag: CPU0_DIMM_D1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -175,12 +175,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -204,18 +204,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_E1
 	Bank Locator: NODE 2
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3B860
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C918F6
 	Asset Tag: CPU0_DIMM_E1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -224,12 +224,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -253,18 +253,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_F1
 	Bank Locator: NODE 2
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3B49F
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C90128
 	Asset Tag: CPU0_DIMM_F1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -273,12 +273,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -302,18 +302,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_G1
 	Bank Locator: NODE 3
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3C0E4
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C9073D
 	Asset Tag: CPU0_DIMM_G1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -322,12 +322,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -351,18 +351,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU0_DIMM_H1
 	Bank Locator: NODE 3
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F391D2
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C906D1
 	Asset Tag: CPU0_DIMM_H1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -371,12 +371,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -400,18 +400,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_A1
 	Bank Locator: NODE 4
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3A75E
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C9190B
 	Asset Tag: CPU1_DIMM_A1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -420,12 +420,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -449,18 +449,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_B1
 	Bank Locator: NODE 4
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3C1D2
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C9187C
 	Asset Tag: CPU1_DIMM_B1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -469,12 +469,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -498,18 +498,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_C1
 	Bank Locator: NODE 5
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3C1CC
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C8EDD3
 	Asset Tag: CPU1_DIMM_C1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -518,12 +518,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -547,18 +547,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_D1
 	Bank Locator: NODE 5
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3AB9B
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C8EE6F
 	Asset Tag: CPU1_DIMM_D1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -567,12 +567,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -596,18 +596,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_E1
 	Bank Locator: NODE 6
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3A1E5
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C8FE0F
 	Asset Tag: CPU1_DIMM_E1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -616,12 +616,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -645,18 +645,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_F1
 	Bank Locator: NODE 6
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3B17F
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C91852
 	Asset Tag: CPU1_DIMM_F1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -665,12 +665,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -694,18 +694,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_G1
 	Bank Locator: NODE 7
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3A99C
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C90987
 	Asset Tag: CPU1_DIMM_G1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -714,12 +714,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
@@ -743,18 +743,18 @@ Memory Device
 	Error Information Handle: Not Provided
 	Total Width: 80 bits
 	Data Width: 64 bits
-	Size: 128 GB
+	Size: 32 GB
 	Form Factor: DIMM
 	Set: None
 	Locator: CPU1_DIMM_H1
 	Bank Locator: NODE 7
 	Type: DDR5
 	Type Detail: Synchronous Registered (Buffered)
-	Speed: 6400 MT/s
-	Manufacturer: Micron
-	Serial Number: 48F3AF44
+	Speed: 4800 MT/s
+	Manufacturer: Samsung
+	Serial Number: 02C8E7D8
 	Asset Tag: CPU1_DIMM_H1_AssetTag
-	Part Number: MTC40F2047S1RC64BB1 QSFF      
+	Part Number: M321R4GA3BB6-CQKDG            
 	Rank: 2
 	Configured Memory Speed: 4800 MT/s
 	Minimum Voltage: 1.1 V
@@ -763,12 +763,12 @@ Memory Device
 	Memory Technology: DRAM
 	Memory Operating Mode Capability: Volatile memory
 	Firmware Version: 0000 
-	Module Manufacturer ID: Bank 1, Hex 0x2C
-	Module Product ID: 0x2C00
+	Module Manufacturer ID: Bank 1, Hex 0xCE
+	Module Product ID: 0xCE00
 	Memory Subsystem Controller Manufacturer ID: Unknown
 	Memory Subsystem Controller Product ID: Unknown
 	Non-Volatile Size: None
-	Volatile Size: 128 GB
+	Volatile Size: 32 GB
 	Cache Size: None
 	Logical Size: None
 
