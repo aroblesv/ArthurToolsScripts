@@ -8,6 +8,6 @@ read -p "PDU: " npdu
 echo -e "\033[33mEnter the OUTLET number with this format "X" if the number is of 1 digit.\033[0m"
 read -p "OUTLET: " noutlet
 
-nodename=$(grep zp3110b001s$nrack /var/local/Sysman/cluster_nodes.py |grep p$nrack$npdu|grep \"$noutlet\"\)\,$ |awk '{print $5}')
+nodename=$(grep zp3110b001s$nrack /var/local/Sysman/cluster_nodes.py |grep p$nrack$npdu|grep \"$noutlet\"\)\,$ |tr ',' ' '|awk '{print "system:"$5 "\turl-check-pdu:"$7 "\toutlet:"$8}')
 echo -e "***********************************************************************************"
 echo -e "\n\033[32m$nodename\033[0m\n"
