@@ -1,0 +1,1 @@
+system:"zp3110b001s0204"	url-check-pdu:"zp3110b001p0202.deacluster.intel.com"	outlet:"6")	systemoff-command:sysman --pdu_off -M "zp3110b001s0204"
