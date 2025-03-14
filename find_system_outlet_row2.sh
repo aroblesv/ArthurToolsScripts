@@ -15,7 +15,7 @@ nodename2=$(awk '{gsub(/"/,"")}1' nodename_temp2)
 echo -e "$nodename2" > nodename_temp3
 nodename3=$(awk '{gsub(/)/,"")}1' nodename_temp3)
 echo -e "\n\033[32m$nodename3\033[0m\n"
-echo -e "\n\033[1;33mplease wait for voltage outlet: $noutlet pdu info\033[1;36m\n"
+echo -e "\n\033[1;33mplease wait for voltage info outlet: $noutlet - The information of the pdu is being generated.\033[1;36m\n"
 pdu_name=$(echo -e "$nodename3"|awk '{print $4}')
 
 #noutlet=$(echo -e "$nodename3"|awk '{print $6}')
