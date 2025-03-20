@@ -4,7 +4,16 @@ function highestload {
 
 HVOLTAGE=($1);
 
-grep -i ${HVOLTAGE[0]} -B5 temp_pdu_info >> report_hight_voltage
+#noutlet=$(grep 1.61A temp_pdu_info -B4|head -n1|tr -d -c 0-9)
+
+#noutlet=$(grep ${HVOLTAGE[0]} temp_pdu_info -B4| head -n1 |tr -d -c 0-9)
+
+#nodename=$(grep ${nrow}s${nrack} /var/local/Sysman/cluster_nodes.py |grep p${nrack}${npdu}|grep "${noulet}"|awk '{print $1}')
+#echo $nodename
+
+#grep $nrows$nrack /var/localSysman/cluster_nodes.py |grep p$nracknpdu|grep "(grep -i ${HVOLTAGE[0]} -B4 temp_pdu_info |head -n1|tr -d -c 0-9)"|awk '{print $1}'
+grep -i ${HVOLTAGE[0]} -B4 -A9 temp_pdu_info >> report_hight_voltage
+
 echo -e "\n" >> report_hight_voltage
 
 #ddif [ $? == 0 ];then
@@ -13,12 +22,15 @@ echo -e "\n" >> report_hight_voltage
 
 
 
-echo -e "\n\033[034mFind outlets with hight temperature.\033[0m\n"
+echo -e "\n\033[1;032mFind outlets with hight temperature.\033[0m\n"
 echo -e "********************************************************************************"
+echo -e "\033[33mEnter the row number with this format "X"\033[0m"
+read -p "ROW: " nrow
 echo -e "\033[33mEnter the rack number with this format "XX" if the number is of 1 digit.\033[0m"
 read -p "RACK: " nrack
-echo -e "\033[33mEnter the PDU number with this formtat "" if the number is of 1 digit.\033[0m"
+echo -e "\033[33mEnter the PDU number with this formtat "XX" if the number is of 1 digit.\033[0m"
 read -p "PDU: " npdu
+
 echo -e "\n"
 
 
@@ -40,7 +52,17 @@ done
 echo ""
 echo -e "\n"
 
-pdu_name=$(echo -e "zp3110b001p$nrack$npdu")
+if [[ "$nrow" = "1" ]];then
+	nrow="zp3110b001p"
+
+elif [[ "$nrow" = "2" ]];then
+	nrow="zp3110b002p"
+else
+echo "this number not is vaild"
+fi
+
+
+pdu_name=$(echo -e "$nrow$nrack$npdu")
 
 ip_addrss=$(ping -c1 -n $pdu_name | head -n 1 | sed "s/.*(\([0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\)).*/\1/g")
 
@@ -99,13 +121,15 @@ sed -i '1,75d' temp_pdu_info
 
 #grep -i -E "[0-9]*\.[0-9]*w\(normal\)" temp_pdu_info |sort -t":" -k2 -n
 
-grep -i -E "[0-9]*\.[0-9]*w\(normal\)" temp_pdu_info |sort -t":" -k2 -n|tail -n 5|cut -c 13-19 > 5_HighestLoad
+grep -i -E "[0-9]*\.[0-9]*a\(normal\)" temp_pdu_info |sort -t":" -k2 -n |tail -n 10|cut -c 9-13 > Top10_HighestLoad_tmp
 
-cat -n 5_HighestLoad
+sort -r Top10_HighestLoad_tmp > Top10_HighestLoad
+
+cat -n Top10_HighestLoad
 
 echo -e "\n"
 
-HIGHEST=$(grep -i -E "[0-9]*\.[0-9]*w" 5_HighestLoad)
+HIGHEST=$(grep -i -E "[0-9]*\.[0-9]*a" Top10_HighestLoad)
 
 if [ -z "${HIGHEST}" ]; then
 	echo "empty list"
@@ -118,7 +142,7 @@ done
 
 cat report_hight_voltage
 
-rm -rf diag-data.zip diag-data topo-data temp_pdu_info 5_HighestLoad report_hight_voltage
+rm -rf diag-data.zip diag-data topo-data temp_pdu_info Top10_HighestLoad_tmp Top10_HighestLoad report_hight_voltage nodename_temp2 nodename_temp3
 	
 
 << 'MULTILINE-COMMENT'
