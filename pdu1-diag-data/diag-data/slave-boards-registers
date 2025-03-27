@@ -1,0 +1,1056 @@
+===============================================
+ Dumping slave board at /dev/ttyS2:0x30
+===============================================
+
+Device ID:        0x90
+Firmware Version: 0x03d3
+Bootcode Version: 0x0070
+Protocol Version: 0x0005
+Max Payload Size: 260 bytes
+Serial Number:    0x002008c1
+
+Function Block Descriptors:
+  6 x Single-Phase Meter (9), 40 bytes each
+  6 x Single-Phase Meter Meta Data (12), 2 bytes each
+  6 x Relay Control (2), 2 bytes each
+  1 x Relay Control Meta Data (15), 8 bytes each
+  1 x LED Energy Counter Control (22), 6 bytes each
+
+Controller State (16 bytes @ 0x0024):
+  Packet Count:    47909583
+  CRC Error Count: 3
+  Status:          0x00
+  Hardware ID:     0x1b
+  Measure Period:  1000 ms
+  Measure Number:  110
+  Line Frequency:  60 Hz
+  Sync Counter:    0
+  Error Count:     154
+  Error Number:    0x0002
+
+Single-Phase Meter #0 [version 1] (40 bytes @ 0x0034):
+  Status:          0x0080
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.80 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #1 [version 1] (40 bytes @ 0x005c):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.80 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #2 [version 1] (40 bytes @ 0x0084):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.80 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #3 [version 1] (40 bytes @ 0x00ac):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.80 V
+  RMS Current:     0.000 A
+  Peak Current:    0.005 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #4 [version 1] (40 bytes @ 0x00d4):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.80 V
+  RMS Current:     2.425 A
+  Peak Current:    3.596 A
+  Active Power:    580.886 W
+  Reactive Power:  Unavailable
+  Apparent Power:  587.098 VA
+  Active Energy:   491513.128 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 491513.128 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #5 [version 1] (40 bytes @ 0x00fc):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.80 V
+  RMS Current:     0.278 A
+  Peak Current:    0.462 A
+  Active Power:    16.420 W
+  Reactive Power:  Unavailable
+  Apparent Power:  67.509 VA
+  Active Energy:   4245059.189 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 4245059.189 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter Meta Data #0 [version 0] (2 bytes @ 0x0124):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #1 [version 0] (2 bytes @ 0x0126):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #2 [version 0] (2 bytes @ 0x0128):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #3 [version 0] (2 bytes @ 0x012a):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #4 [version 0] (2 bytes @ 0x012c):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #5 [version 0] (2 bytes @ 0x012e):
+  Current Sensor Noise Threshold: 40 mA
+
+Relay Control #0 [version 0] (2 bytes @ 0x0130):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #1 [version 0] (2 bytes @ 0x0132):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #2 [version 0] (2 bytes @ 0x0134):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #3 [version 0] (2 bytes @ 0x0136):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #4 [version 0] (2 bytes @ 0x0138):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #5 [version 0] (2 bytes @ 0x013a):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control Meta Data #0 [version 0] (8 bytes @ 0x013c):
+  Relay switch on delay (non-latching):  40 ms
+  Relay switch off delay (non-latching): 40 ms
+  Relay switch on delay (latching):      180 ms
+  Relay switch off delay (latching):     540 ms
+
+LED Energy Counter Control #0 [version 0] (6 bytes @ 0x0144):
+  Status:               0x00
+    Enabled:            no
+  Channel:              0x00
+  Pulses per increment: 1
+  Energy per increment: 100 mWh
+    ->                  10000 pulses per kWh
+
+===============================================
+ Dumping slave board at /dev/ttyS2:0x31
+===============================================
+
+Device ID:        0x90
+Firmware Version: 0x03d3
+Bootcode Version: 0x0070
+Protocol Version: 0x0005
+Max Payload Size: 260 bytes
+Serial Number:    0x002008c1
+
+Function Block Descriptors:
+  6 x Single-Phase Meter (9), 40 bytes each
+  6 x Single-Phase Meter Meta Data (12), 2 bytes each
+  6 x Relay Control (2), 2 bytes each
+  1 x Relay Control Meta Data (15), 8 bytes each
+  1 x LED Energy Counter Control (22), 6 bytes each
+
+Controller State (16 bytes @ 0x0024):
+  Packet Count:    47909552
+  CRC Error Count: 5
+  Status:          0x00
+  Hardware ID:     0x1b
+  Measure Period:  1000 ms
+  Measure Number:  49
+  Line Frequency:  60 Hz
+  Sync Counter:    0
+  Error Count:     154
+  Error Number:    0x0002
+
+Single-Phase Meter #0 [version 1] (40 bytes @ 0x0034):
+  Status:          0x0080
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     241.91 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #1 [version 1] (40 bytes @ 0x005c):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     241.91 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #2 [version 1] (40 bytes @ 0x0084):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     241.91 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #3 [version 1] (40 bytes @ 0x00ac):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     241.91 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #4 [version 1] (40 bytes @ 0x00d4):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     241.91 V
+  RMS Current:     3.112 A
+  Peak Current:    4.498 A
+  Active Power:    748.268 W
+  Reactive Power:  Unavailable
+  Apparent Power:  753.082 VA
+  Active Energy:   493749.932 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 493749.932 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #5 [version 1] (40 bytes @ 0x00fc):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     241.91 V
+  RMS Current:     2.297 A
+  Peak Current:    3.449 A
+  Active Power:    550.229 W
+  Reactive Power:  Unavailable
+  Apparent Power:  554.963 VA
+  Active Energy:   2522268.463 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 2522268.463 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter Meta Data #0 [version 0] (2 bytes @ 0x0124):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #1 [version 0] (2 bytes @ 0x0126):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #2 [version 0] (2 bytes @ 0x0128):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #3 [version 0] (2 bytes @ 0x012a):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #4 [version 0] (2 bytes @ 0x012c):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #5 [version 0] (2 bytes @ 0x012e):
+  Current Sensor Noise Threshold: 40 mA
+
+Relay Control #0 [version 0] (2 bytes @ 0x0130):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #1 [version 0] (2 bytes @ 0x0132):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #2 [version 0] (2 bytes @ 0x0134):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #3 [version 0] (2 bytes @ 0x0136):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #4 [version 0] (2 bytes @ 0x0138):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #5 [version 0] (2 bytes @ 0x013a):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control Meta Data #0 [version 0] (8 bytes @ 0x013c):
+  Relay switch on delay (non-latching):  40 ms
+  Relay switch off delay (non-latching): 40 ms
+  Relay switch on delay (latching):      180 ms
+  Relay switch off delay (latching):     540 ms
+
+LED Energy Counter Control #0 [version 0] (6 bytes @ 0x0144):
+  Status:               0x00
+    Enabled:            no
+  Channel:              0x00
+  Pulses per increment: 1
+  Energy per increment: 100 mWh
+    ->                  10000 pulses per kWh
+
+===============================================
+ Dumping slave board at /dev/ttyS2:0x32
+===============================================
+
+Device ID:        0x90
+Firmware Version: 0x03d3
+Bootcode Version: 0x0070
+Protocol Version: 0x0005
+Max Payload Size: 260 bytes
+Serial Number:    0x00200876
+
+Function Block Descriptors:
+  6 x Single-Phase Meter (9), 40 bytes each
+  6 x Single-Phase Meter Meta Data (12), 2 bytes each
+  6 x Relay Control (2), 2 bytes each
+  1 x Relay Control Meta Data (15), 8 bytes each
+  1 x LED Energy Counter Control (22), 6 bytes each
+
+Controller State (16 bytes @ 0x0024):
+  Packet Count:    47909652
+  CRC Error Count: 7
+  Status:          0x00
+  Hardware ID:     0x1b
+  Measure Period:  1000 ms
+  Measure Number:  33
+  Line Frequency:  60 Hz
+  Sync Counter:    0
+  Error Count:     154
+  Error Number:    0x0002
+
+Single-Phase Meter #0 [version 1] (40 bytes @ 0x0034):
+  Status:          0x0080
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.48 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #1 [version 1] (40 bytes @ 0x005c):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.48 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #2 [version 1] (40 bytes @ 0x0084):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.48 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #3 [version 1] (40 bytes @ 0x00ac):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.48 V
+  RMS Current:     0.000 A
+  Peak Current:    0.009 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #4 [version 1] (40 bytes @ 0x00d4):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.48 V
+  RMS Current:     1.361 A
+  Peak Current:    1.996 A
+  Active Power:    323.762 W
+  Reactive Power:  Unavailable
+  Apparent Power:  330.164 VA
+  Active Energy:   3604106.723 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 3604106.723 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #5 [version 1] (40 bytes @ 0x00fc):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.48 V
+  RMS Current:     0.457 A
+  Peak Current:    0.760 A
+  Active Power:    0.613 W
+  Reactive Power:  Unavailable
+  Apparent Power:  110.708 VA
+  Active Energy:   955729.681 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 955729.681 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter Meta Data #0 [version 0] (2 bytes @ 0x0124):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #1 [version 0] (2 bytes @ 0x0126):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #2 [version 0] (2 bytes @ 0x0128):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #3 [version 0] (2 bytes @ 0x012a):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #4 [version 0] (2 bytes @ 0x012c):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #5 [version 0] (2 bytes @ 0x012e):
+  Current Sensor Noise Threshold: 40 mA
+
+Relay Control #0 [version 0] (2 bytes @ 0x0130):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #1 [version 0] (2 bytes @ 0x0132):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #2 [version 0] (2 bytes @ 0x0134):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #3 [version 0] (2 bytes @ 0x0136):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #4 [version 0] (2 bytes @ 0x0138):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #5 [version 0] (2 bytes @ 0x013a):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control Meta Data #0 [version 0] (8 bytes @ 0x013c):
+  Relay switch on delay (non-latching):  40 ms
+  Relay switch off delay (non-latching): 40 ms
+  Relay switch on delay (latching):      180 ms
+  Relay switch off delay (latching):     540 ms
+
+LED Energy Counter Control #0 [version 0] (6 bytes @ 0x0144):
+  Status:               0x00
+    Enabled:            no
+  Channel:              0x00
+  Pulses per increment: 1
+  Energy per increment: 100 mWh
+    ->                  10000 pulses per kWh
+
+===============================================
+ Dumping slave board at /dev/ttyS2:0x33
+===============================================
+
+Device ID:        0x90
+Firmware Version: 0x03d3
+Bootcode Version: 0x0070
+Protocol Version: 0x0005
+Max Payload Size: 260 bytes
+Serial Number:    0x00200876
+
+Function Block Descriptors:
+  6 x Single-Phase Meter (9), 40 bytes each
+  6 x Single-Phase Meter Meta Data (12), 2 bytes each
+  6 x Relay Control (2), 2 bytes each
+  1 x Relay Control Meta Data (15), 8 bytes each
+  1 x LED Energy Counter Control (22), 6 bytes each
+
+Controller State (16 bytes @ 0x0024):
+  Packet Count:    47909525
+  CRC Error Count: 2
+  Status:          0x00
+  Hardware ID:     0x1b
+  Measure Period:  1000 ms
+  Measure Number:  137
+  Line Frequency:  60 Hz
+  Sync Counter:    0
+  Error Count:     154
+  Error Number:    0x0002
+
+Single-Phase Meter #0 [version 1] (40 bytes @ 0x0034):
+  Status:          0x0080
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.55 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #1 [version 1] (40 bytes @ 0x005c):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.55 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #2 [version 1] (40 bytes @ 0x0084):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.55 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #3 [version 1] (40 bytes @ 0x00ac):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.55 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #4 [version 1] (40 bytes @ 0x00d4):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.55 V
+  RMS Current:     1.460 A
+  Peak Current:    2.431 A
+  Active Power:    316.985 W
+  Reactive Power:  Unavailable
+  Apparent Power:  354.082 VA
+  Active Energy:   2208404.065 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 2208404.065 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #5 [version 1] (40 bytes @ 0x00fc):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.55 V
+  RMS Current:     2.253 A
+  Peak Current:    3.143 A
+  Active Power:    544.418 W
+  Reactive Power:  Unavailable
+  Apparent Power:  548.864 VA
+  Active Energy:   2866138.602 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 2866138.602 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter Meta Data #0 [version 0] (2 bytes @ 0x0124):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #1 [version 0] (2 bytes @ 0x0126):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #2 [version 0] (2 bytes @ 0x0128):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #3 [version 0] (2 bytes @ 0x012a):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #4 [version 0] (2 bytes @ 0x012c):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #5 [version 0] (2 bytes @ 0x012e):
+  Current Sensor Noise Threshold: 40 mA
+
+Relay Control #0 [version 0] (2 bytes @ 0x0130):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #1 [version 0] (2 bytes @ 0x0132):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #2 [version 0] (2 bytes @ 0x0134):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #3 [version 0] (2 bytes @ 0x0136):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #4 [version 0] (2 bytes @ 0x0138):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #5 [version 0] (2 bytes @ 0x013a):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control Meta Data #0 [version 0] (8 bytes @ 0x013c):
+  Relay switch on delay (non-latching):  40 ms
+  Relay switch off delay (non-latching): 40 ms
+  Relay switch on delay (latching):      180 ms
+  Relay switch off delay (latching):     540 ms
+
+LED Energy Counter Control #0 [version 0] (6 bytes @ 0x0144):
+  Status:               0x00
+    Enabled:            no
+  Channel:              0x00
+  Pulses per increment: 1
+  Energy per increment: 100 mWh
+    ->                  10000 pulses per kWh
+
+===============================================
+ Dumping slave board at /dev/ttyS2:0x34
+===============================================
+
+Device ID:        0x90
+Firmware Version: 0x03d3
+Bootcode Version: 0x0070
+Protocol Version: 0x0005
+Max Payload Size: 260 bytes
+Serial Number:    0x00200877
+
+Function Block Descriptors:
+  6 x Single-Phase Meter (9), 40 bytes each
+  6 x Single-Phase Meter Meta Data (12), 2 bytes each
+  6 x Relay Control (2), 2 bytes each
+  1 x Relay Control Meta Data (15), 8 bytes each
+  1 x LED Energy Counter Control (22), 6 bytes each
+
+Controller State (16 bytes @ 0x0024):
+  Packet Count:    47909551
+  CRC Error Count: 5
+  Status:          0x00
+  Hardware ID:     0x1b
+  Measure Period:  1000 ms
+  Measure Number:  20
+  Line Frequency:  60 Hz
+  Sync Counter:    0
+  Error Count:     154
+  Error Number:    0x0002
+
+Single-Phase Meter #0 [version 1] (40 bytes @ 0x0034):
+  Status:          0x0080
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.07 V
+  RMS Current:     0.000 A
+  Peak Current:    0.007 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #1 [version 1] (40 bytes @ 0x005c):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.07 V
+  RMS Current:     0.000 A
+  Peak Current:    0.018 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #2 [version 1] (40 bytes @ 0x0084):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.07 V
+  RMS Current:     0.000 A
+  Peak Current:    0.011 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #3 [version 1] (40 bytes @ 0x00ac):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.07 V
+  RMS Current:     0.000 A
+  Peak Current:    0.014 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #4 [version 1] (40 bytes @ 0x00d4):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.07 V
+  RMS Current:     2.873 A
+  Peak Current:    4.138 A
+  Active Power:    690.563 W
+  Reactive Power:  Unavailable
+  Apparent Power:  695.336 VA
+  Active Energy:   3941465.551 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 3941465.551 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #5 [version 1] (40 bytes @ 0x00fc):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.07 V
+  RMS Current:     1.565 A
+  Peak Current:    2.275 A
+  Active Power:    370.036 W
+  Reactive Power:  Unavailable
+  Apparent Power:  377.912 VA
+  Active Energy:   2622930.297 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 2622930.297 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter Meta Data #0 [version 0] (2 bytes @ 0x0124):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #1 [version 0] (2 bytes @ 0x0126):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #2 [version 0] (2 bytes @ 0x0128):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #3 [version 0] (2 bytes @ 0x012a):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #4 [version 0] (2 bytes @ 0x012c):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #5 [version 0] (2 bytes @ 0x012e):
+  Current Sensor Noise Threshold: 40 mA
+
+Relay Control #0 [version 0] (2 bytes @ 0x0130):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #1 [version 0] (2 bytes @ 0x0132):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #2 [version 0] (2 bytes @ 0x0134):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #3 [version 0] (2 bytes @ 0x0136):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #4 [version 0] (2 bytes @ 0x0138):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #5 [version 0] (2 bytes @ 0x013a):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control Meta Data #0 [version 0] (8 bytes @ 0x013c):
+  Relay switch on delay (non-latching):  40 ms
+  Relay switch off delay (non-latching): 40 ms
+  Relay switch on delay (latching):      180 ms
+  Relay switch off delay (latching):     540 ms
+
+LED Energy Counter Control #0 [version 0] (6 bytes @ 0x0144):
+  Status:               0x00
+    Enabled:            no
+  Channel:              0x00
+  Pulses per increment: 1
+  Energy per increment: 100 mWh
+    ->                  10000 pulses per kWh
+
+===============================================
+ Dumping slave board at /dev/ttyS2:0x35
+===============================================
+
+Device ID:        0x90
+Firmware Version: 0x03d3
+Bootcode Version: 0x0070
+Protocol Version: 0x0005
+Max Payload Size: 260 bytes
+Serial Number:    0x00200877
+
+Function Block Descriptors:
+  6 x Single-Phase Meter (9), 40 bytes each
+  6 x Single-Phase Meter Meta Data (12), 2 bytes each
+  6 x Relay Control (2), 2 bytes each
+  1 x Relay Control Meta Data (15), 8 bytes each
+  1 x LED Energy Counter Control (22), 6 bytes each
+
+Controller State (16 bytes @ 0x0024):
+  Packet Count:    47909627
+  CRC Error Count: 6
+  Status:          0x00
+  Hardware ID:     0x1b
+  Measure Period:  1000 ms
+  Measure Number:  17
+  Line Frequency:  60 Hz
+  Sync Counter:    0
+  Error Count:     154
+  Error Number:    0x0002
+
+Single-Phase Meter #0 [version 1] (40 bytes @ 0x0034):
+  Status:          0x0080
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.17 V
+  RMS Current:     0.000 A
+  Peak Current:    0.009 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #1 [version 1] (40 bytes @ 0x005c):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.17 V
+  RMS Current:     0.000 A
+  Peak Current:    0.014 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #2 [version 1] (40 bytes @ 0x0084):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.17 V
+  RMS Current:     0.000 A
+  Peak Current:    0.011 A
+  Active Power:    0.000 W
+  Reactive Power:  Unavailable
+  Apparent Power:  0.000 VA
+  Active Energy:   0.000 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 0.000 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #3 [version 1] (40 bytes @ 0x00ac):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.17 V
+  RMS Current:     2.119 A
+  Peak Current:    3.198 A
+  Active Power:    507.666 W
+  Reactive Power:  Unavailable
+  Apparent Power:  513.587 VA
+  Active Energy:   2716363.825 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 2716363.825 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #4 [version 1] (40 bytes @ 0x00d4):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.17 V
+  RMS Current:     3.114 A
+  Peak Current:    4.422 A
+  Active Power:    750.062 W
+  Reactive Power:  Unavailable
+  Apparent Power:  754.937 VA
+  Active Energy:   3989660.264 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 3989660.264 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter #5 [version 1] (40 bytes @ 0x00fc):
+  Status:          0x0000
+    Power Quality: unknown
+  Line Frequency:  60.00 Hz
+  RMS Voltage:     242.17 V
+  RMS Current:     0.305 A
+  Peak Current:    0.435 A
+  Active Power:    67.630 W
+  Reactive Power:  Unavailable
+  Apparent Power:  74.241 VA
+  Active Energy:   346836.889 Wh
+  Reactive Energy: Unavailable
+  Apparent Energy: 346836.889 VAh
+  Phase Angle:     Unavailable
+
+Single-Phase Meter Meta Data #0 [version 0] (2 bytes @ 0x0124):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #1 [version 0] (2 bytes @ 0x0126):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #2 [version 0] (2 bytes @ 0x0128):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #3 [version 0] (2 bytes @ 0x012a):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #4 [version 0] (2 bytes @ 0x012c):
+  Current Sensor Noise Threshold: 40 mA
+
+Single-Phase Meter Meta Data #5 [version 0] (2 bytes @ 0x012e):
+  Current Sensor Noise Threshold: 40 mA
+
+Relay Control #0 [version 0] (2 bytes @ 0x0130):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #1 [version 0] (2 bytes @ 0x0132):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #2 [version 0] (2 bytes @ 0x0134):
+  Status:          0x28 (off)
+  Detected status: off
+
+Relay Control #3 [version 0] (2 bytes @ 0x0136):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #4 [version 0] (2 bytes @ 0x0138):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control #5 [version 0] (2 bytes @ 0x013a):
+  Status:          0x19 (on)
+  Detected status: on
+
+Relay Control Meta Data #0 [version 0] (8 bytes @ 0x013c):
+  Relay switch on delay (non-latching):  40 ms
+  Relay switch off delay (non-latching): 40 ms
+  Relay switch on delay (latching):      180 ms
+  Relay switch off delay (latching):     540 ms
+
+LED Energy Counter Control #0 [version 0] (6 bytes @ 0x0144):
+  Status:               0x00
+    Enabled:            no
+  Channel:              0x00
+  Pulses per increment: 1
+  Energy per increment: 100 mWh
+    ->                  10000 pulses per kWh
+

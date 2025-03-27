@@ -1,0 +1,246 @@
+Controller 0x90 @ /dev/ttyS2:30:
+  Channel 0 Calibration:
+    Voltage Gain:        1.031158
+    Current Gain:        1.021194
+    Active Power Gain:   1.049469
+    Apparent Power Gain: 1.049362
+
+  Channel 1 Calibration:
+    Current Gain:        1.012939
+    Active Power Gain:   1.044067
+    Apparent Power Gain: 1.044159
+
+  Channel 2 Calibration:
+    Current Gain:        1.022507
+    Active Power Gain:   1.053711
+    Apparent Power Gain: 1.053726
+
+  Channel 3 Calibration:
+    Current Gain:        1.009216
+    Active Power Gain:   1.039612
+    Apparent Power Gain: 1.039841
+
+  Channel 4 Calibration:
+    Current Gain:        1.023117
+    Active Power Gain:   1.052124
+    Apparent Power Gain: 1.051987
+
+  Channel 5 Calibration:
+    Current Gain:        1.018234
+    Active Power Gain:   1.047104
+    Apparent Power Gain: 1.047287
+
+  Calibration Properties:
+    Current ADC Gain:      2
+    Channel 0 Noise Floor: 40 mA
+    Channel 1 Noise Floor: 40 mA
+    Channel 2 Noise Floor: 40 mA
+    Channel 3 Noise Floor: 40 mA
+    Channel 4 Noise Floor: 40 mA
+    Channel 5 Noise Floor: 40 mA
+
+Controller 0x90 @ /dev/ttyS2:31:
+  Channel 0 Calibration:
+    Voltage Gain:        1.025864
+    Current Gain:        1.019547
+    Active Power Gain:   1.045853
+    Apparent Power Gain: 1.045670
+
+  Channel 1 Calibration:
+    Current Gain:        1.020523
+    Active Power Gain:   1.045883
+    Apparent Power Gain: 1.045898
+
+  Channel 2 Calibration:
+    Current Gain:        1.014954
+    Active Power Gain:   1.041382
+    Apparent Power Gain: 1.041336
+
+  Channel 3 Calibration:
+    Current Gain:        1.011597
+    Active Power Gain:   1.036392
+    Apparent Power Gain: 1.036346
+
+  Channel 4 Calibration:
+    Current Gain:        1.019379
+    Active Power Gain:   1.045837
+    Apparent Power Gain: 1.045837
+
+  Channel 5 Calibration:
+    Current Gain:        1.021118
+    Active Power Gain:   1.046341
+    Apparent Power Gain: 1.046204
+
+  Calibration Properties:
+    Current ADC Gain:      2
+    Channel 0 Noise Floor: 40 mA
+    Channel 1 Noise Floor: 40 mA
+    Channel 2 Noise Floor: 40 mA
+    Channel 3 Noise Floor: 40 mA
+    Channel 4 Noise Floor: 40 mA
+    Channel 5 Noise Floor: 40 mA
+
+Controller 0x90 @ /dev/ttyS2:32:
+  Channel 0 Calibration:
+    Voltage Gain:        1.023407
+    Current Gain:        1.013260
+    Active Power Gain:   1.035461
+    Apparent Power Gain: 1.035370
+
+  Channel 1 Calibration:
+    Current Gain:        1.002228
+    Active Power Gain:   1.024948
+    Apparent Power Gain: 1.025070
+
+  Channel 2 Calibration:
+    Current Gain:        1.005035
+    Active Power Gain:   1.028900
+    Apparent Power Gain: 1.028870
+
+  Channel 3 Calibration:
+    Current Gain:        1.017685
+    Active Power Gain:   1.040253
+    Apparent Power Gain: 1.040100
+
+  Channel 4 Calibration:
+    Current Gain:        1.002502
+    Active Power Gain:   1.025497
+    Apparent Power Gain: 1.025543
+
+  Channel 5 Calibration:
+    Current Gain:        1.016953
+    Active Power Gain:   1.040115
+    Apparent Power Gain: 1.040207
+
+  Calibration Properties:
+    Current ADC Gain:      2
+    Channel 0 Noise Floor: 40 mA
+    Channel 1 Noise Floor: 40 mA
+    Channel 2 Noise Floor: 40 mA
+    Channel 3 Noise Floor: 40 mA
+    Channel 4 Noise Floor: 40 mA
+    Channel 5 Noise Floor: 40 mA
+
+Controller 0x90 @ /dev/ttyS2:33:
+  Channel 0 Calibration:
+    Voltage Gain:        1.024734
+    Current Gain:        1.016663
+    Active Power Gain:   1.040894
+    Apparent Power Gain: 1.040894
+
+  Channel 1 Calibration:
+    Current Gain:        1.020523
+    Active Power Gain:   1.045212
+    Apparent Power Gain: 1.045258
+
+  Channel 2 Calibration:
+    Current Gain:        1.014221
+    Active Power Gain:   1.039825
+    Apparent Power Gain: 1.039841
+
+  Channel 3 Calibration:
+    Current Gain:        1.010361
+    Active Power Gain:   1.034714
+    Apparent Power Gain: 1.034760
+
+  Channel 4 Calibration:
+    Current Gain:        1.013672
+    Active Power Gain:   1.038406
+    Apparent Power Gain: 1.038391
+
+  Channel 5 Calibration:
+    Current Gain:        1.015671
+    Active Power Gain:   1.044937
+    Apparent Power Gain: 1.044968
+
+  Calibration Properties:
+    Current ADC Gain:      2
+    Channel 0 Noise Floor: 40 mA
+    Channel 1 Noise Floor: 40 mA
+    Channel 2 Noise Floor: 40 mA
+    Channel 3 Noise Floor: 40 mA
+    Channel 4 Noise Floor: 40 mA
+    Channel 5 Noise Floor: 40 mA
+
+Controller 0x90 @ /dev/ttyS2:34:
+  Channel 0 Calibration:
+    Voltage Gain:        1.026962
+    Current Gain:        1.011459
+    Active Power Gain:   1.039063
+    Apparent Power Gain: 1.039124
+
+  Channel 1 Calibration:
+    Current Gain:        1.022812
+    Active Power Gain:   1.049957
+    Apparent Power Gain: 1.049850
+
+  Channel 2 Calibration:
+    Current Gain:        1.018661
+    Active Power Gain:   1.045013
+    Apparent Power Gain: 1.045090
+
+  Channel 3 Calibration:
+    Current Gain:        1.010223
+    Active Power Gain:   1.035660
+    Apparent Power Gain: 1.035538
+
+  Channel 4 Calibration:
+    Current Gain:        1.017426
+    Active Power Gain:   1.044189
+    Apparent Power Gain: 1.044327
+
+  Channel 5 Calibration:
+    Current Gain:        1.020691
+    Active Power Gain:   1.045471
+    Apparent Power Gain: 1.045517
+
+  Calibration Properties:
+    Current ADC Gain:      2
+    Channel 0 Noise Floor: 40 mA
+    Channel 1 Noise Floor: 40 mA
+    Channel 2 Noise Floor: 40 mA
+    Channel 3 Noise Floor: 40 mA
+    Channel 4 Noise Floor: 40 mA
+    Channel 5 Noise Floor: 40 mA
+
+Controller 0x90 @ /dev/ttyS2:35:
+  Channel 0 Calibration:
+    Voltage Gain:        1.032593
+    Current Gain:        1.026215
+    Active Power Gain:   1.058655
+    Apparent Power Gain: 1.058517
+
+  Channel 1 Calibration:
+    Current Gain:        1.027740
+    Active Power Gain:   1.060883
+    Apparent Power Gain: 1.061096
+
+  Channel 2 Calibration:
+    Current Gain:        1.028656
+    Active Power Gain:   1.063858
+    Apparent Power Gain: 1.064056
+
+  Channel 3 Calibration:
+    Current Gain:        1.033035
+    Active Power Gain:   1.067169
+    Apparent Power Gain: 1.067154
+
+  Channel 4 Calibration:
+    Current Gain:        1.024734
+    Active Power Gain:   1.058853
+    Apparent Power Gain: 1.058884
+
+  Channel 5 Calibration:
+    Current Gain:        1.026321
+    Active Power Gain:   1.062881
+    Apparent Power Gain: 1.062698
+
+  Calibration Properties:
+    Current ADC Gain:      2
+    Channel 0 Noise Floor: 40 mA
+    Channel 1 Noise Floor: 40 mA
+    Channel 2 Noise Floor: 40 mA
+    Channel 3 Noise Floor: 40 mA
+    Channel 4 Noise Floor: 40 mA
+    Channel 5 Noise Floor: 40 mA
+

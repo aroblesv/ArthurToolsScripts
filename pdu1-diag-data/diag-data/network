@@ -1,0 +1,1460 @@
+ethtool eth0:
+-------------
+
+Settings for eth0:
+	Supported ports: [ TP AUI BNC MII FIBRE ]
+	Supported link modes:   10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Full 
+	Supported pause frame use: Symmetric Receive-only
+	Supports auto-negotiation: Yes
+	Supported FEC modes: Not reported
+	Advertised link modes:  10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Full 
+	Advertised pause frame use: No
+	Advertised auto-negotiation: Yes
+	Advertised FEC modes: Not reported
+	Link partner advertised link modes:  10baseT/Half 10baseT/Full 
+	                                     100baseT/Half 100baseT/Full 
+	                                     1000baseT/Full 
+	Link partner advertised pause frame use: Symmetric Receive-only
+	Link partner advertised auto-negotiation: Yes
+	Link partner advertised FEC modes: Not reported
+	Speed: 1000Mb/s
+	Duplex: Full
+	Port: MII
+	PHYAD: 2
+	Transceiver: internal
+	Auto-negotiation: on
+	Supports Wake-on: d
+	Wake-on: d
+	Link detected: yes
+
+ethtool -S eth0:
+----------------
+
+NIC statistics:
+     tx_packets: 20657513
+     tx_bytes: 12647666038
+     rx_packets: 84944667
+     rx_bytes: 7056863465
+     RxBroad: 1228458
+     RxPause: 0
+     RxMulti: 53129768
+     RxFcsErr: 0
+     RxAlignErr: 0
+     RxRunt: 0
+     RxFragment: 0
+     Rx64Byte: 13573783
+     Rx128Byte: 65985604
+     Rx256Byte: 2551873
+     Rx512Byte: 2250164
+     Rx1024Byte: 198999
+     Rx1518Byte: 385028
+     RxMaxByte: 0
+     RxTooLong: 0
+     RxGoodByte: 8585988928
+     RxBadByte: 0
+     RxOverFlow: 0
+     Filtered: 621
+     TxBroad: 402
+     TxPause: 0
+     TxMulti: 6379
+     TxUnderRun: 0
+     Tx64Byte: 1235209
+     Tx128Byte: 681119
+     Tx256Byte: 25873
+     Tx512Byte: 1176661
+     Tx1024Byte: 16889609
+     Tx1518Byte: 655400
+     TxMaxByte: 0
+     TxOverSize: 0
+     TxByte: 12744289023
+     TxCollision: 0
+     TxAbortCol: 0
+     TxMultiCol: 0
+     TxSingleCol: 0
+     TxExcDefer: 0
+     TxDefer: 0
+     TxLateCol: 0
+
+ethtool eth1:
+-------------
+
+Settings for eth1:
+	Supported ports: [ TP AUI BNC MII FIBRE ]
+	Supported link modes:   10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Full 
+	Supported pause frame use: Symmetric Receive-only
+	Supports auto-negotiation: Yes
+	Supported FEC modes: Not reported
+	Advertised link modes:  10baseT/Half 10baseT/Full 
+	                        100baseT/Half 100baseT/Full 
+	                        1000baseT/Full 
+	Advertised pause frame use: No
+	Advertised auto-negotiation: Yes
+	Advertised FEC modes: Not reported
+	Speed: 10Mb/s
+	Duplex: Half
+	Port: MII
+	PHYAD: 1
+	Transceiver: internal
+	Auto-negotiation: on
+	Supports Wake-on: d
+	Wake-on: d
+	Link detected: no
+
+ethtool -S eth1:
+----------------
+
+NIC statistics:
+     tx_packets: 0
+     tx_bytes: 0
+     rx_packets: 0
+     rx_bytes: 0
+     RxBroad: 0
+     RxPause: 0
+     RxMulti: 0
+     RxFcsErr: 0
+     RxAlignErr: 0
+     RxRunt: 0
+     RxFragment: 0
+     Rx64Byte: 0
+     Rx128Byte: 0
+     Rx256Byte: 0
+     Rx512Byte: 0
+     Rx1024Byte: 0
+     Rx1518Byte: 0
+     RxMaxByte: 0
+     RxTooLong: 0
+     RxGoodByte: 0
+     RxBadByte: 0
+     RxOverFlow: 0
+     Filtered: 0
+     TxBroad: 0
+     TxPause: 0
+     TxMulti: 0
+     TxUnderRun: 0
+     Tx64Byte: 0
+     Tx128Byte: 0
+     Tx256Byte: 0
+     Tx512Byte: 0
+     Tx1024Byte: 0
+     Tx1518Byte: 0
+     TxMaxByte: 0
+     TxOverSize: 0
+     TxByte: 0
+     TxCollision: 0
+     TxAbortCol: 0
+     TxMultiCol: 0
+     TxSingleCol: 0
+     TxExcDefer: 0
+     TxDefer: 0
+     TxLateCol: 0
+
+cat /proc/net/dev:
+------------------
+
+Inter-|   Receive                                                |  Transmit
+ face |bytes    packets errs drop fifo frame compressed multicast|bytes    packets errs drop fifo colls carrier compressed
+  eth1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ port1:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+ macb0: 2932142823 84951046  245    0    4   241          0  53135380 4099493098 20663892    0    0    0     0       0          0
+  eth0: 7056863465 84944667    0    0    0     0          0         0 12647666038 20657513    0    0    0     0       0          0
+    lo:       0       0    0    0    0     0          0         0        0       0    0    0    0     0       0          0
+
+ip -s -s link:
+--------------
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN mode DEFAULT group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    RX: bytes  packets  errors  dropped overrun mcast   
+    0          0        0       0       0       0       
+    RX errors: length   crc     frame   fifo    missed
+               0        0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    0          0        0       0       0       0       
+    TX errors: aborted  fifo   window heartbeat transns
+               0        0       0       0       0       
+2: macb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP mode DEFAULT group default qlen 1000
+    link/ether 72:ff:10:eb:79:ca brd ff:ff:ff:ff:ff:ff
+    RX: bytes  packets  errors  dropped overrun mcast   
+    2932142823 84951046 245     0       241     53135380 
+    RX errors: length   crc     frame   fifo    missed
+               0        0       0       4       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    4099493098 20663892 0       0       0       0       
+    TX errors: aborted  fifo   window heartbeat transns
+               0        0       0       0       1       
+3: port1@macb0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN mode DEFAULT group default qlen 1000
+    link/ether a6:d0:cd:04:40:80 brd ff:ff:ff:ff:ff:ff
+    RX: bytes  packets  errors  dropped overrun mcast   
+    0          0        0       0       0       0       
+    RX errors: length   crc     frame   fifo    missed
+               0        0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    0          0        0       0       0       0       
+    TX errors: aborted  fifo   window heartbeat transns
+               0        0       0       0       0       
+4: eth1@macb0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state LOWERLAYERDOWN mode DEFAULT group default qlen 1000
+    link/ether 00:0d:5d:19:be:da brd ff:ff:ff:ff:ff:ff
+    RX: bytes  packets  errors  dropped overrun mcast   
+    0          0        0       0       0       0       
+    RX errors: length   crc     frame   fifo    missed
+               0        0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    0          0        0       0       0       0       
+    TX errors: aborted  fifo   window heartbeat transns
+               0        0       0       0       0       
+5: eth0@macb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP mode DEFAULT group default qlen 1000
+    link/ether 00:0d:5d:19:be:d9 brd ff:ff:ff:ff:ff:ff
+    RX: bytes  packets  errors  dropped overrun mcast   
+    7056863465 84944667 0       0       0       0       
+    RX errors: length   crc     frame   fifo    missed
+               0        0       0       0       0       
+    TX: bytes  packets  errors  dropped carrier collsns 
+    12647666038 20657513 0       0       0       0       
+    TX errors: aborted  fifo   window heartbeat transns
+               0        0       0       0       19      
+
+ip addr:
+--------
+
+1: lo: <LOOPBACK,UP,LOWER_UP> mtu 65536 qdisc noqueue state UNKNOWN group default qlen 1000
+    link/loopback 00:00:00:00:00:00 brd 00:00:00:00:00:00
+    inet 127.0.0.1/8 scope host lo
+       valid_lft forever preferred_lft forever
+    inet6 ::1/128 scope host 
+       valid_lft forever preferred_lft forever
+2: macb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc mq state UP group default qlen 1000
+    link/ether 72:ff:10:eb:79:ca brd ff:ff:ff:ff:ff:ff
+    inet6 fe80::70ff:10ff:feeb:79ca/64 scope link 
+       valid_lft forever preferred_lft forever
+3: port1@macb0: <BROADCAST,MULTICAST> mtu 1500 qdisc noop state DOWN group default qlen 1000
+    link/ether a6:d0:cd:04:40:80 brd ff:ff:ff:ff:ff:ff
+4: eth1@macb0: <NO-CARRIER,BROADCAST,MULTICAST,UP> mtu 1500 qdisc noqueue state LOWERLAYERDOWN group default qlen 1000
+    link/ether 00:0d:5d:19:be:da brd ff:ff:ff:ff:ff:ff
+5: eth0@macb0: <BROADCAST,MULTICAST,UP,LOWER_UP> mtu 1500 qdisc noqueue state UP group default qlen 1000
+    link/ether 00:0d:5d:19:be:d9 brd ff:ff:ff:ff:ff:ff
+    inet 10.88.84.55/22 brd 10.88.87.255 scope global dynamic eth0
+       valid_lft 0sec preferred_lft 0sec
+
+ip maddr:
+---------
+
+1:	lo
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+2:	macb0
+	link  33:33:00:00:00:01
+	link  01:00:5e:00:00:01 users 3
+	link  33:33:ff:eb:79:ca
+	link  01:00:5e:00:00:fb
+	link  01:00:5e:00:00:fc
+	inet  224.0.0.1
+	inet6 ff02::1:ffeb:79ca
+	inet6 ff02::1
+	inet6 ff01::1
+3:	port1
+	link  33:33:00:00:00:01
+	inet6 ff02::1
+	inet6 ff01::1
+4:	eth1
+	link  01:00:5e:00:00:01 users 2
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+5:	eth0
+	link  01:00:5e:00:00:01 users 2
+	link  01:00:5e:00:00:fb users 2
+	link  01:00:5e:00:00:fc users 2
+	inet  224.0.0.252
+	inet  224.0.0.251
+	inet  224.0.0.1
+	inet6 ff02::1
+	inet6 ff01::1
+
+ip neigh:
+---------
+
+10.88.84.1 dev eth0 lladdr 00:00:0c:9f:f4:d5 REACHABLE
+
+ip rule:
+--------
+
+0:	from all lookup local 
+32766:	from all lookup main 
+32767:	from all lookup default 
+
+ip route show table all:
+------------------------
+
+default via 10.88.84.1 dev eth0 proto static 
+10.88.84.0/22 dev eth0 proto kernel scope link src 10.88.84.55 
+broadcast 10.88.84.0 dev eth0 table local proto kernel scope link src 10.88.84.55 
+local 10.88.84.55 dev eth0 table local proto kernel scope host src 10.88.84.55 
+broadcast 10.88.87.255 dev eth0 table local proto kernel scope link src 10.88.84.55 
+broadcast 127.0.0.0 dev lo table local proto kernel scope link src 127.0.0.1 
+local 127.0.0.0/8 dev lo table local proto kernel scope host src 127.0.0.1 
+local 127.0.0.1 dev lo table local proto kernel scope host src 127.0.0.1 
+broadcast 127.255.255.255 dev lo table local proto kernel scope link src 127.0.0.1 
+local ::1 dev lo proto kernel metric 0 pref medium
+local fe80::70ff:10ff:feeb:79ca dev macb0 proto kernel metric 0 pref medium
+fe80::/64 dev macb0 proto kernel metric 256 pref medium
+ff00::/8 dev macb0 metric 256 pref medium
+
+brctl show:
+-----------
+
+bridge name	bridge id		STP enabled	interfaces
+
+cat /proc/sys/net/ipv4/conf/all/forwarding:
+-------------------------------------------
+
+0
+
+cat /proc/sys/net/ipv6/conf/all/forwarding:
+-------------------------------------------
+
+0
+
+cat /etc/resolv.conf:
+---------------------
+
+# generated by networkd
+# servers configured statically
+nameserver 10.2.71.5
+# search suffixes provided via DHCP on interface eth0
+search deacluster.intel.com.
+
+ss -aepim:
+------------
+
+Netid  State      Recv-Q Send-Q Local Address:Port                 Peer Address:Port                
+nl     UNCONN     0      0      rtnl:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      rtnl:1111                   *                      sk=0 cb=0 groups=0x00020100
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      rtnl:687866686              *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb65536,t0,tb65536,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      rtnl:1270874942             *                      sk=0 cb=0 groups=0x00080d51
+	 skmem:(r0,rb65536,t0,tb65536,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      rtnl:1111                   *                      sk=0 cb=0 groups=0x00020100
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      rtnl:1270874942             *                      sk=0 cb=0 groups=0x00080d51
+	 skmem:(r0,rb65536,t0,tb65536,f0,w0,o0,bl0,d0)
+nl     UNCONN     448    0      tcpdiag:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r448,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     4288   0      tcpdiag:ss/5726                *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r4288,rb327680,t0,tb65536,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      fiblookup:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      connector:708                    *                      sk=0 cb=0 groups=0x00000001
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      connector:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      connector:708                    *                      sk=0 cb=0 groups=0x00000001
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      nft:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      nft:-1723858114            *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb65536,t0,tb65536,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      uevent:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      uevent:cardreader/1047        *                      sk=0 cb=0 groups=0x00000001
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      uevent:cardreader/1047        *                      sk=0 cb=0 groups=0x00000001
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      genl:1988100926             *                      sk=0 cb=0 groups=0x00000010
+	 skmem:(r0,rb65536,t0,tb65536,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      genl:kernel                 *                      sk=0 cb=0 groups=0x00000000
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+nl     UNCONN     0      0      genl:1988100926             *                      sk=0 cb=0 groups=0x00000010
+	 skmem:(r0,rb65536,t0,tb65536,f0,w0,o0,bl0,d0)
+p_raw  UNCONN     0      0       *:eth0                   *                      users:(("dhclient",pid=6570,fd=7)) ino:68678351 sk:10
+	ver:0 cpy_thresh:0 flags( running auxdata )
+u_str  LISTEN     0      10     /tmp/luaService-socket 2817                  * 0                     users:(("luaserviced",pid=1087,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_dgr  UNCONN     0      0      /tmp/jsonrpcd 2073                  * 0                     users:(("jsonrpcd",pid=1018,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/event_engine.sock 1837                  * 0                     users:(("event_engine",pid=939,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/webcamd.sock 2630                  * 0                     users:(("webcamd",pid=1071,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/logd.sock 1096                  * 0                     users:(("logd",pid=709,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_dgr  UNCONN     0      0      /dev/log 1098                  * 0                     users:(("logd",pid=709,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/evtservice-socket 1392                  * 0                     users:(("evtsrvd",pid=794,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/cfgd-socket 1144                  * 0                     users:(("cfgd",pid=723,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/topofw-lua-shell 2170                  * 0                     users:(("topofw",pid=1043,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/cfgd-notify 1146                  * 0                     users:(("cfgd",pid=723,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/tfw-socket 2178                  * 0                     users:(("topofw",pid=1043,fd=9)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/cardreader.sock 2194                  * 0                     users:(("cardreader",pid=1047,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/res_mon.sock 1959                  * 0                     users:(("res_mon",pid=994,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/fitnessd.sock 2226                  * 0                     users:(("fitnessd",pid=1057,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/datapushd.sock 2740                  * 0                     users:(("datapushd",pid=1075,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/displayd.sock 1465                  * 0                     users:(("displayd",pid=818,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/serial_daemon.sock 1990                  * 0                     users:(("serial_daemon",pid=998,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/servermon.sock 2270                  * 0                     users:(("servermon",pid=1064,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  LISTEN     0      10     /tmp/networkd.sock 1522                  * 0                     users:(("networkd",pid=830,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2718                  * 2719                  users:(("webcamd",pid=1071,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-notify 2764                  * 2763                  users:(("cfgd",pid=723,fd=21)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 6092                  * 6091                  users:(("networkd",pid=830,fd=24)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1472                  * 1473                  users:(("displayd",pid=818,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2783                  * 2784                  users:(("mdnsd",pid=1083,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1973                  * 1974                  users:(("res_mon",pid=994,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 170895891             * 170895890             users:(("cfgd",pid=723,fd=35)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 1539                  * 1538                  users:(("logd",pid=709,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/webcamd.sock 2726                  * 2725                  users:(("webcamd",pid=1071,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2789                  * 2790                  users:(("mdnsd",pid=1083,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 170895901             * 170895902             users:(("ss",pid=5726,fd=4),("diagcollect",pid=5508,fd=4),("diagcollect",pid=5498,fd=4),("diagcollect",pid=5496,fd=4),("diagcollect",pid=5494,fd=4),("diagcollect",pid=5444,fd=4),("scp",pid=5443,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2231                  * 3101                  users:(("fitnessd",pid=1057,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/displayd.sock 1976                  * 1975                  users:(("displayd",pid=818,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-notify 2205                  * 2204                  users:(("cfgd",pid=723,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 1893                  * 1892                  users:(("cfgd",pid=723,fd=10)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cardreader.sock 2730                  * 2729                  users:(("cardreader",pid=1047,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 1635                  * 1633                  users:(("evtsrvd",pid=794,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 170895892             * 170895893             users:(("ss",pid=5726,fd=11),("diagcollect",pid=5508,fd=11),("diagcollect",pid=5498,fd=11),("diagcollect",pid=5496,fd=11),("diagcollect",pid=5494,fd=11),("diagcollect",pid=5444,fd=11),("scp",pid=5443,fd=11),("dropbear",pid=5442,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 6084                  * 6085                  users:(("snmpd",pid=1121,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2816                  * 2815                  users:(("cfgd",pid=723,fd=23)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3104                  * 3105                  users:(("displayd",pid=818,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2173                  * 2172                  users:(("evtsrvd",pid=794,fd=10)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/tfw-socket 3101                  * 2231                  users:(("topofw",pid=1043,fd=20)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1975                  * 1976                  users:(("res_mon",pid=994,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 27187842              * 27187841              users:(("networkd",pid=830,fd=25)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 6093                  * 6094                  users:(("snmpd",pid=1121,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 1520                  * 1519                  users:(("cfgd",pid=723,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-notify 1585                  * 1584                  users:(("cfgd",pid=723,fd=9)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2746                  * 2745                  users:(("evtsrvd",pid=794,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2262                  * 2263                  users:(("servermon",pid=1064,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3369                  * 3370                  users:(("res_mon",pid=994,fd=21)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2267                  * 2268                  users:(("servermon",pid=1064,fd=9)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 170895902             * 170895901             users:(("cfgd",pid=723,fd=36)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3284                  * 3285                  users:(("event_engine",pid=939,fd=44)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 3281                  * 3280                  users:(("cfgd",pid=723,fd=28)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 170895890             * 170895891             users:(("ss",pid=5726,fd=7),("diagcollect",pid=5508,fd=7),("diagcollect",pid=5498,fd=7),("diagcollect",pid=5496,fd=7),("diagcollect",pid=5494,fd=7),("diagcollect",pid=5444,fd=7),("scp",pid=5443,fd=7),("dropbear",pid=5442,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3137                  * 3138                  users:(("topofw",pid=1043,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3280                  * 3281                  users:(("displayd",pid=818,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1527                  * 1528                  users:(("networkd",pid=830,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1992                  * 1993                  users:(("serial_daemon",pid=998,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/luaService-socket 3059                  * 3058                  users:(("luaserviced",pid=1087,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 170895889             * 170895888             users:(("cfgd",pid=723,fd=34)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2294                  * 2295                  users:(("topofw",pid=1043,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 55733                 * 55732                 users:(("logd",pid=709,fd=20)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3058                  * 3059                  users:(("res_mon",pid=994,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 2177                  * 2176                  users:(("networkd",pid=830,fd=19)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2719                  * 2718                  users:(("cfgd",pid=723,fd=19)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_dgr  UNCONN     0      0       * 68678330              * 1098                  users:(("dhclient",pid=6570,fd=3)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 170895899             * 170895900             users:(("ss",pid=5726,fd=3),("diagcollect",pid=5508,fd=3),("diagcollect",pid=5498,fd=3),("diagcollect",pid=5496,fd=3),("diagcollect",pid=5494,fd=3),("diagcollect",pid=5444,fd=3),("scp",pid=5443,fd=3)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 6095                  * 6096                  users:(("snmpd",pid=1121,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 2784                  * 2783                  users:(("networkd",pid=830,fd=21)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 27347918              * 27347917              users:(("cfgd",pid=723,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2727                  * 2728                  users:(("res_mon",pid=994,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 27347920              * 27347919              users:(("networkd",pid=830,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2176                  * 2177                  users:(("topofw",pid=1043,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-notify 2790                  * 2789                  users:(("cfgd",pid=723,fd=22)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2763                  * 2764                  users:(("port_mux",pid=1079,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2204                  * 2205                  users:(("cardreader",pid=1047,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 170895900             * 170895899             users:(("cfgd",pid=723,fd=33)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3106                  * 3107                  users:(("displayd",pid=818,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2056                  * 2057                  users:(("cfgnotifyd",pid=1009,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2750                  * 2749                  users:(("evtsrvd",pid=794,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1634                  * 1764                  users:(("event_engine",pid=939,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/tfw-socket 5543                  * 5542                  users:(("topofw",pid=1043,fd=23)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1977                  * 1978                  users:(("res_mon",pid=994,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2845                  * 2844                  users:(("cfgd",pid=723,fd=25)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 27187841              * 27187842              users:(("displayd",pid=818,fd=26)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 2188                  * 2187                  users:(("logd",pid=709,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 1895                  * 1894                  users:(("evtsrvd",pid=794,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2731                  * 2732                  users:(("res_mon",pid=994,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2745                  * 2746                  users:(("datapushd",pid=1075,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/servermon.sock 6085                  * 6084                  users:(("servermon",pid=1064,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1584                  * 1585                  users:(("networkd",pid=830,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2261                  * 2260                  users:(("evtsrvd",pid=794,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/tfw-socket 3140                  * 3139                  users:(("topofw",pid=1043,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/fitnessd.sock 3370                  * 3369                  users:(("fitnessd",pid=1057,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2868                  * 2869                  users:(("event_engine",pid=939,fd=38)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 170895885             * 170895884             users:(("cfgd",pid=723,fd=32)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 2265                  * 2264                  users:(("networkd",pid=830,fd=20)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/event_engine.sock 3136                  * 3135                  users:(("event_engine",pid=939,fd=41)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/tfw-socket 3285                  * 3284                  users:(("topofw",pid=1043,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2871                  * 2872                  users:(("event_engine",pid=939,fd=40)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 55732                 * 55733                 users:(("evtsrvd",pid=794,fd=22)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3282                  * 3283                  users:(("event_engine",pid=939,fd=43)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3060                  * 3061                  users:(("res_mon",pid=994,fd=19)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_dgr  UNCONN     0      0       * 170895882             * 1098                  users:(("dropbear",pid=5442,fd=3)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3160                  * 3161                  users:(("topofw",pid=1043,fd=17)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2781                  * 2782                  users:(("mdnsd",pid=1083,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1979                  * 1980                  users:(("res_mon",pid=994,fd=9)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 27187840              * 27187843              users:(("displayd",pid=818,fd=25)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2775                  * 2776                  users:(("port_mux",pid=1079,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1981                  * 1982                  users:(("res_mon",pid=994,fd=10)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/res_mon.sock 2734                  * 2733                  users:(("res_mon",pid=994,fd=17)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 1473                  * 1472                  users:(("cfgd",pid=723,fd=3)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 1978                  * 1977                  users:(("evtsrvd",pid=794,fd=9)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 1764                  * 1634                  users:(("networkd",pid=830,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 53814063              * 53814062              users:(("logd",pid=709,fd=22)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2780                  * 2779                  users:(("evtsrvd",pid=794,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2762                  * 2761                  users:(("cfgd",pid=723,fd=20)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2172                  * 2173                  users:(("topofw",pid=1043,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1633                  * 1635                  users:(("event_engine",pid=939,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 5542                  * 5543                  users:(("snmpd",pid=1121,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1538                  * 1539                  users:(("networkd",pid=830,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2749                  * 2750                  users:(("datapushd",pid=1075,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2846                  * 2847                  users:(("mdnsd",pid=1083,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 2207                  * 2206                  users:(("logd",pid=709,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1894                  * 1895                  users:(("event_engine",pid=939,fd=35)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2299                  * 3103                  users:(("displayd",pid=818,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/servermon.sock 2728                  * 2727                  users:(("servermon",pid=1064,fd=10)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 1629                  * 1625                  users:(("evtsrvd",pid=794,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2844                  * 2845                  users:(("mdnsd",pid=1083,fd=9)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2815                  * 2816                  users:(("luaserviced",pid=1087,fd=5)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/networkd.sock 1974                  * 1973                  users:(("networkd",pid=830,fd=17)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/serial_daemon.sock 2732                  * 2731                  users:(("serial_daemon",pid=998,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2899                  * 2900                  users:(("event_engine",pid=939,fd=37)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3139                  * 3140                  users:(("event_engine",pid=939,fd=42)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2260                  * 2261                  users:(("servermon",pid=1064,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3326                  * 3327                  users:(("res_mon",pid=994,fd=20)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2872                  * 2871                  users:(("cfgd",pid=723,fd=26)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 27347917              * 27347918              users:(("cli_serial_logi",pid=11870,fd=3)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3135                  * 3136                  users:(("displayd",pid=818,fd=17)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2264                  * 2265                  users:(("servermon",pid=1064,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 2900                  * 2899                  users:(("logd",pid=709,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 3161                  * 3160                  users:(("logd",pid=709,fd=19)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 1528                  * 1527                  users:(("cfgd",pid=723,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-notify 2036                  * 2035                  users:(("cfgd",pid=723,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2295                  * 2294                  users:(("cfgd",pid=723,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 3278                  * 3279                  users:(("fitnessd",pid=1057,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 27187843              * 27187840              users:(("evtsrvd",pid=794,fd=21)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 6091                  * 6092                  users:(("snmpd",pid=1121,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2175                  * 2174                  users:(("evtsrvd",pid=794,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2782                  * 2781                  users:(("evtsrvd",pid=794,fd=17)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-notify 1980                  * 1979                  users:(("cfgd",pid=723,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1969                  * 1970                  users:(("res_mon",pid=994,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1519                  * 1520                  users:(("networkd",pid=830,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2779                  * 2780                  users:(("mdnsd",pid=1083,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 27347919              * 27347920              users:(("cli_serial_logi",pid=11870,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2174                  * 2175                  users:(("topofw",pid=1043,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2847                  * 2846                  users:(("cfgd",pid=723,fd=24)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2761                  * 2762                  users:(("port_mux",pid=1079,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/tfw-socket 3103                  * 2299                  users:(("topofw",pid=1043,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 1772                  * 1771                  users:(("evtsrvd",pid=794,fd=7)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 53814062              * 53814063              users:(("res_mon",pid=994,fd=22)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2725                  * 2726                  users:(("res_mon",pid=994,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2729                  * 2730                  users:(("res_mon",pid=994,fd=14)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1625                  * 1629                  users:(("event_engine",pid=939,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 6096                  * 6095                  users:(("cfgd",pid=723,fd=31)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/datapushd.sock 3061                  * 3060                  users:(("datapushd",pid=1075,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/event_engine.sock 170895893             * 170895892             users:(("event_engine",pid=939,fd=45)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2206                  * 2207                  users:(("cardreader",pid=1047,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1892                  * 1893                  users:(("event_engine",pid=939,fd=34)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 2057                  * 2056                  users:(("logd",pid=709,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 1982                  * 1981                  users:(("cfgd",pid=723,fd=12)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2733                  * 2734                  users:(("res_mon",pid=994,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 6094                  * 6093                  users:(("cfgd",pid=723,fd=30)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1771                  * 1772                  users:(("networkd",pid=830,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 3105                  * 3104                  users:(("evtsrvd",pid=794,fd=18)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2187                  * 2188                  users:(("topofw",pid=1043,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/event_engine.sock 1970                  * 1969                  users:(("event_engine",pid=939,fd=36)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 3138                  * 3137                  users:(("evtsrvd",pid=794,fd=20)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 2869                  * 2868                  users:(("logd",pid=709,fd=16)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 170895888             * 170895889             users:(("ss",pid=5726,fd=8),("diagcollect",pid=5508,fd=8),("diagcollect",pid=5498,fd=8),("diagcollect",pid=5496,fd=8),("diagcollect",pid=5494,fd=8),("diagcollect",pid=5444,fd=8),("scp",pid=5443,fd=8),("dropbear",pid=5442,fd=8)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 2776                  * 2775                  users:(("logd",pid=709,fd=15)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 3107                  * 3106                  users:(("evtsrvd",pid=794,fd=19)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/tfw-socket 3327                  * 3326                  users:(("topofw",pid=1043,fd=21)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/evtservice-socket 2263                  * 2262                  users:(("evtsrvd",pid=794,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 2035                  * 2036                  users:(("cfgnotifyd",pid=1009,fd=4)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 3279                  * 3278                  users:(("cfgd",pid=723,fd=27)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/logd.sock 1984                  * 1983                  users:(("logd",pid=709,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 2268                  * 2267                  users:(("cfgd",pid=723,fd=17)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 170895884             * 170895885             users:(("ss",pid=5726,fd=6),("diagcollect",pid=5508,fd=6),("diagcollect",pid=5498,fd=6),("diagcollect",pid=5496,fd=6),("diagcollect",pid=5494,fd=6),("diagcollect",pid=5444,fd=6),("scp",pid=5443,fd=6),("dropbear",pid=5442,fd=6)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_dgr  UNCONN     0      0       * 3144                  * 1098                  users:(("snmpd",pid=1121,fd=3)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 3283                  * 3282                  users:(("cfgd",pid=723,fd=29)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0      /tmp/cfgd-socket 1993                  * 1992                  users:(("cfgd",pid=723,fd=13)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+u_str  ESTAB      0      0       * 1983                  * 1984                  users:(("res_mon",pid=994,fd=11)) skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0) <->
+udp    UNCONN     0      0      0.0.0.0:bootpc               0.0.0.0:*                     users:(("dhclient",pid=6570,fd=8)) ino:68678353 sk:d3 <->
+	 skmem:(r0,rb163840,t0,tb163840,f4096,w0,o0,bl0,d0)
+udp    UNCONN     0      0      0.0.0.0:40774                0.0.0.0:*                     users:(("event_engine",pid=939,fd=39)) ino:2870 sk:d4 <->
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+udp    UNCONN     0      0      0.0.0.0:snmp                 0.0.0.0:*                     users:(("snmpd",pid=1121,fd=10)) ino:3142 sk:d5 <->
+	 skmem:(r0,rb163840,t0,tb163840,f4096,w0,o0,bl0,d0)
+udp    UNCONN     0      0      0.0.0.0%eth0:5353                 0.0.0.0:*                     users:(("mdnsd",pid=1083,fd=10)) ino:68678431 sk:d6 <->
+	 skmem:(r0,rb163840,t0,tb163840,f4096,w0,o32,bl0,d55617)
+udp    UNCONN     0      0      0.0.0.0%eth0:5355                 0.0.0.0:*                     users:(("mdnsd",pid=1083,fd=11)) ino:68678434 sk:d7 <->
+	 skmem:(r0,rb163840,t0,tb163840,f4096,w0,o32,bl0,d0)
+udp    UNCONN     0      0        [::]:snmp                   [::]:*                     users:(("snmpd",pid=1121,fd=9)) ino:3141 sk:d8 v6only:1 <->
+	 skmem:(r0,rb163840,t0,tb163840,f0,w0,o0,bl0,d0)
+udp    UNCONN     0      0       *:59573                 *:*                     users:(("ntpclient",pid=10831,fd=3)) ino:27200375 sk:d9 v6only:0 <->
+	 skmem:(r0,rb163840,t0,tb163840,f4096,w0,o0,bl0,d0)
+tcp    LISTEN     0      10     127.0.0.1:8181                 0.0.0.0:*                     users:(("port_mux",pid=1079,fd=14)) ino:2811 sk:da <->
+	 skmem:(r0,rb87380,t0,tb16384,f0,w0,o0,bl0,d0) cubic cwnd:10
+tcp    LISTEN     0      10      *:www                   *:*                     users:(("port_mux",pid=1079,fd=12)) ino:2805 sk:db v6only:0 <->
+	 skmem:(r0,rb87380,t0,tb16384,f0,w0,o0,bl0,d622) cubic cwnd:10
+tcp    LISTEN     0      10      *:ssh                   *:*                     users:(("port_mux",pid=1079,fd=15)) ino:2813 sk:dc v6only:0 <->
+	 skmem:(r0,rb87380,t0,tb16384,f0,w0,o0,bl0,d710) cubic cwnd:10
+tcp    LISTEN     0      10      *:https                 *:*                     users:(("port_mux",pid=1079,fd=13)) ino:2809 sk:dd v6only:0 <->
+	 skmem:(r0,rb87380,t0,tb16384,f0,w0,o0,bl0,d12039) cubic cwnd:10
+tcp    ESTAB      0      0        [::ffff:10.88.84.55]:ssh                   [::ffff:10.219.20.18]:35998                 users:(("dropbear",pid=5442,fd=1),("dropbear",pid=5442,fd=0)) timer:(keepalive,52sec,0) ino:170895878 sk:49e <->
+	 skmem:(r0,rb330880,t0,tb44800,f0,w0,o0,bl0,d0) ts sack cubic wscale:7,4 rto:210 rtt:6.556/11.318 ato:40 mss:1448 rcvmss:1448 advmss:1448 cwnd:10 ssthresh:16 bytes_acked:1042 bytes_received:2189 segs_out:15 segs_in:15 data_segs_out:7 data_segs_in:11 send 17.7Mbps lastsnd:7260 lastrcv:7270 lastack:7220 pacing_rate 21.2Mbps delivery_rate 28.1Mbps app_limited busy:60ms rcv_rtt:6 rcv_space:28960 minrtt:0.412
+
+cat /sys/kernel/debug/regmap/f8008000.ethernet-ffffffff:00/registers
+--------------------------------------------------------------------
+
+0000: 00001302
+0004: 40000000
+0008: 00000000
+000c: 00000000
+0010: 10000000
+0014: f0107650
+0018: 00006984
+001c: 00003f1f
+0020: 3f480a00
+0024: 0001001b
+0028: 00000000
+002c: 00000000
+0030: 80000001
+0034: 01100000
+0038: 0f000000
+003c: 00000000
+0040: 20700aaa
+0044: 00000000
+0048: 000088a8
+004c: 00000000
+0050: cc35cc35
+0054: ca35ca35
+0058: c935c935
+005c: 03ffff00
+0060: 00000001
+0064: 00000000
+0068: 00000000
+006c: 00000000
+0070: b00ee060
+0074: 03707f07
+0078: 000005ee
+007c: 0000007d
+0080: 00001080
+0084: 00001280
+0088: 000013ce
+008c: 00001280
+0090: 00001280
+0094: 00001080
+0098: 00000000
+009c: 0000000a
+00a0: 00000000
+00a4: 00000000
+00a8: 00000000
+00ac: 00000000
+00b0: 00000000
+00b4: 00000000
+00b8: 00000000
+00bc: 00000000
+00c0: 00000000
+00c4: 00000000
+00c8: 80901040
+00cc: 00000000
+00d0: fffbff7e
+00d4: 00000001
+00d8: 00000100
+00dc: 000303ff
+00e0: c70164c0
+00e4: 0002a545
+0100: 00001550
+0104: 00000000
+0108: 00000000
+010c: 00000000
+0110: 00000000
+0114: 00000000
+0118: 00000000
+011c: 00000000
+0120: 00240024
+0124: 00000000
+0128: 00240024
+012c: 00000000
+0130: 00240024
+0134: 00000000
+0138: 00240024
+013c: 00000000
+0140: 00110011
+0144: 00000000
+0148: 00240024
+014c: 00000000
+0150: 00240024
+0154: 00000000
+0158: 00240024
+015c: 00000000
+0160: 00240024
+0164: 00000000
+0168: 00240024
+0200: 00000001
+0204: 00005000
+0208: 00400040
+020c: 00000000
+0210: 00000000
+0214: 00000000
+0218: 00000000
+021c: 00000000
+0220: 00000000
+0224: 00000000
+0228: 00000000
+022c: 00000000
+0230: 00000000
+0234: 00000000
+0238: 00000000
+023c: 00000000
+0240: 00000000
+0244: 00000000
+0248: 00000000
+024c: 00000000
+0250: 00000000
+0254: 00000000
+0258: 00000000
+025c: 00000000
+0260: 00000000
+0264: 20000022
+0268: 00000000
+026c: 00000000
+0270: 0000000f
+0400: 00000000
+0404: 00000000
+0408: 00000000
+040c: 00000000
+0410: 00000000
+0414: 00000000
+0418: 00000000
+041c: 00000000
+0420: 00010001
+0424: 00003040
+0428: 00010001
+042c: 00003040
+0430: 00010001
+0434: 00003040
+0438: 00010001
+043c: 00003040
+0440: 00010001
+0444: 00003040
+0448: 00010001
+044c: 00003040
+0450: 00010001
+0454: 00003040
+0600: 00000000
+0604: 00000000
+0608: 00000000
+060c: 00000001
+0610: 00000000
+0614: 00000000
+0618: d0e8002b
+061c: 00000000
+0620: 001004f0
+0624: 01010101
+0628: 00000000
+062c: 00000000
+0630: 00000000
+0634: 11111111
+0638: 22222222
+063c: 33333333
+0640: 44444444
+0644: 55555555
+0648: 66666666
+064c: 77777777
+0650: 76543210
+0654: 00000000
+0658: 00000000
+065c: 00000000
+0660: 0014000e
+0664: 00000018
+0668: 00007000
+066c: 00040001
+0670: 00000018
+0674: 00007000
+0678: 00040001
+067c: 00000018
+0680: 00007000
+0684: 00040001
+0688: 00000018
+068c: 00007000
+0690: 00140000
+0694: 00000018
+0698: 00007000
+069c: 00140000
+06a0: 00000018
+06a4: 00007000
+06a8: 00140000
+06ac: 00000018
+06b0: 00007000
+06b4: 00000000
+06b8: 00000000
+06bc: 00000000
+06c0: 00000000
+06c4: 00000000
+06c8: 00000000
+06cc: 00000000
+06d0: 00000000
+06d4: 00000000
+06d8: 00000000
+06dc: 00000000
+06e0: 00000000
+06e4: 00000000
+06e8: 00000000
+06ec: 00000000
+06f0: 00000000
+06f4: 00000000
+06f8: 00000000
+06fc: 00000000
+0700: 00000000
+0704: 00000000
+0708: 00000000
+070c: 00000000
+0710: ffffffff
+0714: ffffffff
+0718: ffffffff
+0800: 01200188
+0804: 00000000
+0808: 007f000e
+080c: 00000000
+0810: 54332201
+0814: 33221100
+0818: 00000000
+081c: 00000000
+0820: 00000000
+0824: 00000000
+0828: 00000000
+082c: 00000000
+0830: 10841041
+0834: 00041041
+0838: 00041041
+083c: 00041041
+0840: 00041041
+0844: 10841041
+0848: 10841041
+084c: 00000000
+0850: 00000000
+0854: 00000000
+0858: 00000000
+085c: 00000000
+0860: 00000000
+0864: 00000000
+0868: 00000000
+086c: 00000000
+0870: 00000000
+0874: 00000000
+0878: 00000000
+087c: 00000000
+0880: 00000000
+0884: 00000000
+0888: 00000000
+088c: 00000000
+0890: 7fff7fff
+0894: 7fff7fff
+0898: 7fff7fff
+089c: 7fff7fff
+08a0: 7fff7fff
+08a4: 7fff7fff
+08a8: 00000000
+08ac: 00000002
+08b0: 7fff7fff
+08b4: 7fff7fff
+08b8: 7fff7fff
+08bc: 7fff7fff
+08c0: 7fff7fff
+08c4: 7fff7fff
+08c8: 00000000
+08cc: 00000002
+08d0: 7fff7fff
+08d4: 7fff7fff
+08d8: 7fff7fff
+08dc: 7fff7fff
+08e0: 7fff7fff
+08e4: 7fff7fff
+08e8: 00000000
+08ec: 00000002
+08f0: 7fff7fff
+08f4: 7fff7fff
+08f8: 7fff7fff
+08fc: 7fff7fff
+0900: 7fff7fff
+0904: 7fff7fff
+0908: 00000000
+090c: 00000002
+0910: 7fff7fff
+0914: 7fff7fff
+0918: 7fff7fff
+091c: 7fff7fff
+0920: 7fff7fff
+0924: 7fff7fff
+0928: 00000000
+092c: 00000002
+0930: 7fff7fff
+0934: 7fff7fff
+0938: 7fff7fff
+093c: 7fff7fff
+0940: 7fff7fff
+0944: 7fff7fff
+0948: 00000000
+094c: 00000002
+0950: 7fff7fff
+0954: 7fff7fff
+0958: 7fff7fff
+095c: 7fff7fff
+0960: 7fff7fff
+0964: 7fff7fff
+0968: 00000000
+096c: 00000002
+0970: 28000000
+0974: 000001c0
+0978: 28000000
+097c: 000001c2
+0980: 28000000
+0984: 000001c2
+0988: 28000000
+098c: 000001c2
+0990: 28000000
+0994: 000001c2
+0998: 28000000
+099c: 000001c2
+09a0: 28000000
+09a4: 000001c0
+09a8: 00000000
+09ac: 00000000
+09b0: 003a004a
+09b4: 003a004a
+09b8: 003a004a
+09bc: 003a004a
+09c0: 003a004a
+09c4: 003a004a
+09c8: 003a004a
+09cc: 00000000
+09d0: 00000000
+09d4: 00000000
+09d8: 00000000
+09dc: 00000000
+09e0: 00000000
+09e4: 00000000
+09e8: 00000000
+09ec: 00000000
+09f0: 00000000
+09f4: 00000000
+09f8: 00000000
+09fc: 00000000
+0a00: 00007fff
+0a04: 00047fff
+0a08: 00007fff
+0a0c: 00047fff
+0a10: 00007fff
+0a14: 00047fff
+0a18: 00007fff
+0a1c: 00047fff
+0a20: 00007fff
+0a24: 00047fff
+0a28: 00007fff
+0a2c: 00047fff
+0a30: 00007fff
+0a34: 00047fff
+0a38: 00007fff
+0a3c: 00047fff
+0a40: 00007fff
+0a44: 00047fff
+0a48: 00007fff
+0a4c: 00047fff
+0a50: 00007fff
+0a54: 00047fff
+0a58: 00007fff
+0a5c: 00047fff
+0a60: 00007fff
+0a64: 00047fff
+0a68: 00007fff
+0a6c: 00047fff
+0a70: 00007fff
+0a74: 00047fff
+0a78: 00007fff
+0a7c: 00047fff
+0a80: 00007fff
+0a84: 00047fff
+0a88: 00007fff
+0a8c: 00047fff
+0a90: 00007fff
+0a94: 00047fff
+0a98: 00007fff
+0a9c: 00047fff
+0aa0: 00007fff
+0aa4: 00047fff
+0aa8: 00007fff
+0aac: 00047fff
+0ab0: 00007fff
+0ab4: 00047fff
+0ab8: 00007fff
+0abc: 00047fff
+0ac0: 00007fff
+0ac4: 00047fff
+0ac8: 00007fff
+0acc: 00047fff
+0ad0: 00007fff
+0ad4: 00047fff
+0ad8: 00007fff
+0adc: 00047fff
+0ae0: 00007fff
+0ae4: 00047fff
+0ae8: 00007fff
+0aec: 00047fff
+0af0: 00007fff
+0af4: 00047fff
+0af8: 00007fff
+0afc: 00047fff
+0b00: 18407fff
+0b04: 00047fff
+0b08: 00000000
+0b0c: 00000000
+0b10: 18407fff
+0b14: 00047fff
+0b18: 00000000
+0b1c: 00000000
+0b20: 18407fff
+0b24: 00047fff
+0b28: 00000000
+0b2c: 00000000
+0b30: 18407fff
+0b34: 00047fff
+0b38: 00000000
+0b3c: 00000000
+0b40: 18407fff
+0b44: 00047fff
+0b48: 00000000
+0b4c: 00000000
+0b50: 18407fff
+0b54: 00047fff
+0b58: 00000000
+0b5c: 00000000
+0b60: 18407fff
+0b64: 00047fff
+0b68: 00000000
+0b6c: 00000000
+0b70: 00012345
+0c00: 00000000
+0c04: 00000000
+0c08: 00000000
+0c0c: 00000000
+0c10: 00000000
+0c14: 00000000
+0c18: 00000000
+0c1c: 00000000
+0c20: 00000000
+0c24: 00000000
+0c28: 00000000
+0c2c: 00000000
+0c30: 00000000
+0c34: 0705671f
+0c38: 00000000
+0c3c: 00000000
+0c40: 00000000
+0c44: 00000000
+0c48: 00000000
+0c4c: 00000000
+0c50: 00000000
+0c54: 00000000
+0c58: 00000000
+0c5c: 00000000
+0c60: 00000000
+0c64: 00000000
+0c68: 00000000
+0c6c: 00000000
+0c70: 00010001
+0c74: 00010001
+0c78: 00010001
+0c7c: 00000001
+0c80: 00000000
+0e00: 00072401
+0e04: 00000000
+0e08: 00000000
+0e0c: 007f0000
+0e10: 00000000
+0e14: 00000000
+0e18: 00000000
+0e1c: 00000000
+0e20: 00000000
+0e24: 00000000
+0e28: 00000000
+0e2c: 00000000
+0e30: 00000000
+0e34: 00000000
+0e38: 00200a53
+0e3c: 00000000
+0e40: 00000000
+0e44: 00000000
+0e48: 00000000
+0e4c: 00000000
+0e50: 00000000
+0e54: 00000000
+0e58: 00000000
+0e5c: 00000000
+0e60: 00000000
+0e64: 00000000
+0e68: 00000000
+0e6c: 00000000
+0e70: 00000000
+0e74: 00000000
+0e78: 00000000
+0e7c: 00000000
+0e80: 00000000
+0e84: 00000000
+0e88: 00000000
+0e8c: 00000000
+0e90: 00000000
+0e94: 00000000
+0e98: 00000000
+1000: 00000193
+1004: 00000000
+1008: 000018ff
+100c: 00000000
+1010: 00000000
+1014: 00000000
+1018: 00000000
+101c: 0012d667
+1020: 000a627b
+1024: 000069ea
+1028: 0011f35a
+102c: 0101b7fe
+1030: 0005754c
+1034: 00048ae4
+1038: 00000000
+103c: f9ef60f5
+1040: 00000002
+1044: 00000000
+1048: 00000000
+104c: 00000000
+1050: 00000001
+1054: 0012beaa
+1058: 00000000
+105c: 032ac8b7
+1060: 00000000
+1064: 00000000
+1068: 04be0227
+106c: 0026de03
+1070: 002274fe
+1074: 00030b85
+1078: 0005df9c
+107c: 00000060
+1080: 00000000
+1084: 09e9cbdb
+1088: 00000002
+108c: 00000000
+1090: 00000000
+1094: 00000000
+1098: 00000000
+109c: 00000000
+10a0: 00000000
+10a4: 00000000
+10a8: 013b33c2
+10ac: 01d2b948
+1100: 00000000
+1104: 00000000
+1108: 00000000
+110c: 00000000
+1110: 00000000
+1114: 00000000
+1118: 00000000
+111c: 00000000
+1120: 00000000
+1124: 00000000
+1128: 00000000
+112c: 00000000
+1130: 00000000
+1134: 00000000
+1138: 00000000
+113c: 00000000
+1140: 00000000
+1144: 00000000
+1148: 00000000
+114c: 00000000
+1150: 00000000
+1154: 00000000
+1158: 00000000
+115c: 00000000
+1160: 00000000
+1164: 00000000
+1168: 00000000
+116c: 00000000
+1170: 00000000
+1174: 00000000
+1178: 00000000
+117c: 00000000
+1180: 00000000
+1184: 00000000
+1188: 00000000
+118c: 00000000
+1190: 00000000
+1194: 00000000
+1198: 00000000
+119c: 00000000
+11a0: 00000000
+11a4: 00000000
+11a8: 00000000
+11ac: 00000000
+1200: 00000000
+1204: 00000000
+1208: 00000000
+120c: 00000000
+1210: 00000000
+1214: 00000000
+1218: 00000000
+121c: 00000000
+1220: 00000000
+1224: 00000000
+1228: 00000000
+122c: 00000000
+1230: 00000000
+1234: 00000000
+1238: 00000000
+123c: 00000000
+1240: 00000000
+1244: 00000000
+1248: 00000000
+124c: 00000000
+1250: 00000000
+1254: 00000000
+1258: 00000000
+125c: 00000000
+1260: 00000000
+1264: 00000000
+1268: 00000000
+126c: 00000000
+1270: 00000000
+1274: 00000000
+1278: 00000000
+127c: 00000000
+1280: 00000000
+1284: 00000000
+1288: 00000000
+128c: 00000000
+1290: 00000000
+1294: 00000000
+1298: 00000000
+129c: 00000000
+12a0: 00000000
+12a4: 00000000
+12a8: 00000000
+12ac: 00000000
+1300: 0012beaa
+1304: 00000000
+1308: 032ab228
+130c: 00000000
+1310: 00000000
+1314: 00000000
+1318: 00000000
+131c: 00cf1e97
+1320: 03eedc44
+1324: 0026f041
+1328: 002255b4
+132c: 00030957
+1330: 0005e004
+1334: 00000000
+1338: 00000000
+133c: ffc3cb40
+1340: 00000001
+1344: 00000000
+1348: 00000000
+134c: 00000000
+1350: 0000026d
+1354: 00000192
+1358: 00000000
+135c: 000018eb
+1360: 00000000
+1364: 0012d909
+1368: 000a649f
+136c: 00006511
+1370: 0011f455
+1374: 0101b709
+1378: 000a0028
+137c: 00000000
+1380: 00000000
+1384: f79e6aff
+1388: 00000002
+138c: 00000000
+1390: 00000000
+1394: 00000000
+1398: 00000000
+139c: 00000000
+13a0: 00000000
+13a4: 00000000
+13a8: 01d2b959
+13ac: 013b33c2
+1400: 00000000
+1404: 00000000
+1408: 00000000
+140c: 00000000
+1410: 00000000
+1414: 00000000
+1418: 00000000
+141c: 00000000
+1420: 00000000
+1424: 00000000
+1428: 00000000
+142c: 00000000
+1430: 00000000
+1434: 00000000
+1438: 00000000
+143c: 00000000
+1440: 00000000
+1444: 00000000
+1448: 00000000
+144c: 00000000
+1450: 00000000
+1454: 00000000
+1458: 00000000
+145c: 00000000
+1460: 00000000
+1464: 00000000
+1468: 00000000
+146c: 00000000
+1470: 00000000
+1474: 00000000
+1478: 00000000
+147c: 00000000
+1480: 00000000
+1484: 00000000
+1488: 00000000
+148c: 00000000
+1490: 00000000
+1494: 00000000
+1498: 00000000
+149c: 00000000
+14a0: 00000000
+14a4: 00000000
+14a8: 00000000
+14ac: 00000000
+1500: 00000000
+1504: 00000000
+1508: 00000000
+150c: 00000000
+1510: 00000000
+1514: 00000000
+1518: 00000000
+151c: 00000000
+1520: 00000000
+1524: 00000000
+1528: 00000000
+152c: 00000000
+1530: 00000000
+1534: 00000000
+1538: 00000000
+153c: 00000000
+1540: 00000000
+1544: 00000000
+1548: 00000000
+154c: 00000000
+1550: 00000000
+1554: 00000000
+1558: 00000000
+155c: 00000000
+1560: 00000000
+1564: 00000000
+1568: 00000000
+156c: 00000000
+1570: 00000000
+1574: 00000000
+1578: 00000000
+157c: 00000000
+1580: 00000000
+1584: 00000000
+1588: 00000000
+158c: 00000000
+1590: 00000000
+1594: 00000000
+1598: 00000000
+159c: 00000000
+15a0: 00000000
+15a4: 00000000
+15a8: 00000000
+15ac: 00000000
+1600: 00000000
+1604: 00000000
+1608: 00000000
+160c: 00000000
+1610: 00000000
+1614: 00000000
+1618: 00000000
+161c: 00000000
+1620: 00000000
+1624: 00000000
+1628: 00000000
+162c: 00000000
+1630: 00000000
+1634: 00000000
+1638: 00000000
+163c: 00000000
+1640: 00000000
+1644: 00000000
+1648: 00000000
+164c: 00000000
+1650: 00000000
+1654: 00000000
+1658: 00000000
+165c: 00000000
+1660: 00000000
+1664: 00000000
+1668: 00000000
+166c: 00000000
+1670: 00000000
+1674: 00000000
+1678: 00000000
+167c: 00000000
+1680: 00000000
+1684: 00000000
+1688: 00000000
+168c: 00000000
+1690: 00000000
+1694: 00000000
+1698: 00000000
+169c: 00000000
+16a0: 00000000
+16a4: 00000000
+16a8: 00000000
+16ac: 00000000
+
+phytool read eth0/0x2/{0-21}
+----------------------------
+
+0x000 0x3100
+0x001 0x796d
+0x002 0x004d
+0x003 0xd036
+0x004 0x11e1
+0x005 0xcde1
+0x006 0x000d
+0x007 0x2001
+0x008 0x0000
+0x009 0x0200
+0x00a 0x3800
+0x00b 0x0000
+0x00c 0x0000
+0x00d 0x0000
+0x00e 0x0000
+0x00f 0x2000
+0x010 0x0862
+0x011 0xbc10
+0x012 0x0000
+0x013 0x0000
+0x014 0x082c
+0x015 0x0000
+
+phytool read eth1/0x1/{0-21}
+----------------------------
+
+0x000 0x3100
+0x001 0x7949
+0x002 0x004d
+0x003 0xd036
+0x004 0x11e1
+0x005 0x0000
+0x006 0x0004
+0x007 0x2001
+0x008 0x0000
+0x009 0x0200
+0x00a 0x0000
+0x00b 0x0000
+0x00c 0x0000
+0x00d 0x0000
+0x00e 0x0000
+0x00f 0x2000
+0x010 0x0862
+0x011 0x0010
+0x012 0x0000
+0x013 0x0000
+0x014 0x082c
+0x015 0x0000

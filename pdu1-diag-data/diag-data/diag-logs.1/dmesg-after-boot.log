@@ -1,0 +1,240 @@
+[    0.000000] Booting Linux on physical CPU 0x0
+[    0.000000] Linux version 4.14.81-sama (gitlab-runner@dorfl.peppercon.de) (gcc version 6.4.0 (GCC) ) #2 Wed Jun 19 17:31:49 CEST 2019
+[    0.000000] CPU: ARMv7 Processor [410fc051] revision 1 (ARMv7), cr=10c53c7d
+[    0.000000] CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+[    0.000000] OF: fdt: Machine model: pp-v8-ix7
+[    0.000000] Control board hardware ID: 0x15
+[    0.000000] Memory policy: Data cache writeback
+[    0.000000] On node 0 totalpages: 32768
+[    0.000000] free_area_init_node: node 0, pgdat c082f14c, node_mem_map c7efb000
+[    0.000000]   Normal zone: 256 pages used for memmap
+[    0.000000]   Normal zone: 0 pages reserved
+[    0.000000]   Normal zone: 32768 pages, LIFO batch:7
+[    0.000000] CPU: All CPU(s) started in SVC mode.
+[    0.000000] pcpu-alloc: s0 r0 d32768 u32768 alloc=1*32768
+[    0.000000] pcpu-alloc: [0] 0 
+[    0.000000] Built 1 zonelists, mobility grouping on.  Total pages: 32512
+[    0.000000] Kernel command line: console=ttyS0,115200 root=/dev/mtdblock0 rootfstype=squashfs init=/sbin/init ip=off rw quiet pp_hw_id=0x15
+[    0.000000] PID hash table entries: 512 (order: -1, 2048 bytes)
+[    0.000000] Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+[    0.000000] Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+[    0.000000] Memory: 122068K/131072K available (4438K kernel code, 191K rwdata, 1096K rodata, 1024K init, 262K bss, 9004K reserved, 0K cma-reserved)
+[    0.000000] Virtual kernel memory layout:
+[    0.000000]     vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+[    0.000000]     fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+[    0.000000]     vmalloc : 0xc8800000 - 0xff800000   ( 880 MB)
+[    0.000000]     lowmem  : 0xc0000000 - 0xc8000000   ( 128 MB)
+[    0.000000]     modules : 0xbf000000 - 0xc0000000   (  16 MB)
+[    0.000000]       .text : 0xc0008000 - 0xc05559b0   (5431 kB)
+[    0.000000]       .init : 0xc0700000 - 0xc0800000   (1024 kB)
+[    0.000000]       .data : 0xc0800000 - 0xc082fe18   ( 192 kB)
+[    0.000000]        .bss : 0xc082fe18 - 0xc087177c   ( 263 kB)
+[    0.000000] SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+[    0.000000] NR_IRQS: 16, nr_irqs: 16, preallocated irqs: 16
+[    0.000000] L2C-310 dynamic clock gating enabled, standby mode enabled
+[    0.000000] L2C-310 cache controller enabled, 8 ways, 128 kB
+[    0.000000] L2C-310: CACHE_ID 0x410000c9, AUX_CTRL 0x06020000
+[    0.000000] clocksource: pit: mask: 0x7ffffff max_cycles: 0x7ffffff, max_idle_ns: 14334455541 ns
+[    0.000000] Calibrating delay loop... 265.42 BogoMIPS (lpj=1327104)
+[    0.000000] pid_max: default: 32768 minimum: 301
+[    0.000000] Mount-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] Mountpoint-cache hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.000000] CPU: Testing write buffer coherency: ok
+[    0.000000] Setting up static identity map for 0x20100000 - 0x2010003c
+[    0.000000] devtmpfs: initialized
+[    0.000000] random: get_random_u32 called from bucket_table_alloc+0x144/0x190 with crng_init=0
+[    0.000000] clocksource: jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+[    0.000000] futex hash table entries: 256 (order: -1, 3072 bytes)
+[    0.000000] pinctrl core: initialized pinctrl subsystem
+[    0.000000] NET: Registered protocol family 16
+[    0.000000] DMA: preallocated 256 KiB pool for atomic coherent allocations
+[    0.000000] tcb_clksrc: tc0 at 8.333 MHz
+[    0.000000] clocksource: tcb_clksrc: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 229351262666 ns
+[    0.001009] persistent_ram: uncorrectable error in header
+[    0.001293] persistent_ram: uncorrectable error in header
+[    0.001583] persistent_ram: uncorrectable error in header
+[    0.001685] console [pstore-1] enabled
+[    0.002387] pstore: Registered ramoops as persistent store backend
+[    0.002408] ramoops: attached 0xc000@0x23ff4000, ecc: 16/0
+[    0.068917] at_xdmac f0010000.dma-controller: 16 channels, mapped at 0xc8864000
+[    0.071921] at_xdmac f0004000.dma-controller: 16 channels, mapped at 0xc8866000
+[    0.073699] AT91: Detected SoC family: sama5d2
+[    0.073716] AT91: Detected SoC: sama5d21, revision 2
+[    0.074706] SCSI subsystem initialized
+[    0.075363] usbcore: registered new interface driver usbfs
+[    0.075506] usbcore: registered new interface driver hub
+[    0.075684] usbcore: registered new device driver usb
+[    0.076748] Linux video capture interface: v2.00
+[    0.096394] clocksource: Switched to clocksource tcb_clksrc
+[    0.100931] NET: Registered protocol family 2
+[    0.102339] TCP established hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.102390] TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+[    0.102434] TCP: Hash tables configured (established 1024 bind 1024)
+[    0.102746] UDP hash table entries: 256 (order: 0, 4096 bytes)
+[    0.102791] UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+[    0.103136] NET: Registered protocol family 1
+[    0.106219] RPC: Registered named UNIX socket transport module.
+[    0.106238] RPC: Registered udp transport module.
+[    0.106246] RPC: Registered tcp transport module.
+[    0.106254] RPC: Registered tcp NFSv4.1 backchannel transport module.
+[    0.111250] workingset: timestamp_bits=30 max_order=15 bucket_order=0
+[    0.134037] squashfs: version 4.0 (2009/01/31) Phillip Lougher
+[    0.138860] jffs2: version 2.2. (NAND) (SUMMARY)  (c) 2001-2006 Red Hat, Inc.
+[    0.151580] io scheduler noop registered (default)
+[    0.164021] pinctrl-at91-pio4 fc038000.pinctrl: atmel pinctrl initialized
+[    0.170902] f801c000.serial: ttyS1 at MMIO 0xf801c000 (irq = 32, base_baud = 4166666) is a ATMEL_SERIAL
+[    0.172238] f8020000.serial: ttyS0 at MMIO 0xf8020000 (irq = 33, base_baud = 4166666) is a ATMEL_SERIAL
+[    0.172368] console [ttyS0] enabled
+[    0.174460] fc008000.serial: ttyS5 at MMIO 0xfc008000 (irq = 37, base_baud = 4166666) is a ATMEL_SERIAL
+[    0.176460] fc00c000.serial: ttyS4 at MMIO 0xfc00c000 (irq = 38, base_baud = 4166666) is a ATMEL_SERIAL
+[    0.183479] atmel_usart f8038200.serial: Using FIFO (32 data)
+[    0.183748] f8038200.serial: ttyS2 at MMIO 0xf8038200 (irq = 174, base_baud = 4166666) is a ATMEL_SERIAL
+[    0.184779] hwrng: no data available
+[    0.187592] atmel_usart fc018200.serial: Using FIFO (32 data)
+[    0.187973] fc018200.serial: ttyS3 at MMIO 0xfc018200 (irq = 175, base_baud = 4166666) is a ATMEL_SERIAL
+[    0.191980] atmel_spi fc000000.spi: Using dma0chan0 (tx) and dma0chan1 (rx) for DMA transfers
+[    0.192125] atmel_spi fc000000.spi: Using FIFO (16 data)
+[    0.197415] m25p80 spi0.0: gd25q128 (16384 Kbytes)
+[    0.198067] 4 ofpart partitions found on MTD device spi0.0
+[    0.198085] Creating 4 MTD partitions on "spi0.0":
+[    0.198119] 0x000000040000-0x000000dc0000 : "root"
+[    0.200659] 0x000000dc0000-0x000000fc0000 : "flashdisk"
+[    0.203144] 0x000000000000-0x000000040000 : "u-boot"
+[    0.207055] 0x000000fc0000-0x000001000000 : "fab"
+[    0.210711] atmel_spi fc000000.spi: Atmel SPI Controller version 0x311 at 0xfc000000 (irq 36)
+[    0.211942] atmel_spi f8034400.spi: Using dma0chan2 (tx) and dma0chan3 (rx) for DMA transfers
+[    0.212091] atmel_spi f8034400.spi: Using FIFO (16 data)
+[    0.214958] atmel_spi f8034400.spi: Atmel SPI Controller version 0x311 at 0xf8034400 (irq 173)
+[    0.215545] libphy: Fixed MDIO Bus: probed
+[    0.218979] macb f8008000.ethernet: invalid hw address, using random
+[    0.226705] libphy: MACB_mii_bus: probed
+[    0.226747] mdio_bus f8008000.ethernet-ffffffff: /ahb/apb/ethernet@f8008000/fixed-link has invalid PHY address
+[    0.241642] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 4
+[    0.243039] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 5
+[    0.243147] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 6
+[    0.243236] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 7
+[    0.243325] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 8
+[    0.243413] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 9
+[    0.243504] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 10
+[    0.243592] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 11
+[    0.243681] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 12
+[    0.243769] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 13
+[    0.243857] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 14
+[    0.243945] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 15
+[    0.244034] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 16
+[    0.245435] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 17
+[    0.246684] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 18
+[    0.247895] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 19
+[    0.249272] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 20
+[    0.250507] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 21
+[    0.251723] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 22
+[    0.252975] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 23
+[    0.254214] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 24
+[    0.255453] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 25
+[    0.255560] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 26
+[    0.255651] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 27
+[    0.255740] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 28
+[    0.255829] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 29
+[    0.255918] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 30
+[    0.256006] mdio_bus f8008000.ethernet-ffffffff: scan phy fixed-link at address 31
+[    0.257547] Generic PHY fixed-0:00: attached PHY driver [Generic PHY] (mii_bus:phy_addr=fixed-0:00, irq=POLL)
+[    0.257593] macb f8008000.ethernet macb0: Cadence GEM rev 0x00020203 at 0xf8008000 irq 26 (e2:62:e7:a5:80:07)
+[    0.258768] usbcore: registered new interface driver carl9170
+[    0.258973] usbcore: registered new interface driver rt2800usb
+[    0.259108] usbcore: registered new interface driver asix
+[    0.259227] usbcore: registered new interface driver cdc_ether
+[    0.259260] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+[    0.259269] ehci-atmel: EHCI Atmel driver
+[    0.264209] atmel-ehci 500000.ehci: EHCI Host Controller
+[    0.264301] atmel-ehci 500000.ehci: new USB bus registered, assigned bus number 1
+[    0.264648] atmel-ehci 500000.ehci: irq 19, io mem 0x00500000
+[    0.289549] atmel-ehci 500000.ehci: USB 2.0 started, EHCI 1.00
+[    0.290050] usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+[    0.290078] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.290095] usb usb1: Product: EHCI Host Controller
+[    0.290110] usb usb1: Manufacturer: Linux 4.14.81-sama ehci_hcd
+[    0.290124] usb usb1: SerialNumber: 500000.ehci
+[    0.291077] usb usb1: Device is not authorized for usage
+[    0.297386] ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+[    0.297442] ohci-atmel: OHCI Atmel driver
+[    0.298757] at91_ohci 400000.ohci: USB Host Controller
+[    0.298883] at91_ohci 400000.ohci: new USB bus registered, assigned bus number 2
+[    0.299173] at91_ohci 400000.ohci: irq 19, io mem 0x00400000
+[    0.382020] usb usb2: New USB device found, idVendor=1d6b, idProduct=0001
+[    0.382050] usb usb2: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+[    0.382067] usb usb2: Product: USB Host Controller
+[    0.382083] usb usb2: Manufacturer: Linux 4.14.81-sama ohci_hcd
+[    0.382097] usb usb2: SerialNumber: at91
+[    0.382958] usb usb2: Device is not authorized for usage
+[    0.389358] usbcore: registered new interface driver cdc_acm
+[    0.389373] cdc_acm: USB Abstract Control Model driver for USB modems and ISDN adapters
+[    0.389530] usbcore: registered new interface driver usb-storage
+[    0.389825] usbcore: registered new interface driver usbserial
+[    0.389952] usbcore: registered new interface driver cp210x
+[    0.390059] usbserial: USB Serial support registered for cp210x
+[    0.390165] usbcore: registered new interface driver ftdi_sio
+[    0.390258] usbserial: USB Serial support registered for FTDI USB Serial Device
+[    0.391000] atmel_usba_udc 300000.gadget: MMIO registers at 0xfc02c000 mapped at c88ef000
+[    0.391122] atmel_usba_udc 300000.gadget: FIFO at 0x00300000 mapped at c8d00000
+[    0.397603] rtc rtc0: invalid alarm value: 1900-1-1 0:0:0
+[    0.399333] at91_rtc f80480b0.rtc: registered as rtc0
+[    0.399405] at91_rtc f80480b0.rtc: AT91 Real Time Clock driver.
+[    0.399814] i2c /dev entries driver
+[    0.400122] usbcore: registered new interface driver uvcvideo
+[    0.400133] USB Video Class driver (1.1.1)
+[    0.400739] AT91: Starting after wakeup
+[    0.400764] at91-reset f8048000.rstc: registered restart handler
+[    0.404582] at91sam9_wdt: enabled (heartbeat=15 sec, nowayout=1)
+[    0.405479] atmel_aes f002c000.aes: version: 0x500
+[    0.409683] atmel_aes f002c000.aes: Atmel AES - Using dma0chan4, dma0chan5 for DMA transfers
+[    0.410707] atmel_sha f0028000.sha: version: 0x510
+[    0.410892] atmel_sha f0028000.sha: using dma0chan6 for DMA transfers
+[    0.414070] atmel_sha f0028000.sha: Atmel SHA1/SHA256/SHA224/SHA384/SHA512
+[    0.415181] atmel_tdes fc044000.tdes: version: 0x703
+[    0.415500] atmel_tdes fc044000.tdes: using dma0chan7, dma0chan8 for DMA transfers
+[    0.419783] atmel_tdes fc044000.tdes: Atmel DES/TDES
+[    0.420375] fbtft_of_value: buswidth = 8
+[    0.670032] random: fast init done
+[    0.840936] graphics fb0: fb_st7789v frame buffer, 240x320, 150 KiB video memory, 4 KiB buffer memory, fps=20, spi1.0 at 6 MHz
+[    0.855452] Netfilter messages via NETLINK v0.30.
+[    0.855980] nf_conntrack version 0.5.0 (2048 buckets, 8192 max)
+[    0.856586] ctnetlink v0.93: registering with nfnetlink.
+[    0.857424] ip_tables: (C) 2000-2006 Netfilter Core Team
+[    0.859305] NET: Registered protocol family 10
+[    0.864077] Segment Routing with IPv6
+[    0.864306] ip6_tables: (C) 2000-2006 Netfilter Core Team
+[    0.864848] NET: Registered protocol family 17
+[    0.865001] Bridge firewalling registered
+[    0.877161] DSA: switch 0 0 parsed
+[    0.877209] DSA: tree 0 parsed
+[    0.886335] libphy: dsa slave smi: probed
+[    0.888575] Generic PHY dsa-0.0:03: attached PHY driver [Generic PHY] (mii_bus:phy_addr=dsa-0.0:03, irq=POLL)
+[    0.890661] Generic PHY dsa-0.0:01: attached PHY driver [Generic PHY] (mii_bus:phy_addr=dsa-0.0:01, irq=POLL)
+[    0.892562] Generic PHY dsa-0.0:02: attached PHY driver [Generic PHY] (mii_bus:phy_addr=dsa-0.0:02, irq=POLL)
+[    0.894375] at91_rtc f80480b0.rtc: setting system clock to 2012-01-01 00:00:06 UTC (1325376006)
+[    0.905505] VFS: Mounted root (squashfs filesystem) readonly on device 31:0.
+[    0.911169] devtmpfs: mounted
+[    0.919863] Freeing unused kernel memory: 1024K
+[    1.838902] watchdog: watchdog0: nowayout prevents watchdog being stopped!
+[    2.610162] random: dd: uninitialized urandom read (512 bytes read)
+[    3.330329] random: crng init done
+[   12.572170] IPv6: ADDRCONF(NETDEV_UP): macb0: link is not ready
+[   12.572379] macb f8008000.ethernet macb0: link up (100/Full)
+[   12.572436] IPv6: ADDRCONF(NETDEV_CHANGE): macb0: link becomes ready
+[   12.575557] device macb0 entered promiscuous mode
+[   13.588709] qca8k f8008000.ethernet-ffffffff:00 eth1: Link is Down
+[   13.668943] qca8k f8008000.ethernet-ffffffff:00 eth0: Link is Down
+[   16.906460] hub 1-0:1.0: USB hub found
+[   16.907744] hub 1-0:1.0: 3 ports detected
+[   16.908900] hub 1-0:1.0: trying to enable port power on non-switchable hub
+[   16.909326] usb usb1: authorized to connect
+[   16.913760] hub 2-0:1.0: USB hub found
+[   16.918017] hub 2-0:1.0: 3 ports detected
+[   16.918431] hub 2-0:1.0: enabling power on all ports
+[   16.931243] usb usb2: authorized to connect
+[   17.278133] usb 1-2: new high-speed USB device number 2 using atmel-ehci
+[   17.480141] usb 1-2: New USB device found, idVendor=0424, idProduct=2513
+[   17.480181] usb 1-2: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+[   17.484002] hub 1-2:1.0: USB hub found
+[   17.485532] hub 1-2:1.0: 3 ports detected
+[   17.488470] hub 1-2:1.0: enabling power on all ports
