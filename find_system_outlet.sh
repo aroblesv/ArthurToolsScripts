@@ -23,7 +23,11 @@ fi
 #multi-line-comment
 
 nodename=$(grep $nrow$nrack /var/local/Sysman/cluster_nodes.py |grep p$nrack$npdu|grep \"$noutlet\"\)\,$ |tr ',' ' '|awk '{print "system: "$1 "\turl-check-pdu: "$7 "\toutlet: "$8 "\tsystemoff-command: sysman --pdu_off -M "$1}')
+
+
 echo -e "***********************************************************************************"
+
+
 echo -e "$nodename" > nodename_temp2
 
 nodename2=$(awk '{gsub(/"/,"")}1' nodename_temp2)
@@ -33,26 +37,47 @@ echo -e "$nodename2" > nodename_temp3
 nodename3=$(awk '{gsub(/)/,"")}1' nodename_temp3)
 
 echo -e "\n\033[32m$nodename3\033[0m\n"
-echo -e "\n\033[1;33mplease wait for voltage info outlet: $noutlet - The information of the pdu is being generated.\033[1;36m\n"
 
-pdu_name=$(echo -e "$nodename3"|awk '{print $4}')
+echo -e "\033[1;33m"
+read -p "Are you need download outlet - $noutlet of pdu:  ${nrow}${nrack}${npdu}  voltate information? (y/n): " answer
+echo -e "\033[0m"
 
-#noutlet2=$(echo -e "nodename3"|awk '{print $6}')
+case $answer in
+  [yY]*)
+    echo -e "\033[0;32mdownloading...\033[0m"
+    # Place your code to execute if yes here
+	echo -e "\n\033[1;33mplease wait for voltage info outlet: $noutlet - The information of the pdu is being generated.\033[1;36m\n"
 
-ip_addrs=$(ping -c1 -n $pdu_name | head -n1 | sed "s/.*(\([0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\)).*/\1/g")
+	pdu_name=$(echo -e "$nodename3"|awk '{print $4}')
 
-sshpduuser=$(cat sshpduuser.txt)
-sshpdupass=$(cat sshpdupass.txt)
+	#noutlet2=$(echo -e "nodename3"|awk '{print $6}')
 
-sshpass -p $sshpdupass scp -o StrictHostKeyChecking=no $sshpduuser@$ip_addrs:/diag-data.zip .
+	ip_addrs=$(ping -c1 -n $pdu_name | head -n1 | sed "s/.*(\([0-9]*\.[0-9]*\.[0-9]*\.[0-9]*\)).*/\1/g")
 
-unzip -qq diag-data.zip
+	sshpduuser=$(cat sshpduuser.txt)
+	sshpdupass=$(cat sshpdupass.txt)
 
-grep -i -A13 "outlet $noutlet" ./diag-data/topo-data #|grep -i current:
+	sshpass -p $sshpdupass scp -o StrictHostKeyChecking=no $sshpduuser@$ip_addrs:/diag-data.zip .
 
-rm -rf diag-data diag-data.zip nodename_temp2 nodename_temp3
+	unzip -qq diag-data.zip
 
-echo -e "\n\033[1;33mcomplete\033[0m"
+	grep -i -A13 "outlet $noutlet" ./diag-data/topo-data #|grep -i current:
 
-#echo -e "\n\033[1;33mif fail run manualy thiw command: scp admin@$ip_addrs:/diag-data.zip .\033[0m"
-#echo -e "\n\033[1;33mwhen finish run again the script\033[0m"
+	rm -rf diag-data diag-data.zip nodename_temp2 nodename_temp3
+
+	echo -e "\n\033[1;33mcomplete\033[0m"
+
+	#echo -e "\n\033[1;33mif fail run manualy thiw command: scp admin@$ip_addrs:/diag-data.zip .\033[0m"
+	#echo -e "\n\033[1;33mwhen finish run again the script\033[0m"
+    exit 0 # Exit with success code if yes
+    ;;
+  [nN]*)
+    echo "Exiting..."
+    exit 1 # Exit with error code if no
+    ;;
+  *)
+    echo "Invalid input. Please answer y or n."
+    exit 2 # Exit with error code for invalid input
+    ;;
+esac
+
