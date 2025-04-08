@@ -217,9 +217,10 @@ done < "$input_file" > "$output_file"
 awk 'BEGIN {print "\tSystem\t\t\t\tPDU\t\t\tOutlet"} {print $0}' allpdusinfo_temp_wtimestamp > allpdusinfo
 
 paste allpdusinfo outlet_report_h > report_pdu_information
-cat report_pdu_information
+./find_highvalues.sh report_pdu_information
+#cat report_pdu_information
 
-#rm -rf pdu1info pdu2info outletconnectedpdu1_list outletconnectedpdu2_list temp_pdu1_info temp_pdu2_info outlet_data_info_pdu_all_temp outlet_data_info_pdu_all allpdusinfo_temp pdu1-topo-data pdu2-topo-data outlet_data_info_pdu1_temp outlet_data_info_pdu2_temp outlet_report_h allpdusinfo allpdusinfo_temp_wtimestamp
+rm -rf pdu1info pdu2info outletconnectedpdu1_list outletconnectedpdu2_list temp_pdu1_info temp_pdu2_info outlet_data_info_pdu_all_temp outlet_data_info_pdu_all allpdusinfo_temp pdu1-topo-data pdu2-topo-data outlet_data_info_pdu1_temp outlet_data_info_pdu2_temp outlet_report_h allpdusinfo allpdusinfo_temp_wtimestamp
 
 rm -rf ./pdu1-diag-data/diag-data/
 rm -rf ./pdu2-diag-data/diag-data/

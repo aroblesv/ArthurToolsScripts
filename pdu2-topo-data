@@ -1,77 +1,77 @@
 Model: PX3-5984I2U-N1V2
-Serial Number: 1NZ0200039
+Serial Number: 1NZ0200028
 Rating: 380-415V, 50/60Hz, 40A, 26.3-28.8kVA
 
 Inlet I1:
   Plug: IEC 60309 3P+N+E 6h 60A
   Rating: 380-415 V, 40 A
-  Voltage: 419.44 V (normal)
-  Current: 12.14 A (normal)
-  Active Power: 7198.70 W (normal)
-  Apparent Power: 7294.01 VA (normal)
+  Voltage: 419.64 V (normal)
+  Current: 10.38 A (normal)
+  Active Power: 6559.21 W (normal)
+  Apparent Power: 6651.87 VA (normal)
   Power Factor: 0.99 (normal)
-  Active Energy: 189497108.72 Wh (normal)
-  Unbalanced Current: 25.35 % (normal)
-  Line Frequency: 59.90 Hz (normal)
+  Active Energy: 195901061.05 Wh (normal)
+  Unbalanced Current: 15.92 % (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L1
-    Voltage (LL): 419.44 V (normal)
-    Voltage (LN): 242.23 V (normal)
-    Current: 10.50 A (normal)
+    Voltage (LL): 419.64 V (normal)
+    Voltage (LN): 242.27 V (normal)
+    Current: 10.38 A (normal)
   Pole 2:
     Line: L2
-    Voltage (LL): 419.76 V (normal)
-    Voltage (LN): 242.10 V (normal)
-    Current: 12.14 A (normal)
+    Voltage (LL): 420.26 V (normal)
+    Voltage (LN): 242.29 V (normal)
+    Current: 9.39 A (normal)
   Pole 3:
     Line: L3
-    Voltage (LL): 419.88 V (normal)
-    Voltage (LN): 242.60 V (normal)
-    Current: 7.50 A (normal)
+    Voltage (LL): 420.24 V (normal)
+    Voltage (LN): 242.98 V (normal)
+    Current: 7.70 A (normal)
   Pole 4:
     Line: Neutral
 
 Overcurrent Protector C1:
-  Current: 6.03 A (normal)
+  Current: 5.99 A (normal)
   Status: closed (1)
   Pole 1:
     Line: L1
-    Current: 6.03 A (normal)
+    Current: 5.99 A (normal)
 
 Overcurrent Protector C2:
-  Current: 6.05 A (normal)
+  Current: 4.87 A (normal)
   Status: closed (1)
   Pole 1:
     Line: L2
-    Current: 6.05 A (normal)
+    Current: 4.87 A (normal)
 
 Overcurrent Protector C3:
-  Current: 2.90 A (normal)
+  Current: 2.95 A (normal)
   Status: closed (1)
   Pole 1:
     Line: L3
-    Current: 2.90 A (normal)
+    Current: 2.95 A (normal)
 
 Overcurrent Protector C4:
-  Current: 4.47 A (normal)
+  Current: 4.40 A (normal)
   Status: closed (1)
   Pole 1:
     Line: L1
-    Current: 4.47 A (normal)
+    Current: 4.40 A (normal)
 
 Overcurrent Protector C5:
-  Current: 6.09 A (normal)
+  Current: 4.50 A (normal)
   Status: closed (1)
   Pole 1:
     Line: L2
-    Current: 6.09 A (normal)
+    Current: 4.50 A (normal)
 
 Overcurrent Protector C6:
-  Current: 4.59 A (normal)
+  Current: 4.80 A (normal)
   Status: closed (1)
   Pole 1:
     Line: L3
-    Current: 4.59 A (normal)
+    Current: 4.80 A (normal)
 
 Outlet 1:
   Receptacle: IEC 60320 C13
@@ -120,13 +120,13 @@ Outlet 3:
 
 Outlet 4:
   Receptacle: IEC 60320 C13
-  State: off
-  Voltage: 0.00 V (normal)
-  Current: 0.00 A (normal)
-  Active Power: 0.00 W (normal)
-  Apparent Power: 0.00 VA (normal)
-  Power Factor: 1.00 (normal)
-  Active Energy: 0.00 Wh (normal)
+  State: on
+  Voltage: 242.34 V (normal)
+  Current: 3.00 A (normal)
+  Active Power: 721.76 W (normal)
+  Apparent Power: 726.68 VA (normal)
+  Power Factor: 0.99 (normal)
+  Active Energy: 15135500.94 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L1
@@ -135,13 +135,13 @@ Outlet 4:
 
 Outlet 5:
   Receptacle: IEC 60320 C13
-  State: on
-  Voltage: 242.23 V (normal)
-  Current: 3.02 A (normal)
-  Active Power: 724.63 W (normal)
-  Apparent Power: 729.70 VA (normal)
-  Power Factor: 0.99 (normal)
-  Active Energy: 15674048.51 Wh (normal)
+  State: off
+  Voltage: 0.00 V (normal)
+  Current: 0.00 A (normal)
+  Active Power: 0.00 W (normal)
+  Apparent Power: 0.00 VA (normal)
+  Power Factor: 1.00 (normal)
+  Active Energy: 2904856.00 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L1
@@ -151,12 +151,12 @@ Outlet 5:
 Outlet 6:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.23 V (normal)
-  Current: 3.02 A (normal)
-  Active Power: 725.79 W (normal)
-  Apparent Power: 731.26 VA (normal)
+  Voltage: 242.34 V (normal)
+  Current: 2.97 A (normal)
+  Active Power: 714.29 W (normal)
+  Apparent Power: 719.38 VA (normal)
   Power Factor: 0.99 (normal)
-  Active Energy: 16553000.80 Wh (normal)
+  Active Energy: 17004742.64 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L1
@@ -210,13 +210,13 @@ Outlet 9:
 
 Outlet 10:
   Receptacle: IEC 60320 C13
-  State: on
-  Voltage: 242.10 V (normal)
-  Current: 3.03 A (normal)
-  Active Power: 727.75 W (normal)
-  Apparent Power: 732.61 VA (normal)
-  Power Factor: 0.99 (normal)
-  Active Energy: 2755036.95 Wh (normal)
+  State: off
+  Voltage: 0.00 V (normal)
+  Current: 0.00 A (normal)
+  Active Power: 0.00 W (normal)
+  Apparent Power: 0.00 VA (normal)
+  Power Factor: 1.00 (normal)
+  Active Energy: 0.00 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -226,12 +226,12 @@ Outlet 10:
 Outlet 11:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.10 V (normal)
-  Current: 3.02 A (normal)
-  Active Power: 725.65 W (normal)
-  Apparent Power: 730.83 VA (normal)
-  Power Factor: 0.99 (normal)
-  Active Energy: 16835061.30 Wh (normal)
+  Voltage: 242.36 V (normal)
+  Current: 1.78 A (normal)
+  Active Power: 422.56 W (normal)
+  Apparent Power: 429.98 VA (normal)
+  Power Factor: 0.98 (normal)
+  Active Energy: 15898295.08 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -241,12 +241,12 @@ Outlet 11:
 Outlet 12:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.10 V (normal)
-  Current: 0.00 A (normal)
-  Active Power: 0.00 W (normal)
-  Apparent Power: 0.00 VA (normal)
-  Power Factor: 1.00 (normal)
-  Active Energy: 11514.56 Wh (normal)
+  Voltage: 242.36 V (normal)
+  Current: 3.03 A (normal)
+  Active Power: 726.15 W (normal)
+  Apparent Power: 730.99 VA (normal)
+  Power Factor: 0.99 (normal)
+  Active Energy: 17464416.56 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -262,7 +262,7 @@ Outlet 13:
   Apparent Power: 0.00 VA (normal)
   Power Factor: 1.00 (normal)
   Active Energy: 0.00 Wh (normal)
-  Line Frequency: 59.90 Hz (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
   Pole 2:
@@ -277,7 +277,7 @@ Outlet 14:
   Apparent Power: 0.00 VA (normal)
   Power Factor: 1.00 (normal)
   Active Energy: 0.00 Wh (normal)
-  Line Frequency: 59.90 Hz (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
   Pole 2:
@@ -292,7 +292,7 @@ Outlet 15:
   Apparent Power: 0.00 VA (normal)
   Power Factor: 1.00 (normal)
   Active Energy: 0.00 Wh (normal)
-  Line Frequency: 59.90 Hz (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
   Pole 2:
@@ -300,14 +300,14 @@ Outlet 15:
 
 Outlet 16:
   Receptacle: IEC 60320 C13
-  State: off
-  Voltage: 0.00 V (normal)
-  Current: 0.00 A (normal)
-  Active Power: 0.00 W (normal)
-  Apparent Power: 0.00 VA (normal)
-  Power Factor: 1.00 (normal)
-  Active Energy: 3.00 Wh (normal)
-  Line Frequency: 59.90 Hz (normal)
+  State: on
+  Voltage: 243.00 V (normal)
+  Current: 2.95 A (normal)
+  Active Power: 711.14 W (normal)
+  Apparent Power: 716.38 VA (normal)
+  Power Factor: 0.99 (normal)
+  Active Energy: 10274239.97 Wh (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
   Pole 2:
@@ -316,13 +316,13 @@ Outlet 16:
 Outlet 17:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.60 V (normal)
-  Current: 2.91 A (normal)
-  Active Power: 700.93 W (normal)
-  Apparent Power: 705.83 VA (normal)
-  Power Factor: 0.99 (normal)
-  Active Energy: 19250273.74 Wh (normal)
-  Line Frequency: 59.90 Hz (normal)
+  Voltage: 243.00 V (normal)
+  Current: 0.00 A (normal)
+  Active Power: 0.00 W (normal)
+  Apparent Power: 0.00 VA (normal)
+  Power Factor: 1.00 (normal)
+  Active Energy: 1326.24 Wh (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
   Pole 2:
@@ -331,13 +331,13 @@ Outlet 17:
 Outlet 18:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.60 V (normal)
+  Voltage: 243.00 V (normal)
   Current: 0.00 A (normal)
   Active Power: 0.00 W (normal)
   Apparent Power: 0.00 VA (normal)
   Power Factor: 1.00 (normal)
-  Active Energy: 7948536.74 Wh (normal)
-  Line Frequency: 59.90 Hz (normal)
+  Active Energy: 9151510.90 Wh (normal)
+  Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
   Pole 2:
@@ -406,12 +406,12 @@ Outlet 22:
 Outlet 23:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.98 V (normal)
-  Current: 1.66 A (normal)
-  Active Power: 371.69 W (normal)
-  Apparent Power: 402.44 VA (normal)
+  Voltage: 242.63 V (normal)
+  Current: 1.47 A (normal)
+  Active Power: 326.66 W (normal)
+  Apparent Power: 355.93 VA (normal)
   Power Factor: 0.92 (normal)
-  Active Energy: 9902042.63 Wh (normal)
+  Active Energy: 11543519.14 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L1
@@ -421,12 +421,12 @@ Outlet 23:
 Outlet 24:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.98 V (normal)
-  Current: 2.81 A (normal)
-  Active Power: 674.38 W (normal)
-  Apparent Power: 679.20 VA (normal)
+  Voltage: 242.63 V (normal)
+  Current: 2.94 A (normal)
+  Active Power: 706.04 W (normal)
+  Apparent Power: 711.29 VA (normal)
   Power Factor: 0.99 (normal)
-  Active Energy: 13803069.72 Wh (normal)
+  Active Energy: 18750332.18 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L1
@@ -435,13 +435,13 @@ Outlet 24:
 
 Outlet 25:
   Receptacle: IEC 60320 C13
-  State: on
-  Voltage: 241.56 V (normal)
-  Current: 2.93 A (normal)
-  Active Power: 702.71 W (normal)
-  Apparent Power: 707.80 VA (normal)
-  Power Factor: 0.99 (normal)
-  Active Energy: 2875258.07 Wh (normal)
+  State: off
+  Voltage: 0.00 V (normal)
+  Current: 0.00 A (normal)
+  Active Power: 0.00 W (normal)
+  Apparent Power: 0.00 VA (normal)
+  Power Factor: 1.00 (normal)
+  Active Energy: 0.00 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -456,7 +456,7 @@ Outlet 26:
   Active Power: 0.00 W (normal)
   Apparent Power: 0.00 VA (normal)
   Power Factor: 1.00 (normal)
-  Active Energy: 23339.92 Wh (normal)
+  Active Energy: 0.00 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -495,13 +495,13 @@ Outlet 28:
 
 Outlet 29:
   Receptacle: IEC 60320 C13
-  State: off
-  Voltage: 0.00 V (normal)
-  Current: 0.00 A (normal)
-  Active Power: 0.00 W (normal)
-  Apparent Power: 0.00 VA (normal)
-  Power Factor: 1.00 (normal)
-  Active Energy: 16682866.57 Wh (normal)
+  State: on
+  Voltage: 241.57 V (normal)
+  Current: 1.59 A (normal)
+  Active Power: 376.76 W (normal)
+  Apparent Power: 384.33 VA (normal)
+  Power Factor: 0.98 (normal)
+  Active Energy: 13753731.23 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -511,12 +511,12 @@ Outlet 29:
 Outlet 30:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 241.56 V (normal)
-  Current: 3.17 A (normal)
-  Active Power: 759.08 W (normal)
-  Apparent Power: 764.46 VA (normal)
+  Voltage: 241.57 V (normal)
+  Current: 2.91 A (normal)
+  Active Power: 697.26 W (normal)
+  Apparent Power: 702.22 VA (normal)
   Power Factor: 0.99 (normal)
-  Active Energy: 15891648.22 Wh (normal)
+  Active Energy: 17716404.93 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L2
@@ -525,13 +525,13 @@ Outlet 30:
 
 Outlet 31:
   Receptacle: IEC 60320 C13
-  State: on
-  Voltage: 242.68 V (normal)
-  Current: 3.34 A (normal)
-  Active Power: 803.85 W (normal)
-  Apparent Power: 809.02 VA (normal)
-  Power Factor: 0.99 (normal)
-  Active Energy: 694163.34 Wh (normal)
+  State: off
+  Voltage: 0.00 V (normal)
+  Current: 0.00 A (normal)
+  Active Power: 0.00 W (normal)
+  Apparent Power: 0.00 VA (normal)
+  Power Factor: 1.00 (normal)
+  Active Energy: 0.00 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
@@ -570,13 +570,13 @@ Outlet 33:
 
 Outlet 34:
   Receptacle: IEC 60320 C13
-  State: off
-  Voltage: 0.00 V (normal)
-  Current: 0.00 A (normal)
-  Active Power: 0.00 W (normal)
-  Apparent Power: 0.00 VA (normal)
-  Power Factor: 1.00 (normal)
-  Active Energy: 20347482.62 Wh (normal)
+  State: on
+  Voltage: 242.99 V (normal)
+  Current: 2.27 A (normal)
+  Active Power: 546.70 W (normal)
+  Apparent Power: 551.51 VA (normal)
+  Power Factor: 0.99 (normal)
+  Active Energy: 19378320.24 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
@@ -586,12 +586,12 @@ Outlet 34:
 Outlet 35:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.68 V (normal)
-  Current: 0.94 A (normal)
-  Active Power: 217.08 W (normal)
-  Apparent Power: 226.91 VA (normal)
-  Power Factor: 0.96 (normal)
-  Active Energy: 15994744.59 Wh (normal)
+  Voltage: 242.99 V (normal)
+  Current: 2.26 A (normal)
+  Active Power: 543.27 W (normal)
+  Apparent Power: 548.76 VA (normal)
+  Power Factor: 0.99 (normal)
+  Active Energy: 15395575.12 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
@@ -601,12 +601,12 @@ Outlet 35:
 Outlet 36:
   Receptacle: IEC 60320 C13
   State: on
-  Voltage: 242.68 V (normal)
-  Current: 0.32 A (normal)
-  Active Power: 69.17 W (normal)
-  Apparent Power: 78.08 VA (normal)
+  Voltage: 242.99 V (normal)
+  Current: 0.31 A (normal)
+  Active Power: 66.87 W (normal)
+  Apparent Power: 74.77 VA (normal)
   Power Factor: 0.89 (normal)
-  Active Energy: 521940.53 Wh (normal)
+  Active Energy: 3421182.95 Wh (normal)
   Line Frequency: 60.00 Hz (normal)
   Pole 1:
     Line: L3
