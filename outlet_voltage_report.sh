@@ -7,7 +7,7 @@ function outletreportpdu1 {
 
 OUTLET1=($1);
 
-grep -i ${OUTLET1[0]} -A13 temp_pdu1_info |awk '/State|Current|ActivePower|ApparentPower|PowerFactor/' >> outlet_data_info_pdu1_temp
+grep -wi ${OUTLET1[0]} -A13 temp_pdu1_info |awk '/State|Current|ActivePower|ApparentPower|PowerFactor/' >> outlet_data_info_pdu1_temp
 
 } 
 
@@ -15,7 +15,7 @@ function outletreportpdu2 {
 
 OUTLET2=($1);
 
-grep -i ${OUTLET2[0]} -A13 temp_pdu2_info |awk '/State|Current|ActivePower|ApparentPower|PowerFactor/' >> outlet_data_info_pdu2_temp
+grep -wi ${OUTLET2[0]} -A13 temp_pdu2_info |awk '/State|Current|ActivePower|ApparentPower|PowerFactor/' >> outlet_data_info_pdu2_temp
 
 }
 
@@ -133,7 +133,7 @@ mv topo-data pdu2-topo-data
 
 crow2_temp=$(grep -n -m1 "Outlet 1" pdu2-topo-data |head -n 1|cut -d ":" -f 1)
 x=1
-crow2=$(echo "$(($crow2_temp - $y))")
+crow2=$(echo "$(($crow2_temp - $x))")
 
 sed -e 's/ //g' ./pdu2-topo-data > temp_pdu2_info
 sed -i "1,${crow2}d" temp_pdu2_info
@@ -156,8 +156,8 @@ if [ -z "${OUTLETS2}" ]; then
 	exit 1
 fi
 
-for n in ${OUTLETS2}; do
-	outletreportpdu2 $n
+for m in ${OUTLETS2}; do
+	outletreportpdu2 $m
 done
 
 cat outlet_data_info_pdu1_temp outlet_data_info_pdu2_temp > outlet_data_info_pdu_all_temp
@@ -203,12 +203,23 @@ END{
 
 cat pdu1info pdu2info > allpdusinfo_temp
 
-awk 'BEGIN {print "\tSystem\t\t\t\tPDU\t\t\tOutlet"} {print $0}' allpdusinfo_temp > allpdusinfo
+input_file="allpdusinfo_temp"
+output_file="allpdusinfo_temp_wtimestamp"
+
+while IFS= read -r line; do
+  timestamp=$(date +"%Y-%m-%d %H:%M:%S")
+  echo "$line $timestamp"
+done < "$input_file" > "$output_file"
+
+#echo "Timestamp column added to $output_file"
+
+
+awk 'BEGIN {print "\tSystem\t\t\t\tPDU\t\t\tOutlet"} {print $0}' allpdusinfo_temp_wtimestamp > allpdusinfo
 
 paste allpdusinfo outlet_report_h > report_pdu_information
 cat report_pdu_information
 
-rm -rf pdu1info pdu2info outletconnectedpdu1_list outletconnectedpdu2_list temp_pdu1_info temp_pdu2_info outlet_data_info_pdu_all_temp outlet_data_info_pdu_all allpdusinfo_temp pdu1-topo-data pdu2-topo-data outlet_data_info_pdu1_temp outlet_data_info_pdu2_temp outlet_report_h allpdusinfo
+#rm -rf pdu1info pdu2info outletconnectedpdu1_list outletconnectedpdu2_list temp_pdu1_info temp_pdu2_info outlet_data_info_pdu_all_temp outlet_data_info_pdu_all allpdusinfo_temp pdu1-topo-data pdu2-topo-data outlet_data_info_pdu1_temp outlet_data_info_pdu2_temp outlet_report_h allpdusinfo allpdusinfo_temp_wtimestamp
 
 rm -rf ./pdu1-diag-data/diag-data/
 rm -rf ./pdu2-diag-data/diag-data/
