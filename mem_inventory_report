@@ -2,30 +2,21 @@
 
 
 
-executing clean known hosts in: zp3110b002s1406
-executing clean known hosts in: zp3110b002b1406
+executing clean known hosts in: zp3110b001s0820
+executing clean known hosts in: zp3110b001b0820
 
-Installed memories information zp3110b002s1406
+Installed memories information zp3110b001s0820
 
-Total DDR: 128 Gb and memories Installed: 4
+Total DDR:  Gb and memories Installed: 0
 
 Total Optane:  Mb or 0 Gb and memories Installed: 0
 
-Memories sum: 4
+Memories sum: 0
 
-Total DRR + Optane: 128 Gb
+Total DRR + Optane: 0 Gb
 
-Size  Locator       Speed     Manufacturer  SerialNumber  PartNumber
-32GB  CPU0_DIMM_C1  6400MT/s  Hynix         11991057      HMCG88CHBRA419N
-32GB  CPU0_DIMM_D1  6400MT/s  Hynix         11991074      HMCG88CHBRA419N
-32GB  CPU0_DIMM_G1  6400MT/s  Hynix         1199104F      HMCG88CHBRA419N
-32GB  CPU0_DIMM_H1  6400MT/s  Hynix         1199105B      HMCG88CHBRA419N
 
 Generating Gcode
 
 *****************************************************************************
 GDC INFO
-80AD01250811991057	Hynix	GDC796981	11761294 - Palacios Zapata
-80AD01250811991074	Hynix	GDC796980	11761294 - Palacios Zapata
-80AD0125081199104F	Hynix	GDC796982	11761294 - Palacios Zapata
-80AD0125081199105B	Hynix	GDC796979	11761294 - Palacios Zapata
