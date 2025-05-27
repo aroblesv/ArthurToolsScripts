@@ -28,7 +28,9 @@ cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Siz
 #findmdash=`cat mem_serial_list| head -n 1 |grep -i -`
 #if [ -z "$find2point" ]; then
    # cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Serial/'|cut -d ':' -f 2 > mem_serial_list
-    cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Serial/'|rev|cut -c 1-7|rev  > mem_serial_list
+   # cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Serial/'|rev|cut -c 1-7|rev  > mem_serial_list
+cat memories.csv |tr -d '\t'|grep -A11 -i ^size:[[:space:]][[:digit:]]|awk '/Serial/'|awk '{print $3}' > mem_serial_list
+
 #	sed -i 's/[[:blank:]]//g' mem_serial_list
 #	sed -i 's/[[:blank:]]//g' mem_data_info
 #	sed -i 's/\:/ /g' mem_data_info
@@ -87,7 +89,7 @@ echo -e "\nGenerating Gcode"
 echo -e "\n*****************************************************************************"
 
 while read p; do
-  grep -i $p mem_inventory.csv >> gcode.file
+  grep -i $p mem_inventory.csv|tail -1 >> gcode.file
 done < mem_serial_list
 
 sed -i 's/"//g' gcode.file
